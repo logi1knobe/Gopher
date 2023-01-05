@@ -1,1 +1,15 @@
+.center { margin: auto; width: 60%; padding: 10px; background-color: navajo=
+white; text-align: center; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0=
+.24) 0px 7px 30px 0px, rgba(0, 0, 0, 0.19) 0px 18px 100px 0px; }
 
+body { background-color: antiquewhite; }
+
+button { background-color: chocolate; border: none; padding: 15px 32px; tex=
+t-align: center; text-decoration: none; display: inline-block; font-size: 1=
+6px; color: white; border-radius: 20px; box-shadow: rgba(0, 0, 0, 0.24) 0px=
+ 5px 16px 0px, rgba(0, 0, 0, 0.19) 0px 17px 50px 0px; }
+
+button { transition-duration: 0.4s; }
+
+button:hover { color: white; border-radius: 25px; box-shadow: rgba(0, 0, 0,=
+ 0.24) 0px 12px 17px 0px, rgba(0, 0, 0, 0.19) 0px 17px 50px 0px; }

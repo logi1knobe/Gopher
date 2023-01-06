@@ -6,11 +6,15 @@
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 7px 30px 0 rgba(0,0,0,0.24), 0 18px 100px 0 rgba(0,0,0,0.19);
+    font-family: "Times New Roman", Times, serif;
+
 }
+
 body {
   background-color: AntiqueWhite;
   font-family: "Times New Roman", Times, serif;
 }
+
 button {
   background-color: Chocolate;
   border: none;
@@ -22,10 +26,10 @@ button {
   color: white;
   border-radius: 20px;
   box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-button {
+  font-family: "Times New Roman", Times, serif;
   transition-duration: 0.4s;
-}
+}  
+
 button:hover {
   color: white;
   border-radius: 25px;

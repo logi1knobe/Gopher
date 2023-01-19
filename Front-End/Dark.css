@@ -44,7 +44,7 @@ button {
 
 
   .b3 {
-    background-color: rgb(37, 48, 202);
+    background-color: rgb(207, 230, 252);
     border: none;
     padding: 15px 32px;
     text-align: center;
@@ -52,7 +52,7 @@ button {
     display: inline-block;
     font-size: 16px;
     color: white;
-    border-radius: 15px;
+    border-radius: 25px;
     box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     font-family: "Times New Roman", Times, serif;
     z-index: 2;
@@ -60,9 +60,7 @@ button {
   }  
   
   .b3:hover {
-    border-radius: 25px;
-    box-shadow: 0 12px 17px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  
+    box-shadow: 0 12px 17px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
   }
 
 

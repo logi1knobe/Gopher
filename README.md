@@ -5,4 +5,4 @@ Igor & Daniel are working on game site.
 
 
 W.I.P At this moment!  
-[Development Frontend Deployment]([https://gopher-psi.vercel.app/](https://gophercalander.vercel.app/))
+[Development Frontend Deployment]([https://gophercalander.vercel.app/])

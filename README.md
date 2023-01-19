@@ -5,4 +5,4 @@ Igor & Daniel are working on game site.
 
 
 W.I.P At this moment!  
-[Development Backend Deployment](https://gamesiteproxything-for-me.vercel.app/)
+[Development Frontend Deployment](https://gamesiteproxything-for-me.vercel.app/)

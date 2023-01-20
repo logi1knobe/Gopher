@@ -10,15 +10,14 @@
 	<h2>Welcome to Gopher!</h2>
 
 	<p>Log in with your Username and passkey to access the Gopher Calander</p>
-	<form>
- 		<label for="fname">Username:</label><br>
-  		<input type="text" id="fname" name="fname" class="b3"><br>
-  		<label for="lname">Key:</label><br>
-  		<input type="text" id="lname" name="lname" class="b3"><br>
-		<br>
-		<button onclick="login()" class="b2">Login</button>
-		
-	</form>
+	<div class="login">
+  		<h1>Login</h1>
+    		<form method="post">
+      		<input type="text" name="u" placeholder="Username" required="required" />
+        	<input type="password" name="p" placeholder="Password" required="required" />
+        	<button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+    	
+        </div>
 	<br>
 </div>
 

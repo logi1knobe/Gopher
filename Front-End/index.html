@@ -9,28 +9,33 @@
 	<!-- <img src="GL.png" alt="Gofer"> -->
 	<h2>Welcome to Gopher!</h2>
 
-	<p>Log in withyour Username and passkey to access the Gopher Calander</p>
+	<p>Log in with your Username and passkey to access the Gopher Calander</p>
 	<form action="action_page.php" method="post">
   <div class="imgcontainer">
-    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar"> <br> <br>
   </div>
 
   <div class="container">
     <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <input type="text" placeholder="Enter Username" name="uname" required class="b3">
+
+    <br><br>
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" placeholder="Enter Password" name="psw" required class="b3">
 
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
+    <br><br>
+
+    <button type="submit" class="b2">Login</button>
   </div>
-
-  <div class="container" style="background-color:#f1f1f1">
+  <br>
+  <div class="container">
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <span class="psw"> |  <a href="#">Forgot password?</a> |</span>
+    <!-- TODO: Change link color -->
+    <label>
+    	      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
   </div>
 </form>
 	<br>

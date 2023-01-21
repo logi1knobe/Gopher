@@ -15,7 +15,26 @@
    
   
   }
-  
+
+  a:link {
+    color: rgb(143, 255, 201);
+  }
+
+  /* visited link */
+  a:visited {
+    color: rgb(143, 206, 255);
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: rgb(61, 251, 232);
+  }
+
+  /* selected link */
+  a:active {
+    color: rgb(88, 183, 255);
+  }
+
   body {
     background-color: rgb(10, 12, 53);
     font-family: "Times New Roman", Times, serif;

@@ -145,9 +145,9 @@ button:hover {
 }
 
 /* Avatar image */
-img.avatar {
+.avatar {
   width: 40%;
-  border-radius: 50%;
+  border-radius: 100px;
 }
 
 /* Add padding to containers */

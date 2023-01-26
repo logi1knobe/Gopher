@@ -1,8 +1,7 @@
-# gamesiteproxything
-Game proxy thing.  
-Logan works on proxy.  
-Igor & Daniel are working on game site.  		
+# Gopher Proxy
+IF YOU ARE READING THIS AND YOU SHOULDENT BE, LEAVE!
 
+alpha v0.0.2
 
 W.I.P At this moment!  
-[Development Frontend Deployment](https://gopher-pi.vercel.app/) Deployment is back!
+[Development Frontend Deployment](https://gopher-pi.vercel.app/)

@@ -1,7 +1,7 @@
 # Gopher Proxy
 IF YOU ARE READING THIS AND YOU SHOULDENT BE, LEAVE!
 
-alpha v0.0.2
+Current version: alpha v0.0.2
 
 W.I.P At this moment!  
 [Development Frontend Deployment](https://gopher-pi.vercel.app/)

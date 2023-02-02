@@ -6,7 +6,7 @@ Currently only the alpha version is supported, which is currently being develope
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 0.1.x   | ✅                 |
+| 0.x.x   | ✅                 |
 
 
 ## Reporting a Vulnerability

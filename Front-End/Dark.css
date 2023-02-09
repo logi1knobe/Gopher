@@ -15,6 +15,7 @@
    
   
   }
+
   h1 {
     color: rgb(100, 150, 200);
   }
@@ -90,6 +91,21 @@ button {
   .b3:hover {
     box-shadow: 0 12px 17px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
   }
+
+ ::placeholder {
+   color: white;
+   opacity: 1; /* Firefox */
+ }
+
+ :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+ }
+
+ ::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+ }
+
+
 
 
 @keyframes zoom {

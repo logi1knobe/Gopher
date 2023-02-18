@@ -55,7 +55,7 @@
     color: white;
     border-radius: 15px;
     box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    font-family: "Times New Roman", Times, serif;
+    font-family: "system-ui", Times, serif;
     z-index: 2;
     transition-duration: 0.4s;
   }  
@@ -83,7 +83,7 @@ button {
     color: white;
     border-radius: 25px;
     box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    font-family: "Comic Sans", Times, serif;
+    font-family: "system-ui", Times, serif;
     z-index: 2;
     transition-duration: 0.4s;
   }  

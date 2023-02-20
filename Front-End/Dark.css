@@ -187,6 +187,55 @@ span.psw {
   .cancelbtn {
     width: 100%;
   }
+    .but1 {
+        border: none;
+        transition-duration: 0.4s;
+    }
+    
+   .but2 {
+        border: none;
+        transition-duration: 0.4s;
+    }
+    
+    .but3 {
+        border: none;
+        transition-duration: 0.4s;
+    }
+    
+    .but4 {
+        border: none;
+        transition-duration: 0.4s;
+    }
+    
+    .but4 {
+        border: none;
+        transition-duration: 0.4s;
+    }
+    
+    .but5 {
+        border: none;
+        transition-duration: 0.4s;
+    }
+    
+    .but6 {
+        border: none;
+        transition-duration: 0.4s;
+    }
+    
+    .but7 {
+        border: none;
+        transition-duration: 0.4s;
+    }
+    
+    .but8 {
+        border: none;
+        transition-duration: 0.4s;
+    }
+    
+    .but9 {
+        border: none;
+        transition-duration: 0.4s;
+    }
 }
 
 

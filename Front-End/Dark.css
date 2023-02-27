@@ -23,6 +23,7 @@
 
   h1 {
     color: rgb(100, 150, 200);
+    font-family: MinecraftMono;    
   }
   a:link {
     color: rgb(143, 255, 201);
@@ -88,7 +89,7 @@ button {
     color: white;
     border-radius: 25px;
     box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    font-family: "system-ui", Times, serif;
+    font-family: MinecraftMono;
     z-index: 2;
     transition-duration: 0.4s;
   }  

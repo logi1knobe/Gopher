@@ -9,23 +9,24 @@ body
         background: #031321;
         font-family: consolas;
 }
-.neonbutton
-{
-        position: relative;
-        display: inline-block;
-        padding: 15px 30px;
-        background-color: #2196f3;
-        text-transfrom: uppercase;
-        letter-spacing: 2px;
-        text-decoration: none;
-        font-size: 12px;
-        overflow: hidden;
-        transition: 0.2s;
-        border-radius: 15px;  
-        box-shadow: 0 0 5px #2196f3, 0 0 40px #2196f3, 0 0 80 #2196f3;                      
-}
-.neonbutton:hover
-{
-        background-color: #255784;
-        box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80 #2196f3;              
-}
+  .nb0 {
+    background-color: rgb(37, 48, 202);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-family: MinecraftMono;
+    z-index: 2;
+    transition-duration: 0.4s;
+  }  
+  
+  .nb0:hover {
+    border-radius: 25px;
+    box-shadow: 0 12px 17px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+  }

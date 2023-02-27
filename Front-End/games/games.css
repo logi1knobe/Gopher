@@ -25,6 +25,7 @@ body
     z-index: 2;
     transition-duration: 0.4s;
     cursor: pointer;   
+    
   }  
   
   .nb0:hover {

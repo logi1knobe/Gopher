@@ -7,8 +7,7 @@ body
         align-items: center;
         min-hight: 100vh;
         background: #031321;
-        font-family: consolas;
-}
+        font-family: MinecraftMono;}
   .nb0 {
     background-color: rgb(37, 48, 202);
     border: none;

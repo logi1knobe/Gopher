@@ -21,4 +21,5 @@ a
         font-size: 12px;
         overflow: hidden;
         transition: 0.2s;
+        border-radius: 15px;        
 }

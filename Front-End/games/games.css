@@ -14,7 +14,7 @@ body
         position: relative;
         display: inline-block;
         padding: 15px 30px;
-        color: #2196f3;
+        background-color: #2196f3;
         text-transfrom: uppercase;
         letter-spacing: 2px;
         text-decoration: none;
@@ -25,7 +25,6 @@ body
 }
 .neonbutton:hover
 {
-        color: #255784;
-        background: #2196f3;
+        background-color: #255784;
         box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80 #2196f3;              
 }

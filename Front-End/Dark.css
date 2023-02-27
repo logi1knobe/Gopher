@@ -64,6 +64,7 @@
     font-family: MinecraftMono;
     z-index: 2;
     transition-duration: 0.4s;
+    cursor: pointer;     
   }  
   
   .b2:hover {

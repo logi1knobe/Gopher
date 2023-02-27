@@ -21,7 +21,8 @@ body
         font-size: 12px;
         overflow: hidden;
         transition: 0.2s;
-        border-radius: 15px;        
+        border-radius: 15px;  
+        box-shadow: 0 0 5px #2196f3, 0 0 40px #2196f3, 0 0 80 #2196f3;                      
 }
 .neonbutton:hover
 {

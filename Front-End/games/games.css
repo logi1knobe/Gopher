@@ -7,7 +7,9 @@ body
         align-items: center;
         min-hight: 100vh;
         background: #031321;
-        font-family: MinecraftMono;}
+        font-family: MinecraftMono;
+        color: white;        
+}
   .nb0 {
     background-color: rgb(37, 48, 202);
     border: none;
@@ -26,6 +28,6 @@ body
   
   .nb0:hover {
     border-radius: 25px;
-    box-shadow: 0 12px 17px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgb(37, 48, 202);
+    box-shadow: 0 0px 3px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgb(37, 48, 202);
   
   }

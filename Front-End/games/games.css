@@ -18,8 +18,7 @@ body
     display: inline-block;
     font-size: 16px;
     color: white;
-    border-radius: 15px;
-    box-shadow: 0 0px 3px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgb(37, 48, 202);
+    border-radius: 15px
     font-family: MinecraftMono;
     transition-duration: 0.4s;
     cursor: pointer;   

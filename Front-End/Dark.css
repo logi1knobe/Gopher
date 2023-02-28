@@ -1,7 +1,8 @@
 @font-face {
   font-family: MinecraftMono;
-  src: url(COMIC.ttf);
+  src: url(COMIC.TTF); 
 }
+  /* revert this later */
 
 .center {
     padding: 10px;

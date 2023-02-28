@@ -8,7 +8,8 @@ body
         min-hight: 100vh;
         background: #031321;
         font-family: MinecraftMono;
-        color: white;        
+        color: white;
+        border-radius: 15px;
 }
   .nb0 {
     border: none;

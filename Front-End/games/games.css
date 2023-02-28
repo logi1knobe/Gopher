@@ -21,6 +21,7 @@ body
     border-radius: 20px
     font-family: MinecraftMono;
     transition-duration: 0.4s;
+    background-color: rgb(37, 48, 202);
     cursor: pointer;   
     
   }  

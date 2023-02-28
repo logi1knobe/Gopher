@@ -22,13 +22,13 @@ body
     border-radius: 15px;
     box-shadow: 0 0px 3px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgb(37, 48, 202);
     font-family: MinecraftMono;
-    z-index: 2;
     transition-duration: 0.4s;
     cursor: pointer;   
     
   }  
   
   .nb0:hover {
+    z-index: 2;
     border-radius: 25px;
     box-shadow: 0 0px 16px 0 rgb(37, 48, 202), 0 17px 50px 0 rgb(37, 48, 202);
   

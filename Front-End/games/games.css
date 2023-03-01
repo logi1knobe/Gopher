@@ -36,7 +36,7 @@ body
   }
 
 
-#text:has(.nb0:hover) .nb0:not(.nb0:hover) {
+.nb0:has(.nb0:hover) .nb0:not(.nb0:hover) {
         opacity:0.2;
         
 }

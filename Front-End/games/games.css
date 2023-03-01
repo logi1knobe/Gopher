@@ -34,3 +34,10 @@ body
     background-color: rgb(37,48, 202);
   
   }
+
+
+#text:has(.nb0:hover) .nb0:not(.nb0:hover) {
+        opacity:0.2;
+        
+}
+

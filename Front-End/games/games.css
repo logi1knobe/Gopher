@@ -23,7 +23,6 @@ body
     transition-duration: 0.4s;
     box-shadow: 0 0px 16px 0 rgb(37, 48, 202), 0 17px 50px 0 rgb(37, 48, 202);
     background-color: rgb(37, 48, 160);
-    z-index: 1;
     cursor: pointer;   
           
     

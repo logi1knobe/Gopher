@@ -85,10 +85,9 @@ button {
     padding: 15px 26px;
     text-align: left;
     text-decoration: none;
-    text-color: white;
+    color: white;
     display: inline-block;
     font-size: 16px;
-    color: white;
     border-radius: 25px;
     box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     font-family: MinecraftMono, 'Courier New', monospace;
@@ -197,4 +196,9 @@ span.psw {
   }
 }
 
-
+#powerdiv:has(.power:hover) .powerless:not(.power:hover) {
+  opacity:0.2;
+  /* Add anything you want the text which is not hovered to do/change here. */    
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+      
+}

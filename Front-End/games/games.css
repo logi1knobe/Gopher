@@ -40,13 +40,13 @@ body
 #text:has(.nb0:hover) .nb0:not(.nb0:hover) {
     opacity:0.2;
     /* Add anything you want the text which is not hovered to do/change here. */    
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+        
 }
 
 #text{
     display: grid;
     grid-template-columns: auto auto auto auto; 
-    row-gap: 25px;
-    box-shadow: 0 0px 8px 0 rgba(37, 48, 150, 0), 0 9px 25px 0 rgba(37, 48, 150, 0);
-        
+    row-gap: 25px;        
            
 }        

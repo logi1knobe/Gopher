@@ -7,7 +7,7 @@ body
         align-items: center;
         min-hight: 100vh;
         background: #031321;
-        font-family: MinecraftMono;
+        font-family: MinecraftMono, 'Courier New', monospace;
         color: white;
         border-radius: 15px;
 }
@@ -19,7 +19,7 @@ body
     font-size: 16px;
     color: white;
     border-radius: 10px;
-    font-family: MinecraftMono;
+    font-family: MinecraftMono, 'Courier New', monospace;
     transition-duration: 0.4s;
     box-shadow: 0 0px 8px 0 rgb(37, 48, 150), 0 9px 25px 0 rgb(37, 48, 150);
     background-color: rgb(37, 48, 160);

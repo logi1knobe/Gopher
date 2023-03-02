@@ -9,7 +9,7 @@
     background-color: rgb(19, 35, 88);
     text-align: center;
     border-radius: 10px;
-    font-family: MinecraftMono;
+    font-family: MinecraftMono, 'Courier New', monospace;
     z-index: 2;
     
     position: absolute;
@@ -24,7 +24,7 @@
 
   h1 {
     color: rgb(100, 150, 200);
-    font-family: MinecraftMono;    
+    font-family: MinecraftMono, 'Courier New', monospace;
   }
   a:link {
     color: rgb(143, 255, 201);
@@ -47,7 +47,7 @@
 
   body {
     background-color: rgb(10, 12, 53);
-    font-family: MinecraftMono;
+    font-family: MinecraftMono, 'Courier New', monospace;
     color: white;
   }
   
@@ -62,7 +62,7 @@
     color: white;
     border-radius: 15px;
     box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    font-family: MinecraftMono;
+    font-family: MinecraftMono, 'Courier New', monospace;
     z-index: 2;
     transition-duration: 0.4s;
     cursor: pointer;     
@@ -91,7 +91,7 @@ button {
     color: white;
     border-radius: 25px;
     box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    font-family: MinecraftMono;
+    font-family: MinecraftMono, 'Courier New', monospace;
     z-index: 2;
     transition-duration: 0.4s;
   }  

@@ -128,7 +128,7 @@ button {
 form {
   border: 3px solid #f1f1f1;
 }
-
+/* deleted due to bugs
 Full-width inputs
 input[type=text], input[type=password] {
   width: 100%;
@@ -137,7 +137,7 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
-}
+} */
 
 /* Set a style for all buttons */
 button {

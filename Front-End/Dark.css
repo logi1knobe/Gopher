@@ -196,7 +196,7 @@ span.psw {
   }
 }
 
-#powerdiv:has(.power:hover) .powerless:not(.power:hover) {
+#powrdiv:has(.power:hover) .powerless:not(.power:hover) {
   opacity:0.2;
   /* Add anything you want the text which is not hovered to do/change here. */    
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);

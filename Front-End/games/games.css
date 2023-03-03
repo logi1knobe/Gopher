@@ -47,6 +47,6 @@ body
 #text{
     display: grid;
     grid-template-columns: auto auto auto auto; 
-    row-gap: 35px;        
+    row-gap: 25px;        
            
 }        

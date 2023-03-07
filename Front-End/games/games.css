@@ -44,8 +44,10 @@ body
         
 }
 
-#text{
+#text {
     display: grid;
-    grid-template-columns: auto auto auto auto; 
-    column-gap:25px; 
-}        
+    grid-template-columns: auto auto auto auto;
+    column-gap: 25px;
+    align-items: center;
+    justify-items: center;
+}

@@ -1,5 +1,5 @@
 # Gopher Proxy
-IF YOU ARE READING THIS AND YOU SHOULDENT BE, LEAVE!
+IF YOU ARE READING THIS AND YOU SHOULDENT BE HERE I dont know how but you have hacked into our main frame because this is a private repo and not public so if you are seeing this, LEAVE!
 
 Current version: alpha v0.0.9
 

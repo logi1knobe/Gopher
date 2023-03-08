@@ -3,5 +3,11 @@ IF YOU ARE READING THIS AND YOU SHOULDENT BE HERE I dont know how but you have h
 
 Current version: alpha v0.0.9
 
-W.I.P At this moment!  
+## Basic todo (2/4):
+- [ ] Add proxy
+- [x] Add css
+- [x] Add some games
+- [ ] Add working loginpage
+
+## Deployments:
 [Development Frontend Deployment](https://gopher-pi.vercel.app/)

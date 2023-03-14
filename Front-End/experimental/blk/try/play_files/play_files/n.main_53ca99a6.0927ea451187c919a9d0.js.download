@@ -1,0 +1,3533 @@
+! function(o) {
+    function e(e) {
+        for (var t, r, m = e[0], i = e[1], n = e[2], u = 0, d = []; u < m.length; u++) r = m[u], Object.prototype.hasOwnProperty.call(s, r) && s[r] && d.push(s[r][0]), s[r] = 0;
+        for (t in i) Object.prototype.hasOwnProperty.call(i, t) && (o[t] = i[t]);
+        for (c && c(e); d.length;) d.shift()();
+        return l.push.apply(l, n || []), a()
+    }
+
+    function a() {
+        for (var o, e = 0; e < l.length; e++) {
+            for (var a = l[e], t = !0, m = 1; m < a.length; m++) {
+                var i = a[m];
+                0 !== s[i] && (t = !1)
+            }
+            t && (l.splice(e--, 1), o = r(r.s = a[0]))
+        }
+        return o
+    }
+    var t = {},
+        s = {
+            9: 0
+        },
+        l = [];
+
+    function r(e) {
+        if (t[e]) return t[e].exports;
+        var a = t[e] = {
+            i: e,
+            l: !1,
+            exports: {}
+        };
+        return o[e].call(a.exports, a, a.exports, r), a.l = !0, a.exports
+    }
+    r.e = function(o) {
+        var e = [],
+            a = s[o];
+        if (0 !== a)
+            if (a) e.push(a[2]);
+            else {
+                var t = new Promise((function(e, t) {
+                    a = s[o] = [e, t]
+                }));
+                e.push(a[2] = t);
+                var l, m = document.createElement("script");
+                m.charset = "utf-8", m.timeout = 120, r.nc && m.setAttribute("nonce", r.nc), m.src = function(o) {
+                    return r.p + "n." + ({
+                        28: "polyfills-dom~9aedfade",
+                        53: "vendors~polyfills-core-js~34a2b07d"
+                    } [o] || o) + "." + {
+                        28: "657f8f8b58bcc3577a08",
+                        53: "fdba89fcdc17f2bcde1d",
+                        54: "968613edd7a9ca41f924"
+                    } [o] + ".js"
+                }(o);
+                var i = new Error;
+                l = function(e) {
+                    m.onerror = m.onload = null, clearTimeout(n);
+                    var a = s[o];
+                    if (0 !== a) {
+                        if (a) {
+                            var t = e && ("load" === e.type ? "missing" : e.type),
+                                l = e && e.target && e.target.src;
+                            i.message = "Loading chunk " + o + " failed.\n(" + t + ": " + l + ")", i.name = "ChunkLoadError", i.type = t, i.request = l, a[1](i)
+                        }
+                        s[o] = void 0
+                    }
+                };
+                var n = setTimeout((function() {
+                    l({
+                        type: "timeout",
+                        target: m
+                    })
+                }), 12e4);
+                m.onerror = m.onload = l, document.head.appendChild(m)
+            } return Promise.all(e)
+    }, r.m = o, r.c = t, r.d = function(o, e, a) {
+        r.o(o, e) || Object.defineProperty(o, e, {
+            enumerable: !0,
+            get: a
+        })
+    }, r.r = function(o) {
+        "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(o, Symbol.toStringTag, {
+            value: "Module"
+        }), Object.defineProperty(o, "__esModule", {
+            value: !0
+        })
+    }, r.t = function(o, e) {
+        if (1 & e && (o = r(o)), 8 & e) return o;
+        if (4 & e && "object" == typeof o && o && o.__esModule) return o;
+        var a = Object.create(null);
+        if (r.r(a), Object.defineProperty(a, "default", {
+                enumerable: !0,
+                value: o
+            }), 2 & e && "string" != typeof o)
+            for (var t in o) r.d(a, t, function(e) {
+                return o[e]
+            }.bind(null, t));
+        return a
+    }, r.n = function(o) {
+        var e = o && o.__esModule ? function() {
+            return o.default
+        } : function() {
+            return o
+        };
+        return r.d(e, "a", e), e
+    }, r.o = function(o, e) {
+        return Object.prototype.hasOwnProperty.call(o, e)
+    }, r.p = "https://ac.blooket.com/play/", r.oe = function(o) {
+        throw console.error(o), o
+    };
+    var m = window.webpackJsonp = window.webpackJsonp || [],
+        i = m.push.bind(m);
+    m.push = e, m = m.slice();
+    for (var n = 0; n < m.length; n++) e(m[n]);
+    var c = i;
+    l.push([0, 30, 38, 36, 43, 49, 34, 51, 33, 42, 46, 44, 48, 47, 40, 35, 39, 45, 50, 31, 32, 41, 29, 37, 52, 21, 4, 6, 13, 2, 19, 24, 5, 20, 3, 27, 10, 17, 26, 1, 12, 11, 25, 22, 8, 15, 0, 23, 14, 16, 7, 18]), a()
+}({
+    "/9rF": function(o, e, a) {
+        "use strict";
+        e.a = {
+            Tiger: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/tiger.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566681190/Blooks/tiger.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Brave Bengals",
+                color: "#f18221"
+            },
+            Orangutan: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/orangutan.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566681188/Blooks/orangutan.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Hairy Hipsters",
+                color: "#bc6234"
+            },
+            Cockatoo: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/cockatoo.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566681188/Blooks/cockatoo.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Not Chickens",
+                color: "#7ca1d5"
+            },
+            Parrot: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/parrot.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566681189/Blooks/parrot.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Polly's People",
+                color: "#ed1c24"
+            },
+            Anaconda: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/anaconda.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566681187/Blooks/anaconda.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Sneaky Snakes",
+                color: "#8a9143"
+            },
+            Jaguar: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/jaguar.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566681188/Blooks/jaguar.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Super Spotters",
+                color: "#fbb040"
+            },
+            Macaw: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/macaw.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566681188/Blooks/macaw.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "CA CAWWWW",
+                color: "#00aeef"
+            },
+            Toucan: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/toucan.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566681191/Blooks/toucan.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Toucan't Beat Us",
+                color: "#ffca34"
+            },
+            Panther: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/panther.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566681189/Blooks/panther.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Wakanda Forever",
+                color: "#2f2c38"
+            },
+            Capuchin: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/capuchin.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566681187/Blooks/capuchinMonkey.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Monkey Madness",
+                color: "#e0b0a6"
+            },
+            Gorilla: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/gorilla.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381967/Blooks/gorilla.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Great Gorillas",
+                color: "#414042"
+            },
+            Hippo: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/hippo.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381968/Blooks/hippo.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Hip Hippos",
+                color: "#95889e"
+            },
+            Rhino: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/rhino.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381967/Blooks/rhino.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Ready Rhinos",
+                color: "#9da7a5"
+            },
+            Giraffe: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/tropicalAnimals/giraffe.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381967/Blooks/giraffe.svg",
+                set: "Tropical Animal",
+                rarity: "Common",
+                teamName: "Tall Tutors",
+                color: "#f0c649"
+            }
+        }
+    },
+    "19Ak": function(o, e, a) {
+        "use strict";
+        e.a = {
+            "Ice Bat": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/iceMonsters/iceBat.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1663061338/Blooks/iceBat.svg",
+                set: "Ice Monster",
+                rarity: "Uncommon",
+                teamName: "Frozen Wings",
+                color: "#295eb6"
+            },
+            "Ice Bug": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/iceMonsters/iceBug.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1663061339/Blooks/iceBug.svg",
+                set: "Ice Monster",
+                rarity: "Uncommon",
+                teamName: "Bold Bugs",
+                color: "#337ae2"
+            },
+            "Ice Elemental": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/iceMonsters/iceElemental.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1663061336/Blooks/iceElemental.svg",
+                set: "Ice Monster",
+                rarity: "Uncommon",
+                teamName: "ICED",
+                color: "#58c7f0"
+            },
+            "Rock Monster": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/iceMonsters/rockMonster.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1663061337/Blooks/rockMonster.svg",
+                set: "Ice Monster",
+                rarity: "Uncommon",
+                teamName: "Ready Rocks",
+                color: "#5a617f"
+            },
+            Dink: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/iceMonsters/dink.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1663061338/Blooks/dink.svg",
+                set: "Ice Monster",
+                rarity: "Rare",
+                teamName: "Dink Donk 1",
+                color: "#8f78a5"
+            },
+            Donk: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/iceMonsters/donk.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1663061338/Blooks/donk.svg",
+                set: "Ice Monster",
+                rarity: "Rare",
+                teamName: "Dink Donk 2",
+                color: "#677c9e"
+            },
+            "Bush Monster": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/iceMonsters/bushMonster.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1663061336/Blooks/bushMonster.svg",
+                set: "Ice Monster",
+                rarity: "Epic",
+                teamName: "Brave Bushes",
+                color: "#44c649"
+            },
+            Yeti: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/iceMonsters/yeti.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1663061336/Blooks/yeti.svg",
+                set: "Ice Monster",
+                rarity: "Legendary",
+                teamName: "Everest",
+                color: "#5a81c5"
+            }
+        }
+    },
+    "28sW": function(o, e, a) {
+        "use strict";
+        e.a = {
+            id: "https://id.blooket.com",
+            play: "https://play.blooket.com",
+            dashboard: "https://dashboard.blooket.com",
+            firebase: "https://fb.blooket.com",
+            www: "https://www.blooket.com"
+        }
+    },
+    "4otK": function(o, e, a) {
+        "use strict";
+        e.a = ["Snow Globe", "Holiday Gift", "Hot Chocolate", "Holiday Wreath", "Stocking", "Gingerbread Man", "Gingerbread House", "Reindeer", "Snowman", "Santa Claus", "Frost Wreath", "Tropical Globe", "New York Snow Globe", "London Snow Globe", "Japan Snow Globe", "Egypt Snow Globe", "Paris Snow Globe", "Sandwich", "Light Blue", "Black", "Red", "Purple", "Pink", "Orange", "Lime", "Green", "Teal", "Tan", "Maroon", "Gray", "Mint", "Salmon", "Burgandy", "Baby Blue", "Dust", "Brown", "Dull Blue", "Yellow", "Blue", "Pumpkin", "Swamp Monster", "Frankenstein", "Vampire", "Zombie", "Mummy", "Caramel Apple", "Werewolf", "Ghost", "Haunted Pumpkin", "Pumpkin Cookie", "Ghost Cookie", "Chick Chicken", "Chicken Chick", "Raccoon Bandit", "Owl Sheriff", "Vampire Frog", "Pumpkin King", "Anaconda Wizard", "Spooky Pumpkin", "Spooky Mummy", "Spooky Ghost", "Red Astronaut", "Blue Astronaut", "Green Astronaut", "Pink Astronaut", "Orange Astronaut", "Yellow Astronaut", "Black Astronaut", "Purple Astronaut", "Brown Astronaut", "Cyan Astronaut", "Lime Astronaut", "Lovely Planet", "Tim the Alien", "Rainbow Astronaut", "Rainbow Jellyfish", "Blizzard Clownfish", "Lovely Frog", "Lucky Frog", "Spring Frog", "Poison Dart Frog", "Lemon Crab", "Pirate Pufferfish", "Donut Blobfish", "Crimson Octopus", "Rainbow Narwhal", "Agent Owl", "Party Pig", "Master Elf", "Phantom King", "Rainbow Panda", "White Peacock", "Tiger Zebra", "Ice Slime", "Frozen Fossil", "Ice Crab", "Teal Platypus"]
+    },
+    "5Kqo": function(o, e, a) {
+        "use strict";
+        e.a = {
+            Witch: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/medieval/witch.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566683612/Blooks/witch.svg",
+                set: "Medieval",
+                rarity: "Uncommon",
+                teamName: "Cauldron City",
+                color: "#4ab96d"
+            },
+            Wizard: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/medieval/wizard.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556832453/Blooks/wizard.svg",
+                set: "Medieval",
+                rarity: "Uncommon",
+                teamName: "Wiz Kids",
+                color: "#5a459c"
+            },
+            Elf: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/medieval/elf.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566683612/Blooks/elf.svg",
+                set: "Medieval",
+                rarity: "Uncommon",
+                teamName: "Agile Archers",
+                color: "#a7d054"
+            },
+            Fairy: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/medieval/fairy.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566683612/Blooks/fairy.svg",
+                set: "Medieval",
+                rarity: "Uncommon",
+                teamName: "Mighty Myths",
+                color: "#df6d9c"
+            },
+            "Slime Monster": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/medieval/slimeMonster.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566683613/Blooks/slimeMonster.svg",
+                set: "Medieval",
+                rarity: "Uncommon",
+                teamName: "Slimy McSlimes",
+                color: "#2fa04a"
+            },
+            Jester: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/medieval/jester.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566683612/Blooks/jester.svg",
+                set: "Medieval",
+                rarity: "Rare",
+                teamName: "Jolly Jokesters",
+                color: "#be1e2d"
+            },
+            Dragon: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/medieval/dragon.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556832453/Blooks/dragon.svg",
+                set: "Medieval",
+                rarity: "Rare",
+                teamName: "Fire Hazards",
+                color: "#2fa04a"
+            },
+            Queen: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/medieval/queen.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566683612/Blooks/queen.svg",
+                set: "Medieval",
+                rarity: "Rare",
+                teamName: "Royal Rebels",
+                color: "#9e1f63"
+            },
+            Unicorn: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/medieval/unicorn.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566683614/Blooks/unicorn.svg",
+                set: "Medieval",
+                rarity: "Epic",
+                teamName: "Land Narwhals",
+                color: "#f6afce"
+            },
+            King: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/medieval/king.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566683612/Blooks/king.svg",
+                set: "Medieval",
+                rarity: "Legendary",
+                teamName: "THE SQUAD",
+                color: "#ee2640"
+            }
+        }
+    },
+    "74sb": function(o, e, a) {
+        "use strict";
+        a.d(e, "A", (function() {
+            return i
+        })), a.d(e, "n", (function() {
+            return n
+        })), a.d(e, "h", (function() {
+            return u
+        })), a.d(e, "u", (function() {
+            return p
+        })), a.d(e, "j", (function() {
+            return k
+        })), a.d(e, "z", (function() {
+            return g
+        })), a.d(e, "l", (function() {
+            return b
+        })), a.d(e, "q", (function() {
+            return h
+        })), a.d(e, "p", (function() {
+            return v
+        })), a.d(e, "o", (function() {
+            return f
+        })), a.d(e, "k", (function() {
+            return y
+        })), a.d(e, "v", (function() {
+            return B
+        })), a.d(e, "i", (function() {
+            return w
+        })), a.d(e, "s", (function() {
+            return S
+        })), a.d(e, "g", (function() {
+            return C
+        })), a.d(e, "e", (function() {
+            return z
+        })), a.d(e, "f", (function() {
+            return A
+        })), a.d(e, "a", (function() {
+            return N
+        })), a.d(e, "t", (function() {
+            return P
+        })), a.d(e, "r", (function() {
+            return T
+        })), a.d(e, "m", (function() {
+            return H
+        })), a.d(e, "x", (function() {
+            return F
+        })), a.d(e, "c", (function() {
+            return O
+        })), a.d(e, "w", (function() {
+            return G
+        })), a.d(e, "b", (function() {
+            return E
+        })), a.d(e, "y", (function() {
+            return R
+        })), a.d(e, "d", (function() {
+            return L
+        }));
+        var t = a("q1tI"),
+            s = a.n(t),
+            l = a("EDFO");
+
+        function r(o) {
+            return function(o) {
+                if (Array.isArray(o)) return m(o)
+            }(o) || function(o) {
+                if ("undefined" != typeof Symbol && null != o[Symbol.iterator] || null != o["@@iterator"]) return Array.from(o)
+            }(o) || function(o, e) {
+                if (!o) return;
+                if ("string" == typeof o) return m(o, e);
+                var a = Object.prototype.toString.call(o).slice(8, -1);
+                "Object" === a && o.constructor && (a = o.constructor.name);
+                if ("Map" === a || "Set" === a) return Array.from(o);
+                if ("Arguments" === a || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(a)) return m(o, e)
+            }(o) || function() {
+                throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")
+            }()
+        }
+
+        function m(o, e) {
+            (null == e || e > o.length) && (e = o.length);
+            for (var a = 0, t = new Array(e); a < e; a++) t[a] = o[a];
+            return t
+        }
+        Object(l.addStyles)();
+        var i = function(o) {
+                var e = o.match(/([0-9\.]+)(vh|vw)/),
+                    a = Number(e[1]);
+                return window[["innerHeight", "innerWidth"][
+                    ["vh", "vw"].indexOf(e[2])
+                ]] * (a / 100)
+            },
+            n = function(o) {
+                return o || 0 === o ? o.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") : ""
+            },
+            c = ["st", "nd", "rd", "th"],
+            u = function(o) {
+                return o % 100 < 11 || o % 100 > 13 ? o % 10 == 1 ? c[0] : o % 10 == 2 ? c[1] : o % 10 == 3 ? c[2] : c[3] : c[3]
+            },
+            d = ["⁰", "¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹"],
+            p = function(o) {
+                var e = o;
+                if (o >= 1e3) {
+                    var a = ["", "K", "M", "B", "T"],
+                        t = Math.floor((o.toString().length - 1) / 3);
+                    if (t < a.length) {
+                        for (var s = "", l = 3; l >= 1; l--) {
+                            if ((s = parseFloat((0 !== t ? o / Math.pow(1e3, t) : o).toPrecision(l))).toString().replace(/[^a-zA-Z 0-9]+/g, "").length <= 3) break
+                        }
+                        s % 1 != 0 && (s = s.toFixed(1)), e = s + a[t]
+                    } else {
+                        for (var r = o, m = 0; r >= 100;) r = Math.floor(r / 10), m += 1;
+                        e = "".concat(r / 10, " × 10").concat(function(o) {
+                            var e = "";
+                            return o.toString().split("").forEach((function(o) {
+                                e += d[Number(o)]
+                            })), e
+                        }(m + 1))
+                    }
+                }
+                return e
+            },
+            k = function(o) {
+                for (var e = window.location.search.substring(1).split("&"), a = 0; a < e.length; a++) {
+                    var t = e[a].split("=");
+                    if (t[0] === o) return t[1]
+                }
+                return !1
+            },
+            g = function() {
+                var o = window.document,
+                    e = o.documentElement,
+                    a = e.requestFullscreen || e.mozRequestFullScreen || e.webkitRequestFullScreen || e.msRequestFullscreen,
+                    t = o.exitFullscreen || o.mozCancelFullScreen || o.webkitExitFullscreen || o.msExitFullscreen;
+                return o.fullscreenElement || o.mozFullScreenElement || o.webkitFullscreenElement || o.msFullscreenElement ? (t && t.call(o), !1) : (a && a.call(e), !0)
+            },
+            b = function() {
+                var o = window.document;
+                return !!(o.fullscreenElement || o.mozFullScreenElement || o.webkitFullscreenElement || o.msFullscreenElement || window.screen.width === window.innerWidth && window.screen.height === window.innerHeight)
+            },
+            h = function(o, e) {
+                return Math.floor(Math.random() * (e - o)) + o
+            },
+            v = function(o, e) {
+                return Math.random() * (e - o) + o
+            },
+            f = function(o) {
+                return o[Math.floor(Math.random() * o.length)]
+            },
+            y = function(o, e) {
+                for (var a = [], t = r(o); a.length < e;) {
+                    0 === t.length && (t = r(o));
+                    var s = t.splice(h(0, t.length), 1);
+                    a.push(s[0])
+                }
+                return a
+            },
+            B = function(o) {
+                for (var e = r(o), a = e.length; 0 !== a;) {
+                    var t = Math.floor(Math.random() * a),
+                        s = e[a -= 1];
+                    e[a] = e[t], e[t] = s
+                }
+                return e
+            },
+            w = function(o) {
+                var e = r(Object.keys(o)),
+                    a = e[0];
+                if (2 === e.length) a += " & ".concat(e[1]);
+                else
+                    for (var t = 1; t < e.length; t++) t === e.length - 1 ? a += ", & ".concat(e[t]) : a += ", ".concat(e[t]);
+                return a
+            },
+            S = {
+                Common: "#ffffff",
+                Uncommon: "#4bc22e",
+                Rare: "#0a14fa",
+                Epic: "#be0000",
+                Legendary: "#ff910f",
+                Chroma: "#00ccff",
+                Mystical: "#a335ee"
+            },
+            C = function(o, e) {
+                if (!o) return o;
+                var a = o.indexOf("upload/");
+                if (-1 === a || o.includes("images.unsplash.com")) return o;
+                a += 7;
+                var t = e ? "f_auto" : "c_limit,f_auto,h_250,fl_lossy,q_auto:low";
+                return "".concat(o.slice(0, a)).concat(t).concat(o.slice(a - 1, o.length))
+            },
+            z = function(o) {
+                if (!o) return o;
+                var e = o.indexOf("upload/");
+                if (-1 === e) return o;
+                e += 7;
+                return "".concat(o.slice(0, e)).concat("f_auto,q_auto:best").concat(o.slice(e - 1, o.length))
+            },
+            A = function(o, e, a) {
+                return o.map((function(o, t) {
+                    return s.a.createElement("div", {
+                        style: {
+                            display: "flex",
+                            alignItems: "center",
+                            margin: "0 5px"
+                        },
+                        key: t
+                    }, 0 !== t ? s.a.createElement("span", {
+                        style: {
+                            marginLeft: "-5px"
+                        }
+                    }, "& ") : null, 2 === o.split("`~`").length ? s.a.createElement("img", {
+                        src: C(o.split("`~`")[1]),
+                        alt: "Answer",
+                        draggable: !1,
+                        style: {
+                            maxWidth: "35vw",
+                            maxHeight: "10vh",
+                            objectFit: "contain",
+                            userSelect: "none"
+                        }
+                    }) : "`*`" === o.slice(0, 3) ? s.a.createElement(l.StaticMathField, {
+                        style: {
+                            color: e || "#3a3a3a",
+                            borderColor: e || "#3a3a3a",
+                            fontSize: "".concat(a || 20, "px"),
+                            cursor: "default"
+                        }
+                    }, o.slice(3, o.length - 3)) : s.a.createElement("span", null, o))
+                }))
+            },
+            U = function(o) {
+                var e = o || window.event;
+                return e && (e.returnValue = "Are you sure you want to leave?"), "Are you sure you want to leave?"
+            },
+            N = function() {
+                window.addEventListener("beforeunload", U)
+            },
+            P = function() {
+                window.removeEventListener("beforeunload", U)
+            },
+            T = function(o, e) {
+                for (var a = []; a.length < e;) {
+                    for (var t = Math.random(), s = 0, l = null, r = 0; r < o.length; r++)
+                        if ((s += o[r].rate) >= t) {
+                            l = o[r];
+                            break
+                        } l && !a.includes(l) && a.push(l)
+                }
+                return a
+            },
+            M = /^[a-f0-9]{24}$/i,
+            H = function(o) {
+                return M.test(o)
+            },
+            F = function(o) {
+                if (!o) throw new Error("invalid host token ".concat(o));
+                localStorage.setItem("tekoolb.hostedtoken", o)
+            },
+            O = function() {
+                return localStorage.getItem("tekoolb.hostedtoken")
+            },
+            G = function(o) {
+                if (!o) throw new Error("invalid host token ".concat(o));
+                localStorage.setItem("tekoolb.homeworktoken", o)
+            },
+            E = function() {
+                return localStorage.getItem("tekoolb.homeworktoken")
+            },
+            R = function(o) {
+                if (!o) throw new Error("invalid play token ".concat(o));
+                localStorage.setItem("tekoolb.playtoken", o)
+            },
+            L = function() {
+                return localStorage.getItem("tekoolb.playtoken")
+            }
+    },
+    B9yS: function(o, e, a) {
+        "use strict";
+        e.a = {
+            Panda: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/safari/panda.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835595/Blooks/panda.svg",
+                set: "Safari",
+                rarity: "Uncommon",
+                teamName: "Prime Pandas",
+                color: "#2f2c38"
+            },
+            Sloth: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/safari/sloth.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835594/Blooks/sloth.svg",
+                set: "Safari",
+                rarity: "Uncommon",
+                teamName: "Silly Sloths",
+                color: "#765b46"
+            },
+            Tenrec: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/safari/tenrec.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835594/Blooks/tenrec.svg",
+                set: "Safari",
+                rarity: "Uncommon",
+                teamName: "Troubling Tenrecs",
+                color: "#ffcb29"
+            },
+            Flamingo: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/safari/flamingo.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835592/Blooks/flamingo.svg",
+                set: "Safari",
+                rarity: "Uncommon",
+                teamName: "Pink And Proud",
+                color: "#f38db6"
+            },
+            Zebra: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/safari/zebra.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835592/Blooks/zebra.svg",
+                set: "Safari",
+                rarity: "Uncommon",
+                teamName: "Super Stripes",
+                color: "#2f2c38"
+            },
+            Elephant: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/safari/elephant.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835592/Blooks/elephant.svg",
+                set: "Safari",
+                rarity: "Rare",
+                teamName: "Erudite Elephants",
+                color: "#bac4e4"
+            },
+            Lemur: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/safari/lemur.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835594/Blooks/lemur.svg",
+                set: "Safari",
+                rarity: "Rare",
+                teamName: "Leaping Lemurs",
+                color: "#aeaba7"
+            },
+            Peacock: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/safari/peacock.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835594/Blooks/peacock.svg",
+                set: "Safari",
+                rarity: "Rare",
+                teamName: "Fearless Feathers",
+                color: "#2b3990"
+            },
+            Chameleon: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/safari/chameleon.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835592/Blooks/chameleon.svg",
+                set: "Safari",
+                rarity: "Epic",
+                teamName: "Cool Chameleons",
+                color: "#8dc63f"
+            },
+            Lion: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/safari/lion.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835592/Blooks/lion.svg",
+                set: "Safari",
+                rarity: "Legendary",
+                teamName: "The Pride",
+                color: "#f47e20"
+            }
+        }
+    },
+    CX7I: function(o, e, a) {
+        "use strict";
+        e.a = {
+            Pumpkin: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/halloween/pumpkin.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1601168910/Blooks/pumpkin.svg",
+                set: "Spooky",
+                rarity: "Uncommon",
+                teamName: "Pumpkin Smashers",
+                color: "#f7941d"
+            },
+            "Swamp Monster": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/halloween/swampMonster.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1601168910/Blooks/swampMonster.svg",
+                set: "Spooky",
+                rarity: "Uncommon",
+                teamName: "Swamp Things",
+                color: "#2fa04a"
+            },
+            Frankenstein: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/halloween/frankenstein.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1601168910/Blooks/frankenstein.svg",
+                set: "Spooky",
+                rarity: "Uncommon",
+                teamName: "The Monsters",
+                color: "#56884b"
+            },
+            Vampire: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/halloween/vampire.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1601168910/Blooks/vampire.svg",
+                set: "Spooky",
+                rarity: "Uncommon",
+                teamName: "Valiant Vampires",
+                color: "#a15095"
+            },
+            Zombie: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/halloween/zombie.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1601168912/Blooks/zombie.svg",
+                set: "Spooky",
+                rarity: "Rare",
+                teamName: "Walking Dead",
+                color: "#80a55d"
+            },
+            Mummy: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/halloween/mummy.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1601168910/Blooks/mummy.svg",
+                set: "Spooky",
+                rarity: "Rare",
+                teamName: "Motivated Mummies",
+                color: "#e8d8c7"
+            },
+            "Caramel Apple": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/halloween/caramelApple.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1666248719/Blooks/caramelApple.svg",
+                set: "Spooky",
+                rarity: "Rare",
+                teamName: "Caring Caramels",
+                color: "#8d432a"
+            },
+            Werewolf: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/halloween/werewolf.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1601168912/Blooks/werewolf.svg",
+                set: "Spooky",
+                rarity: "Epic",
+                teamName: "Werewolf Warriors",
+                color: "#594a42"
+            },
+            Ghost: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/halloween/ghost.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1601168910/Blooks/ghost.svg",
+                set: "Spooky",
+                rarity: "Legendary",
+                teamName: "BOO!",
+                color: "#c2def4"
+            }
+        }
+    },
+    E8Bj: function(o, e, a) {
+        "use strict";
+        a.d(e, "a", (function() {
+            return p
+        })), a.d(e, "c", (function() {
+            return k
+        }));
+        var t = a("q1tI"),
+            s = a.n(t),
+            l = a("t3SV");
+
+        function r() {
+            return (r = Object.assign ? Object.assign.bind() : function(o) {
+                for (var e = 1; e < arguments.length; e++) {
+                    var a = arguments[e];
+                    for (var t in a) Object.prototype.hasOwnProperty.call(a, t) && (o[t] = a[t])
+                }
+                return o
+            }).apply(this, arguments)
+        }
+
+        function m(o) {
+            return (m = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+                return typeof o
+            } : function(o) {
+                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o
+            })(o)
+        }
+
+        function i() {
+            /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+            i = function() {
+                return o
+            };
+            var o = {},
+                e = Object.prototype,
+                a = e.hasOwnProperty,
+                t = Object.defineProperty || function(o, e, a) {
+                    o[e] = a.value
+                },
+                s = "function" == typeof Symbol ? Symbol : {},
+                l = s.iterator || "@@iterator",
+                r = s.asyncIterator || "@@asyncIterator",
+                n = s.toStringTag || "@@toStringTag";
+
+            function c(o, e, a) {
+                return Object.defineProperty(o, e, {
+                    value: a,
+                    enumerable: !0,
+                    configurable: !0,
+                    writable: !0
+                }), o[e]
+            }
+            try {
+                c({}, "")
+            } catch (o) {
+                c = function(o, e, a) {
+                    return o[e] = a
+                }
+            }
+
+            function u(o, e, a, s) {
+                var l = e && e.prototype instanceof k ? e : k,
+                    r = Object.create(l.prototype),
+                    m = new U(s || []);
+                return t(r, "_invoke", {
+                    value: S(o, a, m)
+                }), r
+            }
+
+            function d(o, e, a) {
+                try {
+                    return {
+                        type: "normal",
+                        arg: o.call(e, a)
+                    }
+                } catch (o) {
+                    return {
+                        type: "throw",
+                        arg: o
+                    }
+                }
+            }
+            o.wrap = u;
+            var p = {};
+
+            function k() {}
+
+            function g() {}
+
+            function b() {}
+            var h = {};
+            c(h, l, (function() {
+                return this
+            }));
+            var v = Object.getPrototypeOf,
+                f = v && v(v(N([])));
+            f && f !== e && a.call(f, l) && (h = f);
+            var y = b.prototype = k.prototype = Object.create(h);
+
+            function B(o) {
+                ["next", "throw", "return"].forEach((function(e) {
+                    c(o, e, (function(o) {
+                        return this._invoke(e, o)
+                    }))
+                }))
+            }
+
+            function w(o, e) {
+                var s;
+                t(this, "_invoke", {
+                    value: function(t, l) {
+                        function r() {
+                            return new e((function(s, r) {
+                                ! function t(s, l, r, i) {
+                                    var n = d(o[s], o, l);
+                                    if ("throw" !== n.type) {
+                                        var c = n.arg,
+                                            u = c.value;
+                                        return u && "object" == m(u) && a.call(u, "__await") ? e.resolve(u.__await).then((function(o) {
+                                            t("next", o, r, i)
+                                        }), (function(o) {
+                                            t("throw", o, r, i)
+                                        })) : e.resolve(u).then((function(o) {
+                                            c.value = o, r(c)
+                                        }), (function(o) {
+                                            return t("throw", o, r, i)
+                                        }))
+                                    }
+                                    i(n.arg)
+                                }(t, l, s, r)
+                            }))
+                        }
+                        return s = s ? s.then(r, r) : r()
+                    }
+                })
+            }
+
+            function S(o, e, a) {
+                var t = "suspendedStart";
+                return function(s, l) {
+                    if ("executing" === t) throw new Error("Generator is already running");
+                    if ("completed" === t) {
+                        if ("throw" === s) throw l;
+                        return P()
+                    }
+                    for (a.method = s, a.arg = l;;) {
+                        var r = a.delegate;
+                        if (r) {
+                            var m = C(r, a);
+                            if (m) {
+                                if (m === p) continue;
+                                return m
+                            }
+                        }
+                        if ("next" === a.method) a.sent = a._sent = a.arg;
+                        else if ("throw" === a.method) {
+                            if ("suspendedStart" === t) throw t = "completed", a.arg;
+                            a.dispatchException(a.arg)
+                        } else "return" === a.method && a.abrupt("return", a.arg);
+                        t = "executing";
+                        var i = d(o, e, a);
+                        if ("normal" === i.type) {
+                            if (t = a.done ? "completed" : "suspendedYield", i.arg === p) continue;
+                            return {
+                                value: i.arg,
+                                done: a.done
+                            }
+                        }
+                        "throw" === i.type && (t = "completed", a.method = "throw", a.arg = i.arg)
+                    }
+                }
+            }
+
+            function C(o, e) {
+                var a = e.method,
+                    t = o.iterator[a];
+                if (void 0 === t) return e.delegate = null, "throw" === a && o.iterator.return && (e.method = "return", e.arg = void 0, C(o, e), "throw" === e.method) || "return" !== a && (e.method = "throw", e.arg = new TypeError("The iterator does not provide a '" + a + "' method")), p;
+                var s = d(t, o.iterator, e.arg);
+                if ("throw" === s.type) return e.method = "throw", e.arg = s.arg, e.delegate = null, p;
+                var l = s.arg;
+                return l ? l.done ? (e[o.resultName] = l.value, e.next = o.nextLoc, "return" !== e.method && (e.method = "next", e.arg = void 0), e.delegate = null, p) : l : (e.method = "throw", e.arg = new TypeError("iterator result is not an object"), e.delegate = null, p)
+            }
+
+            function z(o) {
+                var e = {
+                    tryLoc: o[0]
+                };
+                1 in o && (e.catchLoc = o[1]), 2 in o && (e.finallyLoc = o[2], e.afterLoc = o[3]), this.tryEntries.push(e)
+            }
+
+            function A(o) {
+                var e = o.completion || {};
+                e.type = "normal", delete e.arg, o.completion = e
+            }
+
+            function U(o) {
+                this.tryEntries = [{
+                    tryLoc: "root"
+                }], o.forEach(z, this), this.reset(!0)
+            }
+
+            function N(o) {
+                if (o) {
+                    var e = o[l];
+                    if (e) return e.call(o);
+                    if ("function" == typeof o.next) return o;
+                    if (!isNaN(o.length)) {
+                        var t = -1,
+                            s = function e() {
+                                for (; ++t < o.length;)
+                                    if (a.call(o, t)) return e.value = o[t], e.done = !1, e;
+                                return e.value = void 0, e.done = !0, e
+                            };
+                        return s.next = s
+                    }
+                }
+                return {
+                    next: P
+                }
+            }
+
+            function P() {
+                return {
+                    value: void 0,
+                    done: !0
+                }
+            }
+            return g.prototype = b, t(y, "constructor", {
+                value: b,
+                configurable: !0
+            }), t(b, "constructor", {
+                value: g,
+                configurable: !0
+            }), g.displayName = c(b, n, "GeneratorFunction"), o.isGeneratorFunction = function(o) {
+                var e = "function" == typeof o && o.constructor;
+                return !!e && (e === g || "GeneratorFunction" === (e.displayName || e.name))
+            }, o.mark = function(o) {
+                return Object.setPrototypeOf ? Object.setPrototypeOf(o, b) : (o.__proto__ = b, c(o, n, "GeneratorFunction")), o.prototype = Object.create(y), o
+            }, o.awrap = function(o) {
+                return {
+                    __await: o
+                }
+            }, B(w.prototype), c(w.prototype, r, (function() {
+                return this
+            })), o.AsyncIterator = w, o.async = function(e, a, t, s, l) {
+                void 0 === l && (l = Promise);
+                var r = new w(u(e, a, t, s), l);
+                return o.isGeneratorFunction(a) ? r : r.next().then((function(o) {
+                    return o.done ? o.value : r.next()
+                }))
+            }, B(y), c(y, n, "Generator"), c(y, l, (function() {
+                return this
+            })), c(y, "toString", (function() {
+                return "[object Generator]"
+            })), o.keys = function(o) {
+                var e = Object(o),
+                    a = [];
+                for (var t in e) a.push(t);
+                return a.reverse(),
+                    function o() {
+                        for (; a.length;) {
+                            var t = a.pop();
+                            if (t in e) return o.value = t, o.done = !1, o
+                        }
+                        return o.done = !0, o
+                    }
+            }, o.values = N, U.prototype = {
+                constructor: U,
+                reset: function(o) {
+                    if (this.prev = 0, this.next = 0, this.sent = this._sent = void 0, this.done = !1, this.delegate = null, this.method = "next", this.arg = void 0, this.tryEntries.forEach(A), !o)
+                        for (var e in this) "t" === e.charAt(0) && a.call(this, e) && !isNaN(+e.slice(1)) && (this[e] = void 0)
+                },
+                stop: function() {
+                    this.done = !0;
+                    var o = this.tryEntries[0].completion;
+                    if ("throw" === o.type) throw o.arg;
+                    return this.rval
+                },
+                dispatchException: function(o) {
+                    if (this.done) throw o;
+                    var e = this;
+
+                    function t(a, t) {
+                        return r.type = "throw", r.arg = o, e.next = a, t && (e.method = "next", e.arg = void 0), !!t
+                    }
+                    for (var s = this.tryEntries.length - 1; s >= 0; --s) {
+                        var l = this.tryEntries[s],
+                            r = l.completion;
+                        if ("root" === l.tryLoc) return t("end");
+                        if (l.tryLoc <= this.prev) {
+                            var m = a.call(l, "catchLoc"),
+                                i = a.call(l, "finallyLoc");
+                            if (m && i) {
+                                if (this.prev < l.catchLoc) return t(l.catchLoc, !0);
+                                if (this.prev < l.finallyLoc) return t(l.finallyLoc)
+                            } else if (m) {
+                                if (this.prev < l.catchLoc) return t(l.catchLoc, !0)
+                            } else {
+                                if (!i) throw new Error("try statement without catch or finally");
+                                if (this.prev < l.finallyLoc) return t(l.finallyLoc)
+                            }
+                        }
+                    }
+                },
+                abrupt: function(o, e) {
+                    for (var t = this.tryEntries.length - 1; t >= 0; --t) {
+                        var s = this.tryEntries[t];
+                        if (s.tryLoc <= this.prev && a.call(s, "finallyLoc") && this.prev < s.finallyLoc) {
+                            var l = s;
+                            break
+                        }
+                    }
+                    l && ("break" === o || "continue" === o) && l.tryLoc <= e && e <= l.finallyLoc && (l = null);
+                    var r = l ? l.completion : {};
+                    return r.type = o, r.arg = e, l ? (this.method = "next", this.next = l.finallyLoc, p) : this.complete(r)
+                },
+                complete: function(o, e) {
+                    if ("throw" === o.type) throw o.arg;
+                    return "break" === o.type || "continue" === o.type ? this.next = o.arg : "return" === o.type ? (this.rval = this.arg = o.arg, this.method = "return", this.next = "end") : "normal" === o.type && e && (this.next = e), p
+                },
+                finish: function(o) {
+                    for (var e = this.tryEntries.length - 1; e >= 0; --e) {
+                        var a = this.tryEntries[e];
+                        if (a.finallyLoc === o) return this.complete(a.completion, a.afterLoc), A(a), p
+                    }
+                },
+                catch: function(o) {
+                    for (var e = this.tryEntries.length - 1; e >= 0; --e) {
+                        var a = this.tryEntries[e];
+                        if (a.tryLoc === o) {
+                            var t = a.completion;
+                            if ("throw" === t.type) {
+                                var s = t.arg;
+                                A(a)
+                            }
+                            return s
+                        }
+                    }
+                    throw new Error("illegal catch attempt")
+                },
+                delegateYield: function(o, e, a) {
+                    return this.delegate = {
+                        iterator: N(o),
+                        resultName: e,
+                        nextLoc: a
+                    }, "next" === this.method && (this.arg = void 0), p
+                }
+            }, o
+        }
+
+        function n(o, e, a, t, s, l, r) {
+            try {
+                var m = o[l](r),
+                    i = m.value
+            } catch (o) {
+                return void a(o)
+            }
+            m.done ? e(i) : Promise.resolve(i).then(t, s)
+        }
+
+        function c(o) {
+            return function() {
+                var e = this,
+                    a = arguments;
+                return new Promise((function(t, s) {
+                    var l = o.apply(e, a);
+
+                    function r(o) {
+                        n(l, t, s, r, m, "next", o)
+                    }
+
+                    function m(o) {
+                        n(l, t, s, r, m, "throw", o)
+                    }
+                    r(void 0)
+                }))
+            }
+        }
+
+        function u(o, e) {
+            for (var a = 0; a < e.length; a++) {
+                var t = e[a];
+                t.enumerable = t.enumerable || !1, t.configurable = !0, "value" in t && (t.writable = !0), Object.defineProperty(o, (s = t.key, l = void 0, l = function(o, e) {
+                    if ("object" !== m(o) || null === o) return o;
+                    var a = o[Symbol.toPrimitive];
+                    if (void 0 !== a) {
+                        var t = a.call(o, e || "default");
+                        if ("object" !== m(t)) return t;
+                        throw new TypeError("@@toPrimitive must return a primitive value.")
+                    }
+                    return ("string" === e ? String : Number)(o)
+                }(s, "string"), "symbol" === m(l) ? l : String(l)), t)
+            }
+            var s, l
+        }
+        var d = function() {
+                function o() {
+                    ! function(o, e) {
+                        if (!(o instanceof e)) throw new TypeError("Cannot call a class as a function")
+                    }(this, o), this.data = null, this.loading = !0, this.getLoggedIn()
+                }
+                var e, a, t, s, r;
+                return e = o, (a = [{
+                    key: "getData",
+                    value: (r = c(i().mark((function o() {
+                        return i().wrap((function(o) {
+                            for (;;) switch (o.prev = o.next) {
+                                case 0:
+                                    if (!this.loading) {
+                                        o.next = 3;
+                                        break
+                                    }
+                                    return o.next = 3, this.getLoggedIn();
+                                case 3:
+                                    return o.abrupt("return", this.data);
+                                case 4:
+                                case "end":
+                                    return o.stop()
+                            }
+                        }), o, this)
+                    }))), function() {
+                        return r.apply(this, arguments)
+                    })
+                }, {
+                    key: "getLoggedIn",
+                    value: (s = c(i().mark((function o() {
+                        var e = this;
+                        return i().wrap((function(o) {
+                            for (;;) switch (o.prev = o.next) {
+                                case 0:
+                                    if (this.loading = !0, "undefined" == typeof window) {
+                                        o.next = 3;
+                                        break
+                                    }
+                                    return o.abrupt("return", l.a.get("/api/users/me").then((function(o) {
+                                        e.data = o.data, e.loading = !1
+                                    })).catch((function() {
+                                        e.data = null, e.loading = !1
+                                    })));
+                                case 3:
+                                    this.data = null, this.loading = !1;
+                                case 5:
+                                case "end":
+                                    return o.stop()
+                            }
+                        }), o, this)
+                    }))), function() {
+                        return s.apply(this, arguments)
+                    })
+                }]) && u(e.prototype, a), t && u(e, t), Object.defineProperty(e, "prototype", {
+                    writable: !1
+                }), o
+            }(),
+            p = Object(t.createContext)(null),
+            k = function(o) {
+                return function(e) {
+                    return s.a.createElement(p.Consumer, null, (function(a) {
+                        return s.a.createElement(o, r({}, e, {
+                            user: a
+                        }))
+                    }))
+                }
+            };
+        e.b = d
+    },
+    LAIx: function(o, e, a) {
+        "use strict";
+        var t = a("MDrD");
+        e.a = function(o) {
+            return o.includes("#") ? "#0bc2cf" : t.a[o].color
+        }
+    },
+    MDrD: function(o, e, a) {
+        "use strict";
+        var t = a("iTU4"),
+            s = a("Y018"),
+            l = a("xoUC"),
+            r = a("sqp7"),
+            m = a("Zyrn"),
+            i = a("iQGx"),
+            n = a("liux"),
+            c = a("O+AO"),
+            u = a("19Ak"),
+            d = a("5Kqo"),
+            p = a("cQOM"),
+            k = a("B9yS"),
+            g = a("Nmn4"),
+            b = a("CX7I"),
+            h = a("/9rF"),
+            v = a("sa6r");
+
+        function f(o) {
+            return (f = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+                return typeof o
+            } : function(o) {
+                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o
+            })(o)
+        }
+
+        function y(o, e) {
+            var a = Object.keys(o);
+            if (Object.getOwnPropertySymbols) {
+                var t = Object.getOwnPropertySymbols(o);
+                e && (t = t.filter((function(e) {
+                    return Object.getOwnPropertyDescriptor(o, e).enumerable
+                }))), a.push.apply(a, t)
+            }
+            return a
+        }
+
+        function B(o) {
+            for (var e = 1; e < arguments.length; e++) {
+                var a = null != arguments[e] ? arguments[e] : {};
+                e % 2 ? y(Object(a), !0).forEach((function(e) {
+                    w(o, e, a[e])
+                })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(o, Object.getOwnPropertyDescriptors(a)) : y(Object(a)).forEach((function(e) {
+                    Object.defineProperty(o, e, Object.getOwnPropertyDescriptor(a, e))
+                }))
+            }
+            return o
+        }
+
+        function w(o, e, a) {
+            return (e = function(o) {
+                var e = function(o, e) {
+                    if ("object" !== f(o) || null === o) return o;
+                    var a = o[Symbol.toPrimitive];
+                    if (void 0 !== a) {
+                        var t = a.call(o, e || "default");
+                        if ("object" !== f(t)) return t;
+                        throw new TypeError("@@toPrimitive must return a primitive value.")
+                    }
+                    return ("string" === e ? String : Number)(o)
+                }(o, "string");
+                return "symbol" === f(e) ? e : String(e)
+            }(e)) in o ? Object.defineProperty(o, e, {
+                value: a,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : o[e] = a, o
+        }
+        var S = B(B(B(B(B(B(B(B(B(B(B(B(B(B(B(B(B(B(B({}, n.a), p.a), c.a), h.a), s.a), d.a), v.a), m.a), g.a), r.a), t.a), k.a), i.a), u.a), {
+            Dingo: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/outback/dingo.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381968/Blooks/dingo.svg",
+                set: "Outback",
+                rarity: "Uncommon",
+                teamName: "Daring Dingos",
+                color: "#e38e4d"
+            },
+            Echidna: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/outback/echidna.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381967/Blooks/echidna.svg",
+                set: "Outback",
+                rarity: "Uncommon",
+                teamName: "Erudite Echidnas",
+                color: "#88766b"
+            },
+            Koala: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/outback/koala.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381970/Blooks/koala.svg",
+                set: "Outback",
+                rarity: "Uncommon",
+                teamName: "Kool Koalas",
+                color: "#827b8b"
+            },
+            Kookaburra: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/outback/kookaburra.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381970/Blooks/kookaburra.svg",
+                set: "Outback",
+                rarity: "Uncommon",
+                teamName: "Kind Kookaburras",
+                color: "#4d4d85"
+            },
+            Platypus: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/outback/platypus.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381968/Blooks/platypus.svg",
+                set: "Outback",
+                rarity: "Rare",
+                teamName: "Playful Platypus",
+                color: "#9d594e"
+            },
+            Joey: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/outback/joey.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381968/Blooks/joey.svg",
+                set: "Outback",
+                rarity: "Rare",
+                teamName: "Jumping Joeys",
+                color: "#9f693c"
+            },
+            Kangaroo: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/outback/kangaroo.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381969/Blooks/kangaroo.svg",
+                set: "Outback",
+                rarity: "Rare",
+                teamName: "Kicking Kangaroos",
+                color: "#b9853f"
+            },
+            Crocodile: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/outback/crocodile.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381968/Blooks/crocodile.svg",
+                set: "Outback",
+                rarity: "Epic",
+                teamName: "The Crocs",
+                color: "#679b4f"
+            },
+            "Sugar Glider": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/outback/sugarGlider.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381967/Blooks/sugarGlider.svg",
+                set: "Outback",
+                rarity: "Legendary",
+                teamName: "Fancy Flyers",
+                color: "#131f2b"
+            }
+        }), l.a), b.a), {
+            "Rainbow Jellyfish": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/aquatic/rainbowJellyfish.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956581/Blooks/rainbowJellyfish.svg",
+                set: "Hidden",
+                realSet: "Aquatic",
+                rarity: "Chroma",
+                teamName: "Underwater Disco",
+                color: "#c9d6ed"
+            },
+            "Blizzard Clownfish": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/aquatic/blizzardClownfish.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956578/Blooks/blizzardClownfish.svg",
+                set: "Hidden",
+                realSet: "Aquatic",
+                rarity: "Chroma",
+                teamName: "Winter Circus",
+                color: "#dae6f5"
+            },
+            "Lovely Frog": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/aquatic/lovelyFrog.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956576/Blooks/lovelyFrog.svg",
+                set: "Hidden",
+                realSet: "Aquatic",
+                rarity: "Chroma",
+                teamName: "Cute Companions",
+                color: "#f38db6"
+            },
+            "Lucky Frog": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/aquatic/luckyFrog.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1647451022/Blooks/luckyFrog.svg",
+                set: "Hidden",
+                realSet: "Aquatic",
+                rarity: "Chroma",
+                teamName: "Lucky Leapers",
+                color: "#4eb151"
+            },
+            "Spring Frog": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/aquatic/springFrog.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1649909367/Blooks/springFrog.svg",
+                set: "Hidden",
+                realSet: "Aquatic",
+                rarity: "Chroma",
+                teamName: "Spring Spirit",
+                color: "#f2bd8c"
+            },
+            "Poison Dart Frog": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/aquatic/poisonDartFrog.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956580/Blooks/poisonDartFrog.svg",
+                set: "Hidden",
+                realSet: "Aquatic",
+                rarity: "Chroma",
+                teamName: "TOXIC HAZARD",
+                color: "#ffcb29"
+            },
+            "Lemon Crab": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/aquatic/lemonCrab.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956576/Blooks/lemonCrab.svg",
+                set: "Hidden",
+                realSet: "Aquatic",
+                rarity: "Chroma",
+                teamName: "Citrus Claws",
+                color: "#f7d959"
+            },
+            "Pirate Pufferfish": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/aquatic/piratePufferfish.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1641935517/Blooks/piratePufferfish.svg",
+                set: "Hidden",
+                realSet: "Aquatic",
+                rarity: "Chroma",
+                teamName: "Perfect Pirates",
+                color: "#8b5aa5"
+            },
+            "Donut Blobfish": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/aquatic/donutBlobfish.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1641935517/Blooks/donutBlobfish.svg",
+                set: "Hidden",
+                realSet: "Aquatic",
+                rarity: "Chroma",
+                teamName: "Donut Mess Up",
+                color: "#f3c1da"
+            },
+            "Crimson Octopus": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/aquatic/crimsonOctopus.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956578/Blooks/crimsonOctopus.svg",
+                set: "Hidden",
+                realSet: "Aquatic",
+                rarity: "Chroma",
+                teamName: "Red Team 8",
+                color: "#b3303b"
+            },
+            "Rainbow Narwhal": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/aquatic/rainbowNarwhal.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956581/Blooks/rainbowNarwhal.svg",
+                set: "Hidden",
+                realSet: "Aquatic",
+                rarity: "Chroma",
+                teamName: "Sea Unicorns",
+                color: "#cfe8e9"
+            },
+            "Frost Wreath": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/winterHoliday/frostWreath.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1607304954/Blooks/frostWreath.svg",
+                set: "Hidden",
+                realSet: "Blizzard",
+                rarity: "Chroma",
+                teamName: "TEAM FREEZE",
+                color: "#2086df"
+            },
+            "Tropical Globe": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/winterHoliday/tropicalGlobe.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1607304954/Blooks/tropicalGlobe.svg",
+                set: "Hidden",
+                realSet: "Blizzard",
+                rarity: "Chroma",
+                teamName: "WARM HUGS",
+                color: "#fb7c2f"
+            },
+            "New York Snow Globe": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/newYorkSnowGlobe.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1670298616/Blooks/newYorkSnowGlobe.svg",
+                set: "Hidden",
+                realSet: "Blizzard",
+                rarity: "Chroma",
+                teamName: "NY Tourists",
+                color: "#4aa891"
+            },
+            "London Snow Globe": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/londonSnowGlobe.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1670298617/Blooks/londonSnowGlobe.svg",
+                set: "Hidden",
+                realSet: "Blizzard",
+                rarity: "Chroma",
+                teamName: "London Tourists",
+                color: "#c88829"
+            },
+            "Japan Snow Globe": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/japanSnowGlobe.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1670298616/Blooks/japanSnowGlobe.svg",
+                set: "Hidden",
+                realSet: "Blizzard",
+                rarity: "Chroma",
+                teamName: "Japan Tourists",
+                color: "#d62027"
+            },
+            "Egypt Snow Globe": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/egyptSnowGlobe.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1670298616/Blooks/egyptSnowGlobe.svg",
+                set: "Hidden",
+                realSet: "Blizzard",
+                rarity: "Chroma",
+                teamName: "Egypt Tourists",
+                color: "#d47630"
+            },
+            "Paris Snow Globe": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/parisSnowGlobe.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1670298616/Blooks/parisSnowGlobe.svg",
+                set: "Hidden",
+                realSet: "Blizzard",
+                rarity: "Chroma",
+                teamName: "Paris Tourists",
+                color: "#858585"
+            },
+            Sandwich: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/foods/sandwich.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1599952272/Blooks/sandwich.svg",
+                set: "Hidden",
+                realSet: "Breakfast",
+                rarity: "Epic",
+                teamName: "Super Sandwiches",
+                color: "#8cbd40"
+            },
+            "Ice Slime": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/iceMonsters/iceSlime.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1663061336/Blooks/iceSlime.svg",
+                set: "Hidden",
+                realSet: "Ice Monster",
+                rarity: "Chroma",
+                teamName: "Slip n Slide",
+                color: "#42b7ea"
+            },
+            "Frozen Fossil": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/iceMonsters/frozenFossil.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1663061338/Blooks/frozenFossil.svg",
+                set: "Hidden",
+                realSet: "Ice Monster",
+                rarity: "Chroma",
+                teamName: "Ice Age",
+                color: "#9ed2ef"
+            },
+            "Ice Crab": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/iceMonsters/iceCrab.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1663061336/Blooks/iceCrab.svg",
+                set: "Hidden",
+                realSet: "Ice Monster",
+                rarity: "Chroma",
+                teamName: "ICE ICE BABY",
+                color: "#3ea8cf"
+            },
+            "Rainbow Panda": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/safari/rainbowPanda.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835594/Blooks/rainbowPanda.svg",
+                set: "Hidden",
+                realSet: "Safari",
+                rarity: "Chroma",
+                teamName: "The Rainbows",
+                color: "#2f2c38"
+            },
+            "White Peacock": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/safari/whitePeacock.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835592/Blooks/whitePeacock.svg",
+                set: "Hidden",
+                realSet: "Safari",
+                rarity: "Chroma",
+                teamName: "Fast Feathers",
+                color: "#69c1d3"
+            },
+            "Tiger Zebra": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/safari/tigerZebra.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1643835596/Blooks/tigerZebra.svg",
+                set: "Hidden",
+                realSet: "Safari",
+                rarity: "Chroma",
+                teamName: "Agent Zs",
+                color: "#f18221"
+            },
+            "Teal Platypus": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/outback/tealPlatypus.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381970/Blooks/tealPlatypus.svg",
+                set: "Hidden",
+                realSet: "Outback",
+                rarity: "Chroma",
+                teamName: "Detectives",
+                color: "#1fa49f"
+            },
+            "Red Astronaut": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/redAstronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003832/Blooks/redAstronaut.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Chroma",
+                teamName: "Red Crewmates",
+                color: "#ee2324"
+            },
+            "Orange Astronaut": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/orangeAstronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003831/Blooks/orangeAstronaut.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Chroma",
+                teamName: "Orange Crewmates",
+                color: "#f79320"
+            },
+            "Yellow Astronaut": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/yellowAstronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003833/Blooks/yellowAstronaut.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Chroma",
+                teamName: "Yellow Crewmates",
+                color: "#edcb1f"
+            },
+            "Lime Astronaut": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/limeAstronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003834/Blooks/limeAstronaut.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Chroma",
+                teamName: "Lime Crewmates",
+                color: "#61b446"
+            },
+            "Green Astronaut": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/greenAstronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003832/Blooks/greenAstronaut.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Chroma",
+                teamName: "Green Crewmates",
+                color: "#197b42"
+            },
+            "Cyan Astronaut": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/cyanAstronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003831/Blooks/cyanAstronaut.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Chroma",
+                teamName: "Cyan Crewmates",
+                color: "#74cbcb"
+            },
+            "Blue Astronaut": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/blueAstronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003835/Blooks/blueAstronaut.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Chroma",
+                teamName: "Blue Crewmates",
+                color: "#2867b1"
+            },
+            "Pink Astronaut": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/pinkAstronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003831/Blooks/pinkAstronaut.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Chroma",
+                teamName: "Pink Crewmates",
+                color: "#e573ac"
+            },
+            "Purple Astronaut": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/purpleAstronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003831/Blooks/purpleAstronaut.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Chroma",
+                teamName: "Purple Crewmates",
+                color: "#9068ad"
+            },
+            "Brown Astronaut": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/brownAstronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003831/Blooks/brownAstronaut.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Chroma",
+                teamName: "Brown Crewmates",
+                color: "#9e5a3a"
+            },
+            "Black Astronaut": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/blackAstronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003835/Blooks/blackAstronaut.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Chroma",
+                teamName: "Black Crewmates",
+                color: "#413f56"
+            },
+            "Lovely Planet": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/chromas/lovelyPlanet.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1678327690/Blooks/lovelyPlanet.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Chroma",
+                teamName: "Lovers",
+                color: "#db302c"
+            },
+            "Haunted Pumpkin": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/halloween/hauntedPumpkin.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1641935071/Blooks/hauntedPumpkin.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Chroma",
+                teamName: "Haunted Helpers",
+                color: "#939385"
+            },
+            "Pumpkin Cookie": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/halloween/pumpkinCookie.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1666248719/Blooks/pumpkinCookie.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Chroma",
+                teamName: "Cookie Monsters",
+                color: "#f7941d"
+            },
+            "Ghost Cookie": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/halloween/ghostCookie.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1666248719/Blooks/ghostCookie.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Chroma",
+                teamName: "COOKIES",
+                color: "#c2def4"
+            },
+            "Chick Chicken": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/chromas/chickChicken.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1667010822/Blooks/chickChicken.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Chroma",
+                teamName: "Tricky Chickens",
+                color: "#eaa622"
+            },
+            "Chicken Chick": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/chromas/chickenChick.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1667010822/Blooks/chickenChick.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Chroma",
+                teamName: "Tricky Chicks",
+                color: "#9dd7f4"
+            },
+            "Raccoon Bandit": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/chromas/raccoonBandit.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1667011259/Blooks/raccoonBandit.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Chroma",
+                teamName: "Bandits",
+                color: "#bb2222"
+            },
+            "Owl Sheriff": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/chromas/owlSheriff.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1667010822/Blooks/owlSheriff.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Chroma",
+                teamName: "Sheriffs",
+                color: "#84582b"
+            },
+            "Vampire Frog": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/chromas/vampireFrog.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1667010822/Blooks/vampireFrog.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Chroma",
+                teamName: "Fanged Frogs",
+                color: "#312222"
+            },
+            "Pumpkin King": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/chromas/pumpkinKing.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1666681464/Blooks/pumpkinKing.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Chroma",
+                teamName: "Halloween Kings",
+                color: "#c1541e"
+            },
+            "Anaconda Wizard": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/chromas/anacondaWizard.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1667010822/Blooks/anacondaWizard.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Chroma",
+                teamName: "Sneaky Wizards",
+                color: "#252165"
+            },
+            "Spooky Pumpkin": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/halloween/spookyPumpkin.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1603679635/Blooks/spookyPumpkin.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Chroma",
+                teamName: "Ghostly Geniuses",
+                color: "#66f59b"
+            },
+            "Spooky Mummy": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/halloween/spookyMummy.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1603679635/Blooks/spookyMummy.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Chroma",
+                teamName: "Spooky 'n' Scary",
+                color: "#66f59b"
+            },
+            "Agent Owl": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/td/agentOwl.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1638737635/Blooks/agentOwl.svg",
+                set: "Hidden",
+                realSet: "Forest Animal",
+                rarity: "Chroma",
+                teamName: "Secret Agents",
+                color: "#32da4e"
+            },
+            "Master Elf": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/td/masterElf.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1591048518/Blooks/masterElf.svg",
+                set: "Hidden",
+                realSet: "Medieval",
+                rarity: "Chroma",
+                teamName: "The Masters",
+                color: "#3a3a3a"
+            },
+            "Party Pig": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/td/partyPig.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1670544090/Blooks/partyPig.svg",
+                set: "Hidden",
+                realSet: "Farm Animal",
+                rarity: "Chroma",
+                teamName: "MODS",
+                color: "#f6a9cb"
+            },
+            "Spooky Ghost": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/halloween/spookyGhost.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1603684063/Blooks/spookyGhost.svg",
+                set: "Hidden",
+                realSet: "Spooky",
+                rarity: "Mystical",
+                teamName: "Spooksters",
+                color: "#66f59b"
+            },
+            "Phantom King": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/td/phantomKing.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1591301898/Blooks/phantomKing.svg",
+                set: "Hidden",
+                realSet: "Medieval",
+                rarity: "Mystical",
+                teamName: "The True Kings",
+                color: "#2cf4e1"
+            },
+            "Tim the Alien": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/timTheAlien.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1627827707/Blooks/timTheAlien.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Mystical",
+                teamName: "Tim's Friends",
+                color: "#8dc63f"
+            },
+            "Rainbow Astronaut": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/space/purpleAstronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003831/Blooks/purpleAstronaut.svg",
+                set: "Hidden",
+                realSet: "Space",
+                rarity: "Mystical",
+                teamName: "RAINBOW",
+                color: "#9068ad"
+            }
+        }), {
+            "Light Blue": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/lightBlueBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1615756235/Blooks/colors/lightBlueBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Blooket Buds",
+                color: "#0bc2cf"
+            },
+            Black: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/blackBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1593095363/Blooks/colors/blackBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Black Team",
+                color: "#3a3a3a"
+            },
+            Red: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/redBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1593095359/Blooks/colors/redBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Red Team",
+                color: "#d62728"
+            },
+            Purple: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/purpleBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1593095359/Blooks/colors/purpleBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Purple Team",
+                color: "#9a49aa"
+            },
+            Pink: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/pinkBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1593095358/Blooks/colors/pinkBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Pink Team",
+                color: "#e377c2"
+            },
+            Orange: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/orangeBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1593095357/Blooks/colors/orangeBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Orange Team",
+                color: "#ff7f0f"
+            },
+            Lime: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/limeBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1593095356/Blooks/colors/limeBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Lime Team",
+                color: "#b3dc23"
+            },
+            Green: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/greenBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1593095354/Blooks/colors/greenBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Green Team",
+                color: "#2ca02c"
+            },
+            Teal: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/tealBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135104/Blooks/colors/tealBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Teal Team",
+                color: "#007788"
+            },
+            Tan: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/tanBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135102/Blooks/colors/tanBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Tan Team",
+                color: "#d2b48c"
+            },
+            Maroon: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/maroonBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135102/Blooks/colors/maroonBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Maroon Team",
+                color: "#800000"
+            },
+            Gray: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/grayBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135102/Blooks/colors/grayBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Gray Team",
+                color: "#999999"
+            },
+            Mint: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/mintBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135102/Blooks/colors/mintBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Mint Team",
+                color: "#aaf0d1"
+            },
+            Salmon: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/salmonColorBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135102/Blooks/colors/salmonColorBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Salmon Team",
+                color: "#fa8072"
+            },
+            Burgandy: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/burgandyBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135101/Blooks/colors/burgandyBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Burgandy Team",
+                color: "#99254d"
+            },
+            "Baby Blue": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/babyBlueBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135100/Blooks/colors/babyBlueBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Baby Blue Team",
+                color: "#99ccff"
+            },
+            Dust: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/dustBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135100/Blooks/colors/dustBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Dust Team",
+                color: "#999966"
+            },
+            Brown: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/brownBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135100/Blooks/colors/brownBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Brown Team",
+                color: "#86592d"
+            },
+            "Dull Blue": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/dullBlueBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135100/Blooks/colors/dullBlueBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Dim Blue Team",
+                color: "#666699"
+            },
+            Yellow: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/yellowBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135100/Blooks/colors/yellowBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Yellow Team",
+                color: "#ffff4d"
+            },
+            Blue: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/colors/blueBlook.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1594135100/Blooks/colors/blueBlook.svg",
+                set: "Color",
+                rarity: "Common",
+                teamName: "Blue Team",
+                color: "#005ce6"
+            }
+        });
+        e.a = S
+    },
+    MldR: function(o, e, a) {
+        "use strict";
+        e.a = {
+            Chick: "Happy Hatchers",
+            Chicken: "Early Birds",
+            Cow: "Udder Chaos",
+            Goat: "Goatee OG's",
+            Horse: "Radical Racers",
+            Pig: "Orderly Oinkers",
+            Sheep: "Wool Winners",
+            Duck: "Quirky Quackers",
+            Alpaca: "Fluffy Friends",
+            Dog: "Diligent Doggos",
+            Cat: "Meow Mates",
+            Rabbit: "Fluffy Bunnies",
+            Goldfish: "Pretty Fishies",
+            Hamster: "HAMSTA TIME",
+            Turtle: "Shell Shocked",
+            Kitten: "Purrfect People",
+            Puppy: "Super Puppers",
+            Bear: "Bear Necessities",
+            Moose: "Moose Caboose",
+            Fox: "Swifty Swipers",
+            Raccoon: "Trash Pandas",
+            Squirrel: "Nutty Buddies",
+            Owl: "Hooooooooo",
+            Hedgehog: "Spikey Friends",
+            Deer: "Dashing Deer",
+            Wolf: "The Pack",
+            Beaver: "Building Beavers",
+            "Baby Penguin": "Party Penguins",
+            Penguin: "Better Birds",
+            "Arctic Fox": "Chilly Chosen",
+            "Snowy Owl": "Kool Kids",
+            "Polar Bear": "Snowy Students",
+            "Arctic Hare": "Arctic Achievers",
+            Seal: "Super Seals",
+            Walrus: "Wordy Walruses",
+            Tiger: "Brave Bengals",
+            Panther: "Wakanda Forever",
+            Cockatoo: "Not Chickens",
+            Orangutan: "Hairy Hipsters",
+            Anaconda: "Sneaky Snakes",
+            Macaw: "CA CAWWWW",
+            Jaguar: "Super Spotters",
+            Capuchin: "Monkey Madness",
+            Toucan: "Toucan't Beat Us",
+            Parrot: "Polly's People",
+            Gorilla: "Great Gorillas",
+            Hippo: "Hip Hippos",
+            Rhino: "Ready Rhinos",
+            Giraffe: "Tall Tutors",
+            Elf: "Agile Archers",
+            Witch: "Cauldron City",
+            Wizard: "Wiz Kids",
+            Fairy: "Mighty Myths",
+            "Slime Monster": "Slimy McSlimes",
+            Jester: "Jolly Jokesters",
+            Dragon: "Fire Hazards",
+            Unicorn: "Land Narwhals",
+            Queen: "Royal Rebels",
+            King: "THE SQUAD",
+            "Agent Owl": "Secret Agents",
+            "Party Pig": "MODS",
+            "Master Elf": "The Masters",
+            "Phantom King": "The True Kings",
+            "Snow Globe": "Globetrotters",
+            "Holiday Gift": "Generous Givers",
+            "Hot Chocolate": "Cocoa Coziness",
+            "Holiday Wreath": "Wreath Wreckers",
+            Stocking: "Stocking Stuffers",
+            "Gingerbread Man": "Cookie Crunchers",
+            "Gingerbread House": "Healthy Houses",
+            Reindeer: "Ready Reindeer",
+            Snowman: "Summer Puddles",
+            "Santa Claus": "Santa's Squad",
+            "Frost Wreath": "TEAM FREEZE",
+            "Tropical Globe": "WARM HUGS",
+            "New York Snow Globe": "NY Tourists",
+            "London Snow Globe": "London Tourists",
+            "Japan Snow Globe": "Japan Tourists",
+            "Egypt Snow Globe": "Egypt Tourists",
+            "Paris Snow Globe": "Paris Tourists",
+            "Two of Spades": "Dueling Deuces",
+            "Eat Me": "Hungry Heroes",
+            "Drink Me": "Potion Power",
+            Alice: "Wonderland",
+            "Queen of Hearts": "❤️❤️❤️",
+            Dormouse: "Short and Stout",
+            "White Rabbit": "Classy Classmates",
+            "Cheshire Cat": "Cool Cats",
+            Caterpillar: "Caterpillar Cuties",
+            "Mad Hatter": "Goofy Gurus",
+            "King of Hearts": "The Royals",
+            Toast: "Toasty Teammates",
+            Cereal: "Fruity Friends",
+            Yogurt: "Yogurt Youngins",
+            "Breakfast Combo": "Combo Cooks",
+            "Orange Juice": "OJ OG's",
+            Milk: "Got Milk?",
+            Waffle: "Holey Pancakes",
+            Pancakes: "Flat Waffles",
+            "French Toast": "Bonjour Boomers",
+            Pizza: "Pizza Popstars",
+            Sandwich: "Super Sandwiches",
+            "Light Blue": "Blooket Buds",
+            Black: "Black Team",
+            Red: "Red Team",
+            Purple: "Purple Team",
+            Pink: "Pink Team",
+            Orange: "Orange Team",
+            Lime: "Lime Team",
+            Green: "Green Team",
+            Teal: "Teal Team",
+            Tan: "Tan Team",
+            Maroon: "Maroon Team",
+            Gray: "Gray Team",
+            Mint: "Mint Team",
+            Salmon: "Salmon Team",
+            Burgandy: "Burgandy Team",
+            "Baby Blue": "Baby Blue Team",
+            Dust: "Dust Team",
+            Brown: "Brown Team",
+            "Dull Blue": "Dim Blue Team",
+            Yellow: "Yellow Team",
+            Blue: "Blue Team",
+            Pumpkin: "Pumpkin Smashers",
+            "Swamp Monster": "Swamp Things",
+            Frankenstein: "The Monsters",
+            Vampire: "Valiant Vampires",
+            Zombie: "Walking Dead",
+            Mummy: "Motivated Mummies",
+            "Caramel Apple": "Caring Caramels",
+            Werewolf: "Werewolf Warriors",
+            Ghost: "BOO!",
+            "Haunted Pumpkin": "Haunted Helpers",
+            "Pumpkin Cookie": "Cookie Monsters",
+            "Ghost Cookie": "COOKIES",
+            "Spooky Pumpkin": "Ghostly Geniuses",
+            "Spooky Mummy": "Spooky 'n' Scary",
+            "Spooky Ghost": "Spooksters",
+            Earth: "Earthlings",
+            Meteor: "Meteorites",
+            Stars: "Shooting Stars",
+            Alien: "Awesome Aliens",
+            Planet: "Galactic Warriors",
+            UFO: "Unidentified Students",
+            Spaceship: "We Have a Problem",
+            Astronaut: "Astro Aviators",
+            "Red Astronaut": "Red Crewmates",
+            "Blue Astronaut": "Blue Crewmates",
+            "Green Astronaut": "Green Crewmates",
+            "Pink Astronaut": "Pink Crewmates",
+            "Orange Astronaut": "Orange Crewmates",
+            "Yellow Astronaut": "Yellow Crewmates",
+            "Black Astronaut": "Black Crewmates",
+            "Purple Astronaut": "Purple Crewmates",
+            "Brown Astronaut": "Brown Crewmates",
+            "Cyan Astronaut": "Cyan Crewmates",
+            "Lime Astronaut": "Lime Crewmates",
+            "Lovely Planet": "Lovers",
+            "Tim the Alien": "Tim's Friends",
+            "Rainbow Astronaut": "RAINBOW",
+            "Lil Bot": "Lil Bots",
+            "Lovely Bot": "Lovely Leaders",
+            "Angry Bot": "Evil Geniuses",
+            "Happy Bot": "The Calculators",
+            Watson: "Sophistication",
+            "Buddy Bot": "Best Buddies",
+            "Brainy Bot": "Big Brain Bots",
+            "Mega Bot": "THE MEGA BOTS",
+            "Old Boot": "Da Boots",
+            Jellyfish: "Jelly Jumpers",
+            Clownfish: "Nemo Extras",
+            Frog: "Hippity Hoppers",
+            Crab: "Cool Claws",
+            Pufferfish: "TEAM BIG",
+            Blobfish: "blob blob blob",
+            Octopus: "Team 8",
+            Narwhal: "NARWHALLLLL",
+            Dolphin: "Diving Dolphins",
+            "Baby Shark": "BABY SHARK",
+            Megalodon: "Megan's the Name",
+            "Rainbow Jellyfish": "Underwater Disco",
+            "Blizzard Clownfish": "Winter Circus",
+            "Lovely Frog": "Cute Companions",
+            "Lucky Frog": "Lucky Leapers",
+            "Spring Frog": "Spring Spirit",
+            "Poison Dart Frog": "TOXIC HAZARD",
+            "Lemon Crab": "Citrus Claws",
+            "Pirate Pufferfish": "Perfect Pirates",
+            "Donut Blobfish": "Donut Mess Up",
+            "Crimson Octopus": "Red Team 8",
+            "Rainbow Narwhal": "Sea Unicorns",
+            Panda: "Prime Pandas",
+            Sloth: "Silly Sloths",
+            Tenrec: "Troubling Tenrecs",
+            Flamingo: "Pink And Proud",
+            Zebra: "Super Stripes",
+            Elephant: "Erudite Elephants",
+            Lemur: "Leaping Lemurs",
+            Peacock: "Fearless Feathers",
+            Chameleon: "Cool Chameleons",
+            Lion: "The Pride",
+            "Rainbow Panda": "The Rainbows",
+            "White Peacock": "Fast Feathers",
+            "Tiger Zebra": "Agent Zs",
+            Amber: "Ambitious Ambers",
+            "Dino Egg": "Eggcellence",
+            "Dino Fossil": "Fighting Fossils",
+            Stegosaurus: "Hearty Herbivores",
+            Velociraptor: "Prehistorics",
+            Brontosaurus: "Big Giraffes",
+            Triceratops: "Daring Dinos",
+            "Tyrannosaurus Rex": "The Terror",
+            "Ice Bat": "Frozen Wings",
+            "Ice Bug": "Bold Bugs",
+            "Ice Elemental": "ICED",
+            "Rock Monster": "Ready Rocks",
+            Dink: "Dink Donk 1",
+            Donk: "Dink Donk 2",
+            "Bush Monster": "Brave Bushes",
+            Yeti: "Everest",
+            "Ice Slime": "Slip n Slide",
+            "Frozen Fossil": "Ice Age",
+            "Ice Crab": "ICE ICE BABY",
+            Dingo: "Daring Dingos",
+            Echidna: "Erudite Echidnas",
+            Koala: "Kool Koalas",
+            Kookaburra: "Kind Kookaburras",
+            Platypus: "Playful Platypus",
+            Joey: "Jumping Joeys",
+            Kangaroo: "Kicking Kangaroos",
+            Crocodile: "The Crocs",
+            "Sugar Glider": "Fancy Flyers",
+            "Teal Platypus": "Detectives"
+        }
+    },
+    Nmn4: function(o, e, a) {
+        "use strict";
+        e.a = {
+            Earth: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/space/earth.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003831/Blooks/earth.svg",
+                set: "Space",
+                rarity: "Uncommon",
+                teamName: "Earthlings",
+                color: "#416eb5"
+            },
+            Meteor: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/space/meteor.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003835/Blooks/meteor.svg",
+                set: "Space",
+                rarity: "Uncommon",
+                teamName: "Meteorites",
+                color: "#c68c3c"
+            },
+            Stars: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/space/stars.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003833/Blooks/stars.svg",
+                set: "Space",
+                rarity: "Uncommon",
+                teamName: "Shooting Stars",
+                color: "#19184d"
+            },
+            Alien: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/space/alien.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613004231/Blooks/alien.svg",
+                set: "Space",
+                rarity: "Uncommon",
+                teamName: "Awesome Aliens",
+                color: "#8dc63f"
+            },
+            Planet: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/space/planet.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003832/Blooks/planet.svg",
+                set: "Space",
+                rarity: "Rare",
+                teamName: "Galactic Warriors",
+                color: "#9dc6ea"
+            },
+            UFO: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/space/UFO.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613004088/Blooks/UFO.svg",
+                set: "Space",
+                rarity: "Rare",
+                teamName: "Unidentified Students",
+                color: "#a15095"
+            },
+            Spaceship: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/space/spaceship.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003833/Blooks/spaceship.svg",
+                set: "Space",
+                rarity: "Epic",
+                teamName: "We Have a Problem",
+                color: "#ffcb29"
+            },
+            Astronaut: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/space/astronaut.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1613003835/Blooks/astronaut.svg",
+                set: "Space",
+                rarity: "Legendary",
+                teamName: "Astro Aviators",
+                color: "#9bd4ee"
+            }
+        }
+    },
+    "O+AO": function(o, e, a) {
+        "use strict";
+        e.a = {
+            Bear: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/forestAnimals/bear.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556832316/Blooks/bear.svg",
+                set: "Forest Animal",
+                rarity: "Common",
+                teamName: "Bear Necessities",
+                color: "#995b3c"
+            },
+            Moose: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/forestAnimals/moose.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556832316/Blooks/moose.svg",
+                set: "Forest Animal",
+                rarity: "Common",
+                teamName: "Moose Caboose",
+                color: "#995b3c"
+            },
+            Fox: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/forestAnimals/fox.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556832316/Blooks/fox.svg",
+                set: "Forest Animal",
+                rarity: "Common",
+                teamName: "Swifty Swipers",
+                color: "#f49849"
+            },
+            Raccoon: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/forestAnimals/raccoon.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556832316/Blooks/raccoon.svg",
+                set: "Forest Animal",
+                rarity: "Common",
+                teamName: "Trash Pandas",
+                color: "#6d6e71"
+            },
+            Squirrel: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/forestAnimals/squirrel.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1582775344/Blooks/squirrel.svg",
+                set: "Forest Animal",
+                rarity: "Common",
+                teamName: "Nutty Buddies",
+                color: "#d25927"
+            },
+            Owl: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/forestAnimals/owl.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556832316/Blooks/owl.svg",
+                set: "Forest Animal",
+                rarity: "Common",
+                teamName: "Hooooooooo",
+                color: "#594a42"
+            },
+            Hedgehog: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/forestAnimals/hedgehog.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556832316/Blooks/hedgehog.svg",
+                set: "Forest Animal",
+                rarity: "Common",
+                teamName: "Spikey Friends",
+                color: "#3f312b"
+            },
+            Deer: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/forestAnimals/deer.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381970/Blooks/deer.svg",
+                set: "Forest Animal",
+                rarity: "Common",
+                teamName: "Dashing Deer",
+                color: "#c2541f"
+            },
+            Wolf: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/forestAnimals/wolf.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381967/Blooks/wolf.svg",
+                set: "Forest Animal",
+                rarity: "Common",
+                teamName: "The Pack",
+                color: "#7b7c81"
+            },
+            Beaver: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/forestAnimals/beaver.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381970/Blooks/beaver.svg",
+                set: "Forest Animal",
+                rarity: "Common",
+                teamName: "Building Beavers",
+                color: "#bd6231"
+            }
+        }
+    },
+    Y018: function(o, e, a) {
+        "use strict";
+        e.a = {
+            "Snowy Owl": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/arcticAnimals/snowyOwl.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566679726/Blooks/snowyOwl.svg",
+                set: "Arctic Animal",
+                rarity: "Common",
+                teamName: "Kool Kids",
+                color: "#feda3f"
+            },
+            "Polar Bear": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/arcticAnimals/polarBear.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566679726/Blooks/polarBear.svg",
+                set: "Arctic Animal",
+                rarity: "Common",
+                teamName: "Snowy Students",
+                color: "#7ca1d5"
+            },
+            "Arctic Fox": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/arcticAnimals/arcticFox.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566679726/Blooks/arcticFox.svg",
+                set: "Arctic Animal",
+                rarity: "Common",
+                teamName: "Chilly Chosen",
+                color: "#7ca1d5"
+            },
+            "Baby Penguin": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/arcticAnimals/babyPenguin.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566679726/Blooks/babyPenguin.svg",
+                set: "Arctic Animal",
+                rarity: "Common",
+                teamName: "Party Penguins",
+                color: "#414042"
+            },
+            Penguin: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/arcticAnimals/penguin.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1582775344/Blooks/penguin.svg",
+                set: "Arctic Animal",
+                rarity: "Common",
+                teamName: "Better Birds",
+                color: "#fb8640"
+            },
+            "Arctic Hare": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/arcticAnimals/arcticHare.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566679726/Blooks/arcticHare.svg",
+                set: "Arctic Animal",
+                rarity: "Common",
+                teamName: "Arctic Achievers",
+                color: "#7ca1d5"
+            },
+            Seal: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/arcticAnimals/seal.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1566679726/Blooks/seal.svg",
+                set: "Arctic Animal",
+                rarity: "Common",
+                teamName: "Super Seals",
+                color: "#7ca1d5"
+            },
+            Walrus: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/arcticAnimals/walrus.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1582775344/Blooks/walrus.svg",
+                set: "Arctic Animal",
+                rarity: "Common",
+                teamName: "Wordy Walruses",
+                color: "#7d4f33"
+            }
+        }
+    },
+    Zyrn: function(o, e, a) {
+        "use strict";
+        e.a = {
+            Toast: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/breakfast/toast.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1584483097/Blooks/toast.svg",
+                set: "Breakfast",
+                rarity: "Uncommon",
+                teamName: "Toasty Teammates",
+                color: "#e9a058"
+            },
+            Cereal: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/breakfast/cereal.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1584483097/Blooks/cereal.svg",
+                set: "Breakfast",
+                rarity: "Uncommon",
+                teamName: "Fruity Friends",
+                color: "#2fa04a"
+            },
+            Yogurt: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/breakfast/yogurt.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1584483097/Blooks/yogurt.svg",
+                set: "Breakfast",
+                rarity: "Uncommon",
+                teamName: "Yogurt Youngins",
+                color: "#00aeef"
+            },
+            "Breakfast Combo": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/breakfast/breakfastCombo.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1584483097/Blooks/breakfastCombo.svg",
+                set: "Breakfast",
+                rarity: "Uncommon",
+                teamName: "Combo Cooks",
+                color: "#c3d8ea"
+            },
+            "Orange Juice": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/breakfast/orangeJuice.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1584483099/Blooks/orangeJuice.svg",
+                set: "Breakfast",
+                rarity: "Uncommon",
+                teamName: "OJ OG's",
+                color: "#f7941d"
+            },
+            Milk: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/breakfast/milk.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1584483097/Blooks/milk.svg",
+                set: "Breakfast",
+                rarity: "Uncommon",
+                teamName: "Got Milk?",
+                color: "#77c6e2"
+            },
+            Waffle: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/breakfast/waffle.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1584483099/Blooks/waffle.svg",
+                set: "Breakfast",
+                rarity: "Rare",
+                teamName: "Holey Pancakes",
+                color: "#f9a241"
+            },
+            Pancakes: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/breakfast/pancakes.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1584483099/Blooks/pancakes.svg",
+                set: "Breakfast",
+                rarity: "Rare",
+                teamName: "Flat Waffles",
+                color: "#f9a241"
+            },
+            "French Toast": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/breakfast/frenchToast.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1584483097/Blooks/frenchToast.svg",
+                set: "Breakfast",
+                rarity: "Epic",
+                teamName: "Bonjour Boomers",
+                color: "#f9a241"
+            },
+            Pizza: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/foods/pizza.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1599952272/Blooks/pizza.svg",
+                set: "Breakfast",
+                rarity: "Epic",
+                teamName: "Pizza Popstars",
+                color: "#fdb913"
+            }
+        }
+    },
+    cQOM: function(o, e, a) {
+        "use strict";
+        e.a = {
+            Dog: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/pets/dog.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556831934/Blooks/dog.svg",
+                set: "Pet",
+                rarity: "Common",
+                teamName: "Diligent Doggos",
+                color: "#995b3c"
+            },
+            Cat: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/pets/cat.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556831934/Blooks/cat.svg",
+                set: "Pet",
+                rarity: "Common",
+                teamName: "Meow Mates",
+                color: "#f49849"
+            },
+            Rabbit: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/pets/rabbit.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556831935/Blooks/rabbit.svg",
+                set: "Pet",
+                rarity: "Common",
+                teamName: "Fluffy Bunnies",
+                color: "#e7bf9a"
+            },
+            Goldfish: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/pets/goldfish.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556831934/Blooks/goldfish.svg",
+                set: "Pet",
+                rarity: "Common",
+                teamName: "Pretty Fishies",
+                color: "#f18221"
+            },
+            Hamster: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/pets/hamster.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556831934/Blooks/hamster.svg",
+                set: "Pet",
+                rarity: "Common",
+                teamName: "HAMSTA TIME",
+                color: "#ce9176"
+            },
+            Turtle: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/pets/turtle.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556831935/Blooks/turtle.svg",
+                set: "Pet",
+                rarity: "Common",
+                teamName: "Shell Shocked",
+                color: "#619a3c"
+            },
+            Kitten: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/pets/kitten.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556831934/Blooks/kitten.svg",
+                set: "Pet",
+                rarity: "Common",
+                teamName: "Purrfect People",
+                color: "#58595b"
+            },
+            Puppy: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/pets/puppy.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556831934/Blooks/puppy.svg",
+                set: "Pet",
+                rarity: "Common",
+                teamName: "Super Puppers",
+                color: "#414042"
+            }
+        }
+    },
+    iQGx: function(o, e, a) {
+        "use strict";
+        e.a = {
+            Amber: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/dinos/amber.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1650433846/Blooks/amber.svg",
+                set: "Dino",
+                rarity: "Uncommon",
+                teamName: "Ambitious Ambers",
+                color: "#f7913f"
+            },
+            "Dino Egg": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/dinos/dinoEgg.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1650433846/Blooks/dinoEgg.svg",
+                set: "Dino",
+                rarity: "Uncommon",
+                teamName: "Eggcellence",
+                color: "#d69b5a"
+            },
+            "Dino Fossil": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/dinos/dinoFossil.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1650433846/Blooks/dinoFossil.svg",
+                set: "Dino",
+                rarity: "Uncommon",
+                teamName: "Fighting Fossils",
+                color: "#a46735"
+            },
+            Stegosaurus: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/dinos/stegosaurus.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1650433846/Blooks/stegosaurus.svg",
+                set: "Dino",
+                rarity: "Uncommon",
+                teamName: "Hearty Herbivores",
+                color: "#6c9355"
+            },
+            Velociraptor: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/dinos/velociraptor.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1650433848/Blooks/velociraptor.svg",
+                set: "Dino",
+                rarity: "Rare",
+                teamName: "Prehistorics",
+                color: "#cf1f3d"
+            },
+            Brontosaurus: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/dinos/brontosaurus.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1650433846/Blooks/brontosaurus.svg",
+                set: "Dino",
+                rarity: "Rare",
+                teamName: "Big Giraffes",
+                color: "#416eb5"
+            },
+            Triceratops: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/dinos/triceratops.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1650433848/Blooks/triceratops.svg",
+                set: "Dino",
+                rarity: "Epic",
+                teamName: "Daring Dinos",
+                color: "#f1613a"
+            },
+            "Tyrannosaurus Rex": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/dinos/tyrannosaurusRex.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1650433848/Blooks/tyrannosaurusRex.svg",
+                set: "Dino",
+                rarity: "Legendary",
+                teamName: "The Terror",
+                color: "#6c9355"
+            }
+        }
+    },
+    iTU4: function(o, e, a) {
+        "use strict";
+        e.a = {
+            "Old Boot": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/oldBoot.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956580/Blooks/oldBoot.svg",
+                set: "Aquatic",
+                rarity: "Uncommon",
+                teamName: "Da Boots",
+                color: "#995b3c"
+            },
+            Jellyfish: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/jellyfish.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956578/Blooks/jellyfish.svg",
+                set: "Aquatic",
+                rarity: "Uncommon",
+                teamName: "Jelly Jumpers",
+                color: "#c385b9"
+            },
+            Clownfish: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/clownfish.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956576/Blooks/clownfish.svg",
+                set: "Aquatic",
+                rarity: "Uncommon",
+                teamName: "Nemo Extras",
+                color: "#f7941d"
+            },
+            Frog: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/frog.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956578/Blooks/frog.svg",
+                set: "Aquatic",
+                rarity: "Uncommon",
+                teamName: "Hippity Hoppers",
+                color: "#a7d054"
+            },
+            Crab: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/crab.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956578/Blooks/crab.svg",
+                set: "Aquatic",
+                rarity: "Uncommon",
+                teamName: "Cool Claws",
+                color: "#cf1f3d"
+            },
+            Pufferfish: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/pufferFish.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956580/Blooks/pufferFish.svg",
+                set: "Aquatic",
+                rarity: "Rare",
+                teamName: "TEAM BIG",
+                color: "#ddc4a6"
+            },
+            Blobfish: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/blobfish.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956576/Blooks/blobfish.svg",
+                set: "Aquatic",
+                rarity: "Rare",
+                teamName: "blob blob blob",
+                color: "#f3c1da"
+            },
+            Octopus: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/octopus.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956580/Blooks/octopus.svg",
+                set: "Aquatic",
+                rarity: "Rare",
+                teamName: "Team 8",
+                color: "#a15095"
+            },
+            Narwhal: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/narwhal.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956578/Blooks/narwhal.svg",
+                set: "Aquatic",
+                rarity: "Epic",
+                teamName: "NARWHALLLLL",
+                color: "#dae6f5"
+            },
+            Dolphin: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/dolphin.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381971/Blooks/dolphin.svg",
+                set: "Aquatic",
+                rarity: "Epic",
+                teamName: "Diving Dolphins",
+                color: "#4e7197"
+            },
+            "Baby Shark": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/babyShark.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956576/Blooks/babyShark.svg",
+                set: "Aquatic",
+                rarity: "Legendary",
+                teamName: "BABY SHARK",
+                color: "#5588b7"
+            },
+            Megalodon: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/aquatic/megalodon.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1628956576/Blooks/megalodon.svg",
+                set: "Aquatic",
+                rarity: "Legendary",
+                teamName: "Megan's the Name",
+                color: "#3d5d80"
+            }
+        }
+    },
+    liux: function(o, e, a) {
+        "use strict";
+        e.a = {
+            Chick: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/farmAnimals/chick.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1645222006/Blooks/yellowBird.svg",
+                set: "Farm Animal",
+                rarity: "Common",
+                teamName: "Happy Hatchers",
+                color: "#ffcd05"
+            },
+            Chicken: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/farmAnimals/chicken.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556829562/Blooks/chicken.svg",
+                set: "Farm Animal",
+                rarity: "Common",
+                teamName: "Early Birds",
+                color: "#ed1c24"
+            },
+            Cow: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/farmAnimals/cow.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556829562/Blooks/cow.svg",
+                set: "Farm Animal",
+                rarity: "Common",
+                teamName: "Udder Chaos",
+                color: "#58595b"
+            },
+            Goat: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/farmAnimals/goat.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556829562/Blooks/goat.svg",
+                set: "Farm Animal",
+                rarity: "Common",
+                teamName: "Goatee OG's",
+                color: "#c59a74"
+            },
+            Horse: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/farmAnimals/horse.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556829562/Blooks/horse.svg",
+                set: "Farm Animal",
+                rarity: "Common",
+                teamName: "Radical Racers",
+                color: "#995b3c"
+            },
+            Pig: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/farmAnimals/pig.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556829564/Blooks/pig.svg",
+                set: "Farm Animal",
+                rarity: "Common",
+                teamName: "Orderly Oinkers",
+                color: "#f6a9cb"
+            },
+            Sheep: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/farmAnimals/sheep.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556829564/Blooks/sheep.svg",
+                set: "Farm Animal",
+                rarity: "Common",
+                teamName: "Wool Winners",
+                color: "#414042"
+            },
+            Duck: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/farmAnimals/duck.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1556829562/Blooks/duck.svg",
+                set: "Farm Animal",
+                rarity: "Common",
+                teamName: "Quirky Quackers",
+                color: "#4ab96d"
+            },
+            Alpaca: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/farmAnimals/alpaca.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1675381970/Blooks/alpaca.svg",
+                set: "Farm Animal",
+                rarity: "Common",
+                teamName: "Fluffy Friends",
+                color: "#d4803c"
+            }
+        }
+    },
+    mkC0: function(o, e, a) {
+        "use strict";
+        e.a = {
+            Chick: "https://media.blooket.com/image/upload/v1645222006/Blooks/yellowBird.svg",
+            Chicken: "https://media.blooket.com/image/upload/v1556829562/Blooks/chicken.svg",
+            Cow: "https://media.blooket.com/image/upload/v1556829562/Blooks/cow.svg",
+            Goat: "https://media.blooket.com/image/upload/v1556829562/Blooks/goat.svg",
+            Horse: "https://media.blooket.com/image/upload/v1556829562/Blooks/horse.svg",
+            Pig: "https://media.blooket.com/image/upload/v1556829564/Blooks/pig.svg",
+            Sheep: "https://media.blooket.com/image/upload/v1556829564/Blooks/sheep.svg",
+            Duck: "https://media.blooket.com/image/upload/v1556829562/Blooks/duck.svg",
+            Alpaca: "https://media.blooket.com/image/upload/v1675381970/Blooks/alpaca.svg",
+            Dog: "https://media.blooket.com/image/upload/v1556831934/Blooks/dog.svg",
+            Cat: "https://media.blooket.com/image/upload/v1556831934/Blooks/cat.svg",
+            Rabbit: "https://media.blooket.com/image/upload/v1556831935/Blooks/rabbit.svg",
+            Goldfish: "https://media.blooket.com/image/upload/v1556831934/Blooks/goldfish.svg",
+            Hamster: "https://media.blooket.com/image/upload/v1556831934/Blooks/hamster.svg",
+            Turtle: "https://media.blooket.com/image/upload/v1556831935/Blooks/turtle.svg",
+            Kitten: "https://media.blooket.com/image/upload/v1556831934/Blooks/kitten.svg",
+            Puppy: "https://media.blooket.com/image/upload/v1556831934/Blooks/puppy.svg",
+            Bear: "https://media.blooket.com/image/upload/v1556832316/Blooks/bear.svg",
+            Moose: "https://media.blooket.com/image/upload/v1556832316/Blooks/moose.svg",
+            Fox: "https://media.blooket.com/image/upload/v1556832316/Blooks/fox.svg",
+            Raccoon: "https://media.blooket.com/image/upload/v1556832316/Blooks/raccoon.svg",
+            Squirrel: "https://media.blooket.com/image/upload/v1582775344/Blooks/squirrel.svg",
+            Owl: "https://media.blooket.com/image/upload/v1556832316/Blooks/owl.svg",
+            Hedgehog: "https://media.blooket.com/image/upload/v1556832316/Blooks/hedgehog.svg",
+            Deer: "https://media.blooket.com/image/upload/v1675381970/Blooks/deer.svg",
+            Wolf: "https://media.blooket.com/image/upload/v1675381967/Blooks/wolf.svg",
+            Beaver: "https://media.blooket.com/image/upload/v1675381970/Blooks/beaver.svg",
+            "Baby Penguin": "https://media.blooket.com/image/upload/v1566679726/Blooks/babyPenguin.svg",
+            Penguin: "https://media.blooket.com/image/upload/v1582775344/Blooks/penguin.svg",
+            "Arctic Fox": "https://media.blooket.com/image/upload/v1566679726/Blooks/arcticFox.svg",
+            "Snowy Owl": "https://media.blooket.com/image/upload/v1566679726/Blooks/snowyOwl.svg",
+            "Polar Bear": "https://media.blooket.com/image/upload/v1566679726/Blooks/polarBear.svg",
+            "Arctic Hare": "https://media.blooket.com/image/upload/v1566679726/Blooks/arcticHare.svg",
+            Seal: "https://media.blooket.com/image/upload/v1566679726/Blooks/seal.svg",
+            Walrus: "https://media.blooket.com/image/upload/v1582775344/Blooks/walrus.svg",
+            Tiger: "https://media.blooket.com/image/upload/v1566681190/Blooks/tiger.svg",
+            Panther: "https://media.blooket.com/image/upload/v1566681189/Blooks/panther.svg",
+            Cockatoo: "https://media.blooket.com/image/upload/v1566681188/Blooks/cockatoo.svg",
+            Orangutan: "https://media.blooket.com/image/upload/v1566681188/Blooks/orangutan.svg",
+            Anaconda: "https://media.blooket.com/image/upload/v1566681187/Blooks/anaconda.svg",
+            Macaw: "https://media.blooket.com/image/upload/v1566681188/Blooks/macaw.svg",
+            Jaguar: "https://media.blooket.com/image/upload/v1566681188/Blooks/jaguar.svg",
+            Capuchin: "https://media.blooket.com/image/upload/v1566681187/Blooks/capuchinMonkey.svg",
+            Toucan: "https://media.blooket.com/image/upload/v1566681191/Blooks/toucan.svg",
+            Parrot: "https://media.blooket.com/image/upload/v1566681189/Blooks/parrot.svg",
+            Gorilla: "https://media.blooket.com/image/upload/v1675381967/Blooks/gorilla.svg",
+            Hippo: "https://media.blooket.com/image/upload/v1675381968/Blooks/hippo.svg",
+            Rhino: "https://media.blooket.com/image/upload/v1675381967/Blooks/rhino.svg",
+            Giraffe: "https://media.blooket.com/image/upload/v1675381967/Blooks/giraffe.svg",
+            Elf: "https://media.blooket.com/image/upload/v1566683612/Blooks/elf.svg",
+            Witch: "https://media.blooket.com/image/upload/v1566683612/Blooks/witch.svg",
+            Wizard: "https://media.blooket.com/image/upload/v1556832453/Blooks/wizard.svg",
+            Fairy: "https://media.blooket.com/image/upload/v1566683612/Blooks/fairy.svg",
+            "Slime Monster": "https://media.blooket.com/image/upload/v1566683613/Blooks/slimeMonster.svg",
+            Jester: "https://media.blooket.com/image/upload/v1566683612/Blooks/jester.svg",
+            Dragon: "https://media.blooket.com/image/upload/v1556832453/Blooks/dragon.svg",
+            Unicorn: "https://media.blooket.com/image/upload/v1566683614/Blooks/unicorn.svg",
+            Queen: "https://media.blooket.com/image/upload/v1566683612/Blooks/queen.svg",
+            King: "https://media.blooket.com/image/upload/v1566683612/Blooks/king.svg",
+            "Agent Owl": "https://media.blooket.com/image/upload/v1638737635/Blooks/agentOwl.svg",
+            "Party Pig": "https://media.blooket.com/image/upload/v1670544090/Blooks/partyPig.svg",
+            "Master Elf": "https://media.blooket.com/image/upload/v1591048518/Blooks/masterElf.svg",
+            "Phantom King": "https://media.blooket.com/image/upload/v1591301898/Blooks/phantomKing.svg",
+            "Snow Globe": "https://media.blooket.com/image/upload/v1575848338/Blooks/snowGlobe.svg",
+            "Holiday Gift": "https://media.blooket.com/image/upload/v1575848338/Blooks/holidayGift.svg",
+            "Hot Chocolate": "https://media.blooket.com/image/upload/v1575848338/Blooks/hotChocolate.svg",
+            "Holiday Wreath": "https://media.blooket.com/image/upload/v1575848338/Blooks/holidayWreath.svg",
+            Stocking: "https://media.blooket.com/image/upload/v1670298616/Blooks/stocking.svg",
+            "Gingerbread Man": "https://media.blooket.com/image/upload/v1575604963/Blooks/gingerbreadMan.svg",
+            "Gingerbread House": "https://media.blooket.com/image/upload/v1575605860/Blooks/gingerbreadHouse.svg",
+            Reindeer: "https://media.blooket.com/image/upload/v1670298616/Blooks/reindeer.svg",
+            Snowman: "https://media.blooket.com/image/upload/v1575604963/Blooks/snowman.svg",
+            "Santa Claus": "https://media.blooket.com/image/upload/v1575606016/Blooks/santaClaus.svg",
+            "Frost Wreath": "https://media.blooket.com/image/upload/v1607304954/Blooks/frostWreath.svg",
+            "Tropical Globe": "https://media.blooket.com/image/upload/v1607304954/Blooks/tropicalGlobe.svg",
+            "New York Snow Globe": "https://media.blooket.com/image/upload/v1670298616/Blooks/newYorkSnowGlobe.svg",
+            "London Snow Globe": "https://media.blooket.com/image/upload/v1670298617/Blooks/londonSnowGlobe.svg",
+            "Japan Snow Globe": "https://media.blooket.com/image/upload/v1670298616/Blooks/japanSnowGlobe.svg",
+            "Egypt Snow Globe": "https://media.blooket.com/image/upload/v1670298616/Blooks/egyptSnowGlobe.svg",
+            "Paris Snow Globe": "https://media.blooket.com/image/upload/v1670298616/Blooks/parisSnowGlobe.svg",
+            "Two of Spades": "https://media.blooket.com/image/upload/v1582080264/Blooks/twoOfSpades.svg",
+            "Eat Me": "https://media.blooket.com/image/upload/v1620676285/Blooks/eat.svg",
+            "Drink Me": "https://media.blooket.com/image/upload/v1620676285/Blooks/drink.svg",
+            Alice: "https://media.blooket.com/image/upload/v1582080264/Blooks/alice.svg",
+            "Queen of Hearts": "https://media.blooket.com/image/upload/v1582080266/Blooks/queenOfHearts.svg",
+            Dormouse: "https://media.blooket.com/image/upload/v1582080264/Blooks/dormouse.svg",
+            "White Rabbit": "https://media.blooket.com/image/upload/v1582080266/Blooks/whiteRabbit.svg",
+            "Cheshire Cat": "https://media.blooket.com/image/upload/v1582080264/Blooks/cheshireCat.svg",
+            "Mad Hatter": "https://media.blooket.com/image/upload/v1582080266/Blooks/madHatter.svg",
+            "King of Hearts": "https://media.blooket.com/image/upload/v1582080266/Blooks/kingOfHearts.svg",
+            Caterpillar: "https://media.blooket.com/image/upload/v1581831553/Blooks/caterpillar.svg",
+            Toast: "https://media.blooket.com/image/upload/v1584483097/Blooks/toast.svg",
+            Cereal: "https://media.blooket.com/image/upload/v1584483097/Blooks/cereal.svg",
+            Yogurt: "https://media.blooket.com/image/upload/v1584483097/Blooks/yogurt.svg",
+            "Breakfast Combo": "https://media.blooket.com/image/upload/v1584483097/Blooks/breakfastCombo.svg",
+            "Orange Juice": "https://media.blooket.com/image/upload/v1584483099/Blooks/orangeJuice.svg",
+            Milk: "https://media.blooket.com/image/upload/v1584483097/Blooks/milk.svg",
+            Waffle: "https://media.blooket.com/image/upload/v1584483099/Blooks/waffle.svg",
+            Pancakes: "https://media.blooket.com/image/upload/v1584483099/Blooks/pancakes.svg",
+            "French Toast": "https://media.blooket.com/image/upload/v1584483097/Blooks/frenchToast.svg",
+            Pizza: "https://media.blooket.com/image/upload/v1599952272/Blooks/pizza.svg",
+            Sandwich: "https://media.blooket.com/image/upload/v1599952272/Blooks/sandwich.svg",
+            "Light Blue": "https://media.blooket.com/image/upload/v1615756235/Blooks/colors/lightBlueBlook.svg",
+            Black: "https://media.blooket.com/image/upload/v1593095363/Blooks/colors/blackBlook.svg",
+            Red: "https://media.blooket.com/image/upload/v1593095359/Blooks/colors/redBlook.svg",
+            Purple: "https://media.blooket.com/image/upload/v1593095359/Blooks/colors/purpleBlook.svg",
+            Pink: "https://media.blooket.com/image/upload/v1593095358/Blooks/colors/pinkBlook.svg",
+            Orange: "https://media.blooket.com/image/upload/v1593095357/Blooks/colors/orangeBlook.svg",
+            Lime: "https://media.blooket.com/image/upload/v1593095356/Blooks/colors/limeBlook.svg",
+            Green: "https://media.blooket.com/image/upload/v1593095354/Blooks/colors/greenBlook.svg",
+            Teal: "https://media.blooket.com/image/upload/v1594135104/Blooks/colors/tealBlook.svg",
+            Tan: "https://media.blooket.com/image/upload/v1594135102/Blooks/colors/tanBlook.svg",
+            Maroon: "https://media.blooket.com/image/upload/v1594135102/Blooks/colors/maroonBlook.svg",
+            Gray: "https://media.blooket.com/image/upload/v1594135102/Blooks/colors/grayBlook.svg",
+            Mint: "https://media.blooket.com/image/upload/v1594135102/Blooks/colors/mintBlook.svg",
+            Salmon: "https://media.blooket.com/image/upload/v1594135102/Blooks/colors/salmonColorBlook.svg",
+            Burgandy: "https://media.blooket.com/image/upload/v1594135101/Blooks/colors/burgandyBlook.svg",
+            "Baby Blue": "https://media.blooket.com/image/upload/v1594135100/Blooks/colors/babyBlueBlook.svg",
+            Dust: "https://media.blooket.com/image/upload/v1594135100/Blooks/colors/dustBlook.svg",
+            Brown: "https://media.blooket.com/image/upload/v1594135100/Blooks/colors/brownBlook.svg",
+            "Dull Blue": "https://media.blooket.com/image/upload/v1594135100/Blooks/colors/dullBlueBlook.svg",
+            Yellow: "https://media.blooket.com/image/upload/v1594135100/Blooks/colors/yellowBlook.svg",
+            Blue: "https://media.blooket.com/image/upload/v1594135100/Blooks/colors/blueBlook.svg",
+            Pumpkin: "https://media.blooket.com/image/upload/v1601168910/Blooks/pumpkin.svg",
+            "Swamp Monster": "https://media.blooket.com/image/upload/v1601168910/Blooks/swampMonster.svg",
+            Frankenstein: "https://media.blooket.com/image/upload/v1601168910/Blooks/frankenstein.svg",
+            Vampire: "https://media.blooket.com/image/upload/v1601168910/Blooks/vampire.svg",
+            Zombie: "https://media.blooket.com/image/upload/v1601168912/Blooks/zombie.svg",
+            Mummy: "https://media.blooket.com/image/upload/v1601168910/Blooks/mummy.svg",
+            "Caramel Apple": "https://media.blooket.com/image/upload/v1666248719/Blooks/caramelApple.svg",
+            Werewolf: "https://media.blooket.com/image/upload/v1601168912/Blooks/werewolf.svg",
+            Ghost: "https://media.blooket.com/image/upload/v1601168910/Blooks/ghost.svg",
+            "Haunted Pumpkin": "https://media.blooket.com/image/upload/v1641935071/Blooks/hauntedPumpkin.svg",
+            "Pumpkin Cookie": "https://media.blooket.com/image/upload/v1666248719/Blooks/pumpkinCookie.svg",
+            "Ghost Cookie": "https://media.blooket.com/image/upload/v1666248719/Blooks/ghostCookie.svg",
+            "Chick Chicken": "https://media.blooket.com/image/upload/v1667010822/Blooks/chickChicken.svg",
+            "Chicken Chick": "https://media.blooket.com/image/upload/v1667010822/Blooks/chickenChick.svg",
+            "Raccoon Bandit": "https://media.blooket.com/image/upload/v1667011259/Blooks/raccoonBandit.svg",
+            "Owl Sheriff": "https://media.blooket.com/image/upload/v1667010822/Blooks/owlSheriff.svg",
+            "Vampire Frog": "https://media.blooket.com/image/upload/v1667010822/Blooks/vampireFrog.svg",
+            "Pumpkin King": "https://media.blooket.com/image/upload/v1666681464/Blooks/pumpkinKing.svg",
+            "Anaconda Wizard": "https://media.blooket.com/image/upload/v1667010822/Blooks/anacondaWizard.svg",
+            "Spooky Pumpkin": "https://media.blooket.com/image/upload/v1603679635/Blooks/spookyPumpkin.svg",
+            "Spooky Mummy": "https://media.blooket.com/image/upload/v1603679635/Blooks/spookyMummy.svg",
+            "Spooky Ghost": "https://media.blooket.com/image/upload/v1603684063/Blooks/spookyGhost.svg",
+            Earth: "https://media.blooket.com/image/upload/v1613003831/Blooks/earth.svg",
+            Meteor: "https://media.blooket.com/image/upload/v1613003835/Blooks/meteor.svg",
+            Stars: "https://media.blooket.com/image/upload/v1613003833/Blooks/stars.svg",
+            Alien: "https://media.blooket.com/image/upload/v1613004231/Blooks/alien.svg",
+            Planet: "https://media.blooket.com/image/upload/v1613003832/Blooks/planet.svg",
+            UFO: "https://media.blooket.com/image/upload/v1613004088/Blooks/UFO.svg",
+            Spaceship: "https://media.blooket.com/image/upload/v1613003833/Blooks/spaceship.svg",
+            Astronaut: "https://media.blooket.com/image/upload/v1613003835/Blooks/astronaut.svg",
+            "Red Astronaut": "https://media.blooket.com/image/upload/v1613003832/Blooks/redAstronaut.svg",
+            "Blue Astronaut": "https://media.blooket.com/image/upload/v1613003835/Blooks/blueAstronaut.svg",
+            "Green Astronaut": "https://media.blooket.com/image/upload/v1613003832/Blooks/greenAstronaut.svg",
+            "Pink Astronaut": "https://media.blooket.com/image/upload/v1613003831/Blooks/pinkAstronaut.svg",
+            "Orange Astronaut": "https://media.blooket.com/image/upload/v1613003831/Blooks/orangeAstronaut.svg",
+            "Yellow Astronaut": "https://media.blooket.com/image/upload/v1613003833/Blooks/yellowAstronaut.svg",
+            "Black Astronaut": "https://media.blooket.com/image/upload/v1613003835/Blooks/blackAstronaut.svg",
+            "Purple Astronaut": "https://media.blooket.com/image/upload/v1613003831/Blooks/purpleAstronaut.svg",
+            "Brown Astronaut": "https://media.blooket.com/image/upload/v1613003831/Blooks/brownAstronaut.svg",
+            "Cyan Astronaut": "https://media.blooket.com/image/upload/v1613003831/Blooks/cyanAstronaut.svg",
+            "Lime Astronaut": "https://media.blooket.com/image/upload/v1613003834/Blooks/limeAstronaut.svg",
+            "Lovely Planet": "https://media.blooket.com/image/upload/v1678327690/Blooks/lovelyPlanet.svg",
+            "Tim the Alien": "https://media.blooket.com/image/upload/v1627827707/Blooks/timTheAlien.svg",
+            "Rainbow Astronaut": "https://media.blooket.com/image/upload/v1613003831/Blooks/purpleAstronaut.svg",
+            "Lil Bot": "https://media.blooket.com/image/upload/v1620677386/Blooks/lilBot.svg",
+            "Lovely Bot": "https://media.blooket.com/image/upload/v1620677386/Blooks/lovelyBot.svg",
+            "Angry Bot": "https://media.blooket.com/image/upload/v1620677386/Blooks/angryBot.svg",
+            "Happy Bot": "https://media.blooket.com/image/upload/v1620677386/Blooks/happyBot.svg",
+            Watson: "https://media.blooket.com/image/upload/v1620677388/Blooks/watson.svg",
+            "Buddy Bot": "https://media.blooket.com/image/upload/v1620677386/Blooks/buddyBot.svg",
+            "Brainy Bot": "https://media.blooket.com/image/upload/v1620677386/Blooks/brainyBot.svg",
+            "Mega Bot": "https://media.blooket.com/image/upload/v1620677388/Blooks/megaBot.svg",
+            "Old Boot": "https://media.blooket.com/image/upload/v1628956580/Blooks/oldBoot.svg",
+            Jellyfish: "https://media.blooket.com/image/upload/v1628956578/Blooks/jellyfish.svg",
+            Clownfish: "https://media.blooket.com/image/upload/v1628956576/Blooks/clownfish.svg",
+            Frog: "https://media.blooket.com/image/upload/v1628956578/Blooks/frog.svg",
+            Crab: "https://media.blooket.com/image/upload/v1628956578/Blooks/crab.svg",
+            Pufferfish: "https://media.blooket.com/image/upload/v1628956580/Blooks/pufferFish.svg",
+            Blobfish: "https://media.blooket.com/image/upload/v1628956576/Blooks/blobfish.svg",
+            Octopus: "https://media.blooket.com/image/upload/v1628956580/Blooks/octopus.svg",
+            Narwhal: "https://media.blooket.com/image/upload/v1628956578/Blooks/narwhal.svg",
+            Dolphin: "https://media.blooket.com/image/upload/v1675381971/Blooks/dolphin.svg",
+            "Baby Shark": "https://media.blooket.com/image/upload/v1628956576/Blooks/babyShark.svg",
+            Megalodon: "https://media.blooket.com/image/upload/v1628956576/Blooks/megalodon.svg",
+            "Rainbow Jellyfish": "https://media.blooket.com/image/upload/v1628956581/Blooks/rainbowJellyfish.svg",
+            "Blizzard Clownfish": "https://media.blooket.com/image/upload/v1628956578/Blooks/blizzardClownfish.svg",
+            "Lovely Frog": "https://media.blooket.com/image/upload/v1628956576/Blooks/lovelyFrog.svg",
+            "Lucky Frog": "https://media.blooket.com/image/upload/v1647451022/Blooks/luckyFrog.svg",
+            "Spring Frog": "https://media.blooket.com/image/upload/v1649909367/Blooks/springFrog.svg",
+            "Poison Dart Frog": "https://media.blooket.com/image/upload/v1628956580/Blooks/poisonDartFrog.svg",
+            "Lemon Crab": "https://media.blooket.com/image/upload/v1628956576/Blooks/lemonCrab.svg",
+            "Pirate Pufferfish": "https://media.blooket.com/image/upload/v1641935517/Blooks/piratePufferfish.svg",
+            "Donut Blobfish": "https://media.blooket.com/image/upload/v1641935517/Blooks/donutBlobfish.svg",
+            "Crimson Octopus": "https://media.blooket.com/image/upload/v1628956578/Blooks/crimsonOctopus.svg",
+            "Rainbow Narwhal": "https://media.blooket.com/image/upload/v1628956581/Blooks/rainbowNarwhal.svg",
+            Panda: "https://media.blooket.com/image/upload/v1643835595/Blooks/panda.svg",
+            Sloth: "https://media.blooket.com/image/upload/v1643835594/Blooks/sloth.svg",
+            Tenrec: "https://media.blooket.com/image/upload/v1643835594/Blooks/tenrec.svg",
+            Flamingo: "https://media.blooket.com/image/upload/v1643835592/Blooks/flamingo.svg",
+            Zebra: "https://media.blooket.com/image/upload/v1643835592/Blooks/zebra.svg",
+            Elephant: "https://media.blooket.com/image/upload/v1643835592/Blooks/elephant.svg",
+            Lemur: "https://media.blooket.com/image/upload/v1643835594/Blooks/lemur.svg",
+            Peacock: "https://media.blooket.com/image/upload/v1643835594/Blooks/peacock.svg",
+            Chameleon: "https://media.blooket.com/image/upload/v1643835592/Blooks/chameleon.svg",
+            Lion: "https://media.blooket.com/image/upload/v1643835592/Blooks/lion.svg",
+            "Rainbow Panda": "https://media.blooket.com/image/upload/v1643835594/Blooks/rainbowPanda.svg",
+            "White Peacock": "https://media.blooket.com/image/upload/v1643835592/Blooks/whitePeacock.svg",
+            "Tiger Zebra": "https://media.blooket.com/image/upload/v1643835596/Blooks/tigerZebra.svg",
+            Amber: "https://media.blooket.com/image/upload/v1650433846/Blooks/amber.svg",
+            "Dino Egg": "https://media.blooket.com/image/upload/v1650433846/Blooks/dinoEgg.svg",
+            "Dino Fossil": "https://media.blooket.com/image/upload/v1650433846/Blooks/dinoFossil.svg",
+            Stegosaurus: "https://media.blooket.com/image/upload/v1650433846/Blooks/stegosaurus.svg",
+            Velociraptor: "https://media.blooket.com/image/upload/v1650433848/Blooks/velociraptor.svg",
+            Brontosaurus: "https://media.blooket.com/image/upload/v1650433846/Blooks/brontosaurus.svg",
+            Triceratops: "https://media.blooket.com/image/upload/v1650433848/Blooks/triceratops.svg",
+            "Tyrannosaurus Rex": "https://media.blooket.com/image/upload/v1650433848/Blooks/tyrannosaurusRex.svg",
+            "Ice Bat": "https://media.blooket.com/image/upload/v1663061338/Blooks/iceBat.svg",
+            "Ice Bug": "https://media.blooket.com/image/upload/v1663061339/Blooks/iceBug.svg",
+            "Ice Elemental": "https://media.blooket.com/image/upload/v1663061336/Blooks/iceElemental.svg",
+            "Rock Monster": "https://media.blooket.com/image/upload/v1663061337/Blooks/rockMonster.svg",
+            Dink: "https://media.blooket.com/image/upload/v1663061338/Blooks/dink.svg",
+            Donk: "https://media.blooket.com/image/upload/v1663061338/Blooks/donk.svg",
+            "Bush Monster": "https://media.blooket.com/image/upload/v1663061336/Blooks/bushMonster.svg",
+            Yeti: "https://media.blooket.com/image/upload/v1663061336/Blooks/yeti.svg",
+            "Ice Slime": "https://media.blooket.com/image/upload/v1663061336/Blooks/iceSlime.svg",
+            "Frozen Fossil": "https://media.blooket.com/image/upload/v1663061338/Blooks/frozenFossil.svg",
+            "Ice Crab": "https://media.blooket.com/image/upload/v1663061336/Blooks/iceCrab.svg",
+            Dingo: "https://media.blooket.com/image/upload/v1675381968/Blooks/dingo.svg",
+            Echidna: "https://media.blooket.com/image/upload/v1675381967/Blooks/echidna.svg",
+            Koala: "https://media.blooket.com/image/upload/v1675381970/Blooks/koala.svg",
+            Kookaburra: "https://media.blooket.com/image/upload/v1675381970/Blooks/kookaburra.svg",
+            Platypus: "https://media.blooket.com/image/upload/v1675381968/Blooks/platypus.svg",
+            Joey: "https://media.blooket.com/image/upload/v1675381968/Blooks/joey.svg",
+            Kangaroo: "https://media.blooket.com/image/upload/v1675381969/Blooks/kangaroo.svg",
+            Crocodile: "https://media.blooket.com/image/upload/v1675381968/Blooks/crocodile.svg",
+            "Sugar Glider": "https://media.blooket.com/image/upload/v1675381967/Blooks/sugarGlider.svg",
+            "Teal Platypus": "https://media.blooket.com/image/upload/v1675381970/Blooks/tealPlatypus.svg"
+        }
+    },
+    pMTK: function(o, e, a) {
+        "use strict";
+        var t = a("MDrD");
+        e.a = function(o) {
+            return t.a[o] ? t.a[o].rarity : "Common"
+        }
+    },
+    qspi: function(o, e, a) {
+        "use strict";
+        var t, s, l = a("74sb"),
+            r = ["basil", "gold", "crypto"],
+            m = function(o) {
+                var e = !1;
+                r.forEach((function(a) {
+                    o.toLowerCase().includes(a) && (e = !0)
+                })), e && (Object(l.t)(), window.location.href = "https://www.blooket.com/")
+            };
+        window.alert = m, window.prompt = m, window.confirm = m, t = new URL(window.location.href).hostname, s = !1, ["blooket.com", "packcomputing.com", "localhost", "127.0.0.1"].forEach((function(o) {
+                t.endsWith(o) && (s = !0)
+            })), s
+            function() {
+                var o = !1;
+                window.blooketUtility && (o = !0), localStorage.getItem("blooket-utility") && (o = !0), localStorage.removeItem("blooket-utility"), o && (window.location.href = ""), delete window.blooketUtility, delete window._fetch;
+                var e = document.createElement("iframe");
+                e.style.display = "none", document.body.appendChild(e);
+                var a = e.contentWindow;
+                window.fetch = a.fetch, XMLHttpRequest.prototype.open = a.XMLHttpRequest.prototype.open, XMLHttpRequest.prototype.send = a.XMLHttpRequest.prototype.send, String.prototype.concat = a.String.prototype.concat, window.ontouchstart = null, window.onkeydown = null
+            }()
+    },
+    sa6r: function(o, e, a) {
+        "use strict";
+        e.a = {
+            "Two of Spades": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/wonderland/twoOfSpades.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1582080264/Blooks/twoOfSpades.svg",
+                set: "Wonderland",
+                rarity: "Uncommon",
+                teamName: "Dueling Deuces",
+                color: "#414042"
+            },
+            "Eat Me": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/wonderland/eat.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1620676285/Blooks/eat.svg",
+                set: "Wonderland",
+                rarity: "Uncommon",
+                teamName: "Hungry Heroes",
+                color: "#d58c55"
+            },
+            "Drink Me": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/wonderland/drink.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1620676285/Blooks/drink.svg",
+                set: "Wonderland",
+                rarity: "Uncommon",
+                teamName: "Potion Power",
+                color: "#dd7399"
+            },
+            Alice: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/wonderland/alice.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1582080264/Blooks/alice.svg",
+                set: "Wonderland",
+                rarity: "Uncommon",
+                teamName: "Wonderland",
+                color: "#4cc9f5"
+            },
+            "Queen of Hearts": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/wonderland/queenOfHearts.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1582080266/Blooks/queenOfHearts.svg",
+                set: "Wonderland",
+                rarity: "Uncommon",
+                teamName: "❤️❤️❤️",
+                color: "#d62027"
+            },
+            Dormouse: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/wonderland/dormouse.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1582080264/Blooks/dormouse.svg",
+                set: "Wonderland",
+                rarity: "Rare",
+                teamName: "Short and Stout",
+                color: "#89d6f8"
+            },
+            "White Rabbit": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/wonderland/whiteRabbit.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1582080266/Blooks/whiteRabbit.svg",
+                set: "Wonderland",
+                rarity: "Rare",
+                teamName: "Classy Classmates",
+                color: "#ffcd05"
+            },
+            "Cheshire Cat": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/wonderland/cheshireCat.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1582080264/Blooks/cheshireCat.svg",
+                set: "Wonderland",
+                rarity: "Rare",
+                teamName: "Cool Cats",
+                color: "#dd7399"
+            },
+            Caterpillar: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/wonderland/caterpillar.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1581831553/Blooks/caterpillar.svg",
+                set: "Wonderland",
+                rarity: "Epic",
+                teamName: "Caterpillar Cuties",
+                color: "#00c0f3"
+            },
+            "Mad Hatter": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/wonderland/madHatter.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1582080266/Blooks/madHatter.svg",
+                set: "Wonderland",
+                rarity: "Epic",
+                teamName: "Goofy Gurus",
+                color: "#914f93"
+            },
+            "King of Hearts": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/wonderland/kingOfHearts.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1582080266/Blooks/kingOfHearts.svg",
+                set: "Wonderland",
+                rarity: "Legendary",
+                teamName: "The Royals",
+                color: "#c62127"
+            }
+        }
+    },
+    sfIM: function(o, e, a) {
+        "use strict";
+        a.d(e, "a", (function() {
+            return t
+        }));
+        e.b = ["Chick", "Chicken", "Cow", "Goat", "Horse", "Pig", "Sheep", "Duck", "Alpaca", "Dog", "Cat", "Rabbit", "Goldfish", "Hamster", "Turtle", "Kitten", "Puppy", "Bear", "Moose", "Fox", "Raccoon", "Squirrel", "Owl", "Hedgehog", "Deer", "Wolf", "Beaver", "Tiger", "Orangutan", "Cockatoo", "Parrot", "Anaconda", "Jaguar", "Macaw", "Toucan", "Panther", "Capuchin", "Gorilla", "Hippo", "Rhino", "Giraffe", "Snowy Owl", "Polar Bear", "Arctic Fox", "Baby Penguin", "Penguin", "Arctic Hare", "Seal", "Walrus"];
+        var t = ["Light Blue", "Black", "Red", "Purple", "Pink", "Orange", "Lime", "Green", "Teal", "Tan", "Maroon", "Gray", "Mint", "Salmon", "Burgandy", "Baby Blue", "Dust", "Brown", "Dull Blue", "Yellow", "Blue"]
+    },
+    sqp7: function(o, e, a) {
+        "use strict";
+        e.a = {
+            "Lil Bot": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bots/lilBot.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1620677386/Blooks/lilBot.svg",
+                set: "Bot",
+                rarity: "Uncommon",
+                teamName: "Lil Bots",
+                color: "#3e564a"
+            },
+            "Lovely Bot": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bots/lovelyBot.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1620677386/Blooks/lovelyBot.svg",
+                set: "Bot",
+                rarity: "Uncommon",
+                teamName: "Lovely Leaders",
+                color: "#f179af"
+            },
+            "Angry Bot": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bots/angryBot.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1620677386/Blooks/angryBot.svg",
+                set: "Bot",
+                rarity: "Uncommon",
+                teamName: "Evil Geniuses",
+                color: "#f1613a"
+            },
+            "Happy Bot": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bots/happyBot.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1620677386/Blooks/happyBot.svg",
+                set: "Bot",
+                rarity: "Uncommon",
+                teamName: "The Calculators",
+                color: "#51ba6b"
+            },
+            Watson: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bots/watson.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1620677388/Blooks/watson.svg",
+                set: "Bot",
+                rarity: "Rare",
+                teamName: "Sophistication",
+                color: "#d69b5a"
+            },
+            "Buddy Bot": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bots/buddyBot.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1620677386/Blooks/buddyBot.svg",
+                set: "Bot",
+                rarity: "Rare",
+                teamName: "Best Buddies",
+                color: "#9dc6ea"
+            },
+            "Brainy Bot": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bots/brainyBot.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1620677386/Blooks/brainyBot.svg",
+                set: "Bot",
+                rarity: "Epic",
+                teamName: "Big Brain Bots",
+                color: "#9ecf7a"
+            },
+            "Mega Bot": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/bots/megaBot.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1620677388/Blooks/megaBot.svg",
+                set: "Bot",
+                rarity: "Legendary",
+                teamName: "THE MEGA BOTS",
+                color: "#d71f27"
+            }
+        }
+    },
+    xoUC: function(o, e, a) {
+        "use strict";
+        e.a = {
+            "Snow Globe": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/snowGlobe.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1575848338/Blooks/snowGlobe.svg",
+                set: "Blizzard",
+                rarity: "Uncommon",
+                teamName: "Globetrotters",
+                color: "#10afd1"
+            },
+            "Holiday Gift": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/holidayGift.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1575848338/Blooks/holidayGift.svg",
+                set: "Blizzard",
+                rarity: "Uncommon",
+                teamName: "Generous Givers",
+                color: "#4ab96d"
+            },
+            "Hot Chocolate": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/hotChocolate.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1575848338/Blooks/hotChocolate.svg",
+                set: "Blizzard",
+                rarity: "Uncommon",
+                teamName: "Cocoa Coziness",
+                color: "#663723"
+            },
+            "Holiday Wreath": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/holidayWreath.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1575848338/Blooks/holidayWreath.svg",
+                set: "Blizzard",
+                rarity: "Uncommon",
+                teamName: "Wreath Wreckers",
+                color: "#6c9355"
+            },
+            Stocking: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/stocking.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1670298616/Blooks/stocking.svg",
+                set: "Blizzard",
+                rarity: "Uncommon",
+                teamName: "Stocking Stuffers",
+                color: "#e52a00"
+            },
+            "Gingerbread Man": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/gingerbreadMan.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1575604963/Blooks/gingerbreadMan.svg",
+                set: "Blizzard",
+                rarity: "Rare",
+                teamName: "Cookie Crunchers",
+                color: "#995b3c"
+            },
+            "Gingerbread House": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/gingerbreadHouse.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1575605860/Blooks/gingerbreadHouse.svg",
+                set: "Blizzard",
+                rarity: "Rare",
+                teamName: "Healthy Houses",
+                color: "#995b3c"
+            },
+            Reindeer: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/reindeer.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1670298616/Blooks/reindeer.svg",
+                set: "Blizzard",
+                rarity: "Rare",
+                teamName: "Ready Reindeer",
+                color: "#9a5b3c"
+            },
+            Snowman: {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/snowman.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1575604963/Blooks/snowman.svg",
+                set: "Blizzard",
+                rarity: "Epic",
+                teamName: "Summer Puddles",
+                color: "#7ca1d5"
+            },
+            "Santa Claus": {
+                url: "https://blooket.s3.us-east-2.amazonaws.com/blooks/winterHoliday/santaClaus.svg",
+                mediaUrl: "https://media.blooket.com/image/upload/v1575606016/Blooks/santaClaus.svg",
+                set: "Blizzard",
+                rarity: "Legendary",
+                teamName: "Santa's Squad",
+                color: "#d62027"
+            }
+        }
+    }
+});

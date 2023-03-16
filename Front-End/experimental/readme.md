@@ -9,7 +9,7 @@ A frontend for a chatgpt api powered chatbox
 Does not work!
 
 ### Redirecttest.html
-A test to redirect the user
+A test to redirect the user  
 It works
 #### Todo:
 - [ ] Add a way to check if its the user you want

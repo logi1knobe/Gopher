@@ -6,8 +6,12 @@
 .enter {
   width: 60%;
 }
-.right {
+
+
+
+.credits {
   float: right;
+  margin: 10px 0;
 }
 
 .center {
@@ -17,7 +21,6 @@
     border-radius: 10px;
     font-family: MinecraftMono, 'Courier New', monospace;
     z-index: 2;
-    
     position: absolute;
     left: 50%;
     top: 50%;    
@@ -99,6 +102,8 @@
     z-index: 2;
     transition-duration: 0.4s;
     margin: 4px 0;
+    width: 60%;
+
   }  
   
   .b3:hover {

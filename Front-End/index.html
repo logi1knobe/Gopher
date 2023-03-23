@@ -5,6 +5,18 @@
      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Dark.css">
     <title>Gopher Calendar</title>
+    <script>
+      document.getElementById("loginform").addEventListener("submit", function(event) {
+        event.preventDefault();
+        var username = document.getElementById("uname").value;
+        var password = document.getElementById("psw").value;
+        if (username === "correctusername" && password === "correctpassword") {
+          window.location.href = "main.html";
+        } else {
+          alert("Wrong username or password");
+        }
+      });
+    </script>
   </head>
 <body>
 <div class="center">
@@ -24,22 +36,7 @@
   <br>
 </div>
 
-<script>
-var form = document.querySelector('form');
-var username = document.querySelector('input[type="text"]');
-var password = document.querySelector('input[type="password"]');
-var loginButton = document.getElementById('login-button');
 
-loginButton.addEventListener('click', function() {
-  // check if the username and password are correct
-  if (username.value === 'test' && password.value === 'test') {
-    form.action = 'main.html'; // set the form action to the main page
-    form.submit(); // submit the form
-  } else {
-    alert('Wrong username or password! Please try again.'); // display an error message
-  }
-});
-</script>
 
 </body>
 </html>

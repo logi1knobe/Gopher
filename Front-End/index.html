@@ -15,14 +15,41 @@
       button:focus {
         outline: none;
       }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+      }
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 15px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      button:hover {
+        opacity: 0.8;
+      }
     </style>
   </head>
   <body>
     <div class="center">
-      <h2>Welcome to Gopher Calendar!</h2>
-      <p>Log in with your username and password to access The Gopher Calendar</p>
-      <br>
       <div class="container">
+        <h2>Welcome to Gopher Calendar!</h2>
+        <p>Log in with your username and password to access The Gopher Calendar</p>
+        <br>
         <form id="loginform">
           <input type="text" placeholder="Enter Username" name="uname" required class="b3 power" id="username">
           <br><br>

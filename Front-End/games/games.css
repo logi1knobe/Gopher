@@ -24,7 +24,7 @@ body
     box-shadow: 0 0px 8px 0 rgb(37, 48, 150), 0 9px 25px 0 rgb(37, 48, 150);
     background-color: rgb(37, 48, 160);
     cursor: pointer;   
-          
+    margin: 8px 0;       
     
   }  
   

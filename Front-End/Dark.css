@@ -3,6 +3,11 @@
   src: url(Monocraft.otf); 
 }
 
+
+.right {
+  float: right;
+}
+
 .center {
     padding: 10px;
     background-color: rgb(19, 35, 88);
@@ -65,6 +70,7 @@
     z-index: 2;
     transition-duration: 0.4s;
     cursor: pointer;     
+    margin: 8px 0;
   }  
   
   .b2:hover {
@@ -90,6 +96,7 @@
     font-family: MinecraftMono, 'Courier New', monospace;
     z-index: 2;
     transition-duration: 0.4s;
+    margin: 8px 0;
   }  
   
   .b3:hover {
@@ -137,30 +144,14 @@ button {
   cursor: pointer;
 }
 
-/* Add a hover effect for buttons */
-button:hover {
-  opacity: 0.8;
-} 
-
 /* Extra style for the cancel button (red) */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-/* Center the avatar image inside this container */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-}
 
 
-/* Add padding to containers */
+/* Add padding to containers 
 .container {
   padding: 16px;
 }
-
+*/
 /* The "Forgot password" text */
 span.psw {
   float: right;

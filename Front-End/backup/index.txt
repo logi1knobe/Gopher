@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Dark.css">
+    <title>Gopher Calendar</title>
+    <style>
+      /* Center the login form */
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      /* Remove outline on button click */
+      button:focus {
+        outline: none;
+        border: none;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        border: none;
+      }
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 15px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      button:hover {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <div class="container">
+        <h2>Welcome to Gopher Calendar!</h2>
+        <p>Log in with your username and password to access The Gopher Calendar</p>
+        <br>
+        <form id="loginform">
+          <input type="text" placeholder="Enter Username" name="uname" required class="b3 power" id="username">
+          <br><br>
+          <input type="password" placeholder="Enter Password" name="psw" required class="b3 power" id="password">
+          <br><br>
+          <button type="submit" id="login-button" class="b2 powerless power">Login</button>
+        </form>
+        <a href="about.html">
+          <button class="b2 power">Credits</button>
+        </a> 
+      </div>
+      <br>
+    </div>
+
+    <script>
+      // Add event listener to the login form
+      document.getElementById("loginform").addEventListener("submit", function(event) {
+        event.preventDefault();
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if (username === "fleeborg" && password === "testadmin") {
+          sessionStorage.setItem("loggedIn", true);
+          window.location.href = "main.html";
+        } else {
+          alert("Wrong username or password");
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -6,17 +6,17 @@
     <link rel="stylesheet" href="Dark.css">
     <title>Gopher Calendar</title>
     <script>
-      document.getElementById("loginform").addEventListener("submit", function(event) {
-        event.preventDefault();
-        var username = document.getElementById("uname").value;
-        var password = document.getElementById("psw").value;
-        if (username === "correctusername" && password === "correctpassword") {
-          window.location.href = "main.html";
-        } else {
-          alert("Wrong username or password");
-        }
-      });
-    </script>
+document.getElementById("loginform").addEventListener("submit", function(event) {
+  event.preventDefault();
+  var username = document.getElementById("uname").value;
+  var password = document.getElementById("psw").value;
+  if (username === "correctusername" && password === "correctpassword") {
+    window.location.href = "main.html";
+  } else {
+    alert("Wrong username or password");
+  }
+});
+</script>
   </head>
 <body>
 <div class="center">

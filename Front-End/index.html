@@ -11,25 +11,11 @@
         align-items: center;
         height: 100vh;
       }
-
       /* Remove outline on button click */
       button:focus {
         outline: none;
       }
     </style>
-    <script>
-      // Add event listener to the login form
-      document.getElementById("loginform").addEventListener("submit", function(event) {
-        event.preventDefault();
-        var username = document.getElementById("username").value;
-        var password = document.getElementById("password").value;
-        if (username === "correctusername" && password === "correctpassword") {
-          window.location.href = "main.html";
-        } else {
-          alert("Wrong username or password");
-        }
-      });
-    </script>
   </head>
   <body>
     <div class="center">
@@ -50,5 +36,19 @@
       </div>
       <br>
     </div>
+
+    <script>
+      // Add event listener to the login form
+      document.getElementById("loginform").addEventListener("submit", function(event) {
+        event.preventDefault();
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if (username === "correctusername" && password === "correctpassword") {
+          window.location.href = "main.html";
+        } else {
+          alert("Wrong username or password");
+        }
+      });
+    </script>
   </body>
 </html>

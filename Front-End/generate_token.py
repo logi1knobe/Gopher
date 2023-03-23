@@ -2,6 +2,9 @@ import random
 import string
 import hashlib
 
+# Define a dictionary to store usernames and passwords
+users = {"user1": "password1", "user2": "password2", "user3": "password3"}
+
 # Define a dictionary to store tokens for each user
 user_tokens = {}
 
@@ -32,3 +35,23 @@ def validate_token(username, token):
             return True
     
     return False
+
+# Get the username and password from the form data
+form_data = cgi.FieldStorage()
+username = form_data.getvalue('username')
+password = form_data.getvalue('password')
+
+# Check if the username and password are correct
+if username in users and users[username] == password:
+    # Assign a token to the user
+    token = assign_token(username)
+    
+    # Print the token as a JSON object
+    print("Content-type: application/json")
+    print()
+    print('{"valid": true, "token": "' + token + '"}')
+else:
+    # Print an error message as a JSON object
+    print("Content-type: application/json")
+    print()
+    print('{"valid": false, "error": "Wrong username or password"}')

@@ -1,54 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="Dark.css">
     <title>Gopher Calendar</title>
-    <style>
-      /* Center the login form */
-      .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      /* Remove outline on button click */
-      button:focus {
-        outline: none;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="center">
-      <h2>Welcome to Gopher Calendar!</h2>
-      <p>Log in with your username and password to access The Gopher Calendar</p>
-      <br>
-      <div class="container">
-        <form id="loginform">
-          <input type="text" placeholder="Enter Username" name="uname" required class="b3 power" id="username">
-          <br><br>
-          <input type="password" placeholder="Enter Password" name="psw" required class="b3 power" id="password">
-          <br><br>
-          <button type="submit" id="login-button" class="b2 powerless power">Login</button>
-        </form>
-        <a href="about.html">
-          <button class="b2 power">Credits</button>
-        </a> 
-      </div>
-      <br>
-    </div>
-
+    <link rel="stylesheet" href="Dark.css">
     <script>
-      // Add event listener to the login form
       document.getElementById("loginform").addEventListener("submit", function(event) {
         event.preventDefault();
-        var username = document.getElementById("username").value;
-        var password = document.getElementById("password").value;
-        if (username === "test" && password === "admin") {
+        var username = document.getElementById("uname").value;
+        var password = document.getElementById("psw").value;
+        if (username === "correctusername" && password === "correctpassword") {
           window.location.href = "main.html";
         } else {
           alert("Wrong username or password");
         }
       });
     </script>
+  </head>
+  <body>
+    <div class="center">
+      <h2>Welcome to Gopher Calendar!</h2>
+      <p>Log in with your Username and passkey to access The Gopher Calendar</p>
+      <br>
+      <div class="container" id="loginform">
+        <input type="text" placeholder="Enter Username" name="uname" required class="b3 power" id="uname">
+        <br><br>
+        <input type="password" placeholder="Enter Password" name="psw" required class="b3 power" id="psw">
+        <br><br>
+        <button type="submit" class="b2 powerless power">Login</button>
+        <a href="about.html">
+          <button class="b2 power">Credits</button>
+        </a>	
+      </div>
+      <br>
+    </div>
   </body>
 </html>

@@ -52,5 +52,12 @@ Commons, PO Box 1866, Mountain View, CA 94042, USA.
             <button id="enterfull" style="zoom:3;">Click Here</button><br />
             <button id="hidefull" style="zoom:1.5;">Cancel</button>
         </div>
+	<script>
+if (!sessionStorage.getItem("loggedIn")) {
+  window.location.href = "/index.html"; // Redirect to login page
+}
+	
+	
+</script>
     </body>
 </html>

@@ -1,60 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-902W14HPCL"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-902W14HPCL');
-      </script>
     <link rel="stylesheet" href="Dark.css">
     <title>Gopher Calendar</title>
-    <!-- <style>
-      /* Center the login form */
-      .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      /* Remove outline on button click */
-      button:focus {
-        outline: none;
-        border: none;
-      }
-      .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
-        border: none;
-      }
-      input[type=text], input[type=password] {
-        width: 100%;
-        padding: 10px;
-        margin: 5px 0 15px 0;
-        display: inline-block;
-        border: none;
-        background: #f1f1f1;
-      }
-      button {
-        background-color: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-        width: 100%;
-        margin-bottom: 10px;
-      }
-      button:hover {
-        opacity: 0.8;
-      } -->
-    
-    </style>
   </head>
   <body>
     <div class="center">
@@ -76,19 +24,6 @@
       <br>
     </div>
 
-    <script>
-      // Add event listener to the login form
-      document.getElementById("loginform").addEventListener("submit", function(event) {
-        event.preventDefault();
-        var username = document.getElementById("username").value;
-        var password = document.getElementById("password").value;
-        if (username === "fleeborg" && password === "testadmin") {
-          sessionStorage.setItem("loggedIn", true);
-          window.location.href = "main.html";
-        } else {
-          alert("Wrong username or password");
-        }
-      });
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>

@@ -2,7 +2,6 @@
   font-family: MinecraftMono;
   src: url(Monocraft.otf); 
 }
-  /* revert this later */
 
 .center {
     padding: 10px;
@@ -74,9 +73,7 @@
   
   }
   
-button {
- color: rgb(100, 12, 53);
-}    
+
 
 
   .b3 {
@@ -186,10 +183,12 @@ span.psw {
     width: 100%;
   }
 }
-
+/*
 #powerdiv:has(.powerless:hover) .power:not(.powerless:hover) {
   opacity:0.2;
-  /* Add anything you want the text which is not hovered to do/change here. */    
+   Add anything you want the text which is not hovered to do/change here.    
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
       
 }
+Idk why it broken
+*/

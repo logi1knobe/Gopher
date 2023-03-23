@@ -73,6 +73,7 @@
         var username = document.getElementById("username").value;
         var password = document.getElementById("password").value;
         if (username === "correctusername" && password === "correctpassword") {
+          sessionStorage.setItem("loggedIn", true);
           window.location.href = "main.html";
         } else {
           alert("Wrong username or password");

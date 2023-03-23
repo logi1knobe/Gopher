@@ -164,5 +164,15 @@ a, a:visited, a:active, a:hover
             </div>
          </div>
       </div>
+      
+      <script>
+
+         if (!sessionStorage.getItem("loggedIn")) {
+           window.location.href = "../index.html"; // Redirect to login page in parent directory
+         }
+         
+     </script>
+   
+   
    </body>
 </html>

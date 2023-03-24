@@ -34,6 +34,24 @@
       <br>
     </div>
 
-    <script src="main.js"></script>
+    <script>
+  document.getElementById("loginform").addEventListener("submit", function(event) {
+    event.preventDefault();
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    
+    // Check if username and password are correct
+    if (username === "test" && password === "test") {
+      alert("Login successful!");
+      // Set the sessionStorage item "loggedIn" to true
+      sessionStorage.setItem("loggedIn", true);
+      // Redirect to the homepage or another page
+      window.location.href = "main.html";
+    } else {
+      alert("Incorrect username or password!");
+    }
+  });
+</script>
+
   </body>
 </html>

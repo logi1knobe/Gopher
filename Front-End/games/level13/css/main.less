@@ -1,0 +1,47 @@
+// out: main.css, compress: false
+
+// MODULES THAT DON'T USE THEMES (colors)
+
+@import "modules/layout";
+@import "modules/vision";
+
+// GLOBAL SETTINGS
+
+@font-size-small: 85%;
+@font-size-tiny: 75%;
+
+// GLOBAL COLOURS
+
+@color-global-warning: rgb(230, 70, 70);
+@color-global-invisible: rgba(0,0,0,0);
+
+// COLOR THEMES (dark and sunlit)
+
+body.dark {
+	@import "themes/theme-dark";
+	background: @color-bg-page;
+	color: @color-text-default;
+	.color-theme(dark);
+}
+
+body.sunlit {
+	@import "themes/theme-sunlit";
+	background: @color-bg-page;
+	color: @color-text-default;
+	.color-theme(sunlit);
+}
+
+.color-theme(@theme) {
+	// MODULES USING THEMES
+	@import "modules/base-classes";
+	@import "modules/base-elements";
+	@import "modules/base-typography";
+	@import "modules/elements-buttons";
+	@import "modules/elements-common";
+	@import "modules/elements-input";
+	@import "modules/elements-meta";
+	@import "modules/elements-special";
+	@import "modules/loader";
+	@import "modules/scrollbar";
+	@import "modules/vis";
+}

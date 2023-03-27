@@ -10,7 +10,7 @@ Does not work!
 
 ### Redirecttest.html (Outdated)
 A test to redirect the user  
-It works
+It works  
 Todo:
 - [X] Add a way to check if its the user you want
 - [x] Redirect the user

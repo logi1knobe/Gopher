@@ -15,3 +15,4 @@ For Developer Eyes ONLY
    - [X] Games.html
 ## Deployments:
 [Beta Public Frontend Deployment](https://gopher-pi.vercel.app/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/logi1knobe/gopher/tree/main/)

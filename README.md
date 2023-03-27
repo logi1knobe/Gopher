@@ -4,7 +4,7 @@ For Developer Eyes ONLY
 
 >beta 0.1.1
 
-## Basic todo (2/5):
+## Basic todo (4/6):
 - [ ] Add proxy
 - [x] Add css
 - [x] Add some games

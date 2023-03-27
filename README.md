@@ -14,4 +14,4 @@ For Developer Eyes ONLY
    - [x] Login.html
    - [X] Games.html
 ## Deployments:
-[Development Frontend Deployment](https://gopher-pi.vercel.app/)
+[Beta Public Frontend Deployment](https://gopher-pi.vercel.app/)

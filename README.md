@@ -2,7 +2,9 @@
 
 For Developer Eyes ONLY
 
->beta 0.1.1
+## Version Info
+Current version:  `Beta 0.1.2`  
+> We are almost ready for realese!
 
 ## Basic todo (4/6):
 - [ ] Add proxy

@@ -1,5 +1,5 @@
-# Project Gopher <img src="https://user-images.githubusercontent.com/68345602/228649625-a3a05b2e-d30b-4857-a124-c5dc226420fa.png"</img>
-
+# Project Gopher 
+<img src="blob:chrome-untrusted://media-app/5037a2dc-b488-4bb4-a375-f8c8b4a77684"/>![image](https://user-images.githubusercontent.com/68345602/228649949-824feeae-2703-4bd2-8f74-7f122fa4b7b7.png)
 
 For Developer Eyes ONLY
 

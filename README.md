@@ -7,7 +7,7 @@ Current version:  `Beta 0.1.2`
 > We are almost ready for realese!
 
 ## Todo List:
-(https://trello.com/invite/b/mDV8NsNY/ATTI0afded088e4d97fbfb0bfc4107e664faA34565F0/gopher)
+[TRELLO PAGE](https://trello.com/invite/b/mDV8NsNY/ATTI0afded088e4d97fbfb0bfc4107e664faA34565F0/gopher)
 - [ ] Add admin panel
 ## Deployments:
 [Beta Public Frontend Deployment](https://gopher-pi.vercel.app/)      

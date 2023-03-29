@@ -13,13 +13,13 @@
 }
 
 ::-moz-selection { /* Code for Firefox */
-  color: rgb(100, 150, 200);
-  background-color: rgb(10, 12, 53, 1);
+  color: rgb(255, 255, 255);
+  background-color: rgb(9, 10, 29, 1);
 }
 
 ::selection {
-  color: rgb(100, 150, 200);
-  background-color: rgb(10, 12, 53, 1);
+  color: rgb(255, 255, 255);
+  background-color: rgb(9, 10, 29, 1);
 }
 
 

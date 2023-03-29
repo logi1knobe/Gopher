@@ -1,4 +1,5 @@
-# Project Gopher <img src="blob:chrome-untrusted://media-app/5037a2dc-b488-4bb4-a375-f8c8b4a77684" alt="gopher.png"/>
+# Project Gopher <img src="https://user-images.githubusercontent.com/68345602/228649625-a3a05b2e-d30b-4857-a124-c5dc226420fa.png"</img>
+
 
 For Developer Eyes ONLY
 

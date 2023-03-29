@@ -8,8 +8,8 @@
 }
 
 .icos {
-  position: relative;
-  top: 4px;
+    vertical-align: bottom;
+    font-size: 18px !important;
 }
 
 
@@ -21,8 +21,8 @@
   'opsz' 40
 }
 
-.ico{
-  float: left;
+.right{
+  float: right;
 }
 .credits {
   width: 60%;

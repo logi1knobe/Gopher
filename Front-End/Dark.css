@@ -12,8 +12,8 @@
     font-size: 18px !important;
 }
 
-.icos24 {
-  vertical-align: bottom;
+.icos24 { /*This might break in some case scenarios but it works on the login page*/
+  vertical-align: -7px;
   font-size: 24px !important;
 }
 
@@ -22,7 +22,7 @@
   font-size: 40px !important;
 }
 
-.icos48 {
+.icos48 { /* This WILL possibly break*/
   vertical-align: bottom;
   font-size: 48px !important;
 }
@@ -32,7 +32,7 @@
   background-color: rgb(9, 10, 29, 1);
 }
 
-::selection {
+::selection { /*Somone needs to*/
   color: rgb(255, 255, 255);
   background-color: rgb(9, 10, 29, 1);
 }

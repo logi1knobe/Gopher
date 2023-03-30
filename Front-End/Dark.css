@@ -5,8 +5,10 @@
 
 .rtrain {
   transition: ease-in-out 1s;
+}
 
-
+.rtrain2 {
+  transition: ease-in-out 1s;
 }
 
 .rtrain:hover {  
@@ -14,7 +16,7 @@
   transform: rotate(90deg);
 }
 
-#buttons:has(.b2:hover) .rtrain2 {
+#buttons:has(.b2:hover) .rtrain2:has(.rtrain2:hover) {
   -ms-transform: rotate(90deg); 
   transform: rotate(90deg);
 }

@@ -4,21 +4,21 @@
 }
 
 .rtrain {
-  transition: ease-in-out 1s;
+  transition: cubic-bezier(0.18, 0.89, 0.32, 1.28)-back 5s;
 }
 
 .rtrain2 {
-  transition: ease-in-out 1s;
+  transition: cubic-bezier(0.18, 0.89, 0.32, 1.28)-back 5s;
 }
 
-.rtrain:hover {  
-  -ms-transform: rotate(90deg); /* IE 9 */
-  transform: rotate(90deg);
+.rtrouthover {  
+  -ms-transform: rotate(-15deg); /* IE 9 */
+  transform: rotate(-15deg);
 }
 
 .b2:hover .rtrain2{
-  -ms-transform: rotate(90deg); 
-  transform: rotate(90deg);
+  -ms-transform: rotate(-15deg); 
+  transform: rotate(-15deg);
 }
 
 

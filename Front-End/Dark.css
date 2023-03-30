@@ -3,6 +3,25 @@
   src: url(Monocraft.otf); 
 }
 
+.rtrain {
+  transition: ease-in-out 1s;
+}
+
+.rtrain2 {
+  transition: ease-in-out 1s;
+}
+
+.rtrain:hover {  
+  -ms-transform: rotate(90deg); /* IE 9 */
+  transform: rotate(90deg);
+}
+
+.b2:hover .rtrain2{
+  -ms-transform: rotate(90deg); 
+  transform: rotate(90deg);
+}
+
+
 .enter {
   width: 60%;
 }

@@ -4,10 +4,10 @@
 }
 
 .rtrain {
-  transition:  cubic-bezier(0.15, 1.04, 0.47, 1.34) 1s;
+  transition:  cubic-bezier(0.32, -1.42, 0.21, 2.65) 1s;
 }
 .rtrain2 {
-  transition:  cubic-bezier(0.15, 1.04, 0.47, 1.34) 1s;
+  transition:  cubic-bezier(0.32, -1.42, 0.21, 2.65) 1s;
 }
 
 .rtrain:hover {  

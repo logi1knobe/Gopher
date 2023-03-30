@@ -1,4 +1,4 @@
-# Project Gopher
+# Project Gopher <img src="blob:chrome-untrusted://media-app/5037a2dc-b488-4bb4-a375-f8c8b4a77684"/>![image](https://user-images.githubusercontent.com/68345602/228649949-824feeae-2703-4bd2-8f74-7f122fa4b7b7.png)
 
 For Developer Eyes ONLY
 
@@ -6,15 +6,9 @@ For Developer Eyes ONLY
 Current version:  `Beta 0.1.2`  
 > We are almost ready for realese!
 
-## Basic todo (4/6):
-- [ ] Add proxy
-- [x] Add css
-- [x] Add some games
-- [x] Add working loginpage
-- [ ] Reformat games page
-- [X] Add basic HTML pages
-   - [x] Login.html
-   - [X] Games.html
+## Todo List:
+[TRELLO PAGE](https://trello.com/invite/b/mDV8NsNY/ATTI0afded088e4d97fbfb0bfc4107e664faA34565F0/gopher)
+- [ ] Add admin panel
 ## Deployments:
 [Beta Public Frontend Deployment](https://gopher-pi.vercel.app/)      
 [Dev Branch Deployment](https://gopher-git-dev-logi1knobe.vercel.app/)

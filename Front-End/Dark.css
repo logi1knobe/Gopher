@@ -4,14 +4,13 @@
 }
 
 .rtrain {
-  transition: cubic-bezier(0.18, 0.89, 0.32, 1.28)-back 5s;
-}
+  transition: ease-in-out 1s
 
 .rtrain2 {
-  transition: cubic-bezier(0.18, 0.89, 0.32, 1.28)-back 5s;
+  transition: ease-in-out 1s
 }
 
-.rtrouthover {  
+.rtrain:hover {  
   -ms-transform: rotate(-15deg); /* IE 9 */
   transform: rotate(-15deg);
 }

@@ -16,7 +16,7 @@
   transform: rotate(90deg);
 }
 
-.b2:hover .rtrain2 .b2.hover .rtrain2 {
+.b2:hover .child{
   -ms-transform: rotate(90deg); 
   transform: rotate(90deg);
 }

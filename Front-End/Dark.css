@@ -4,10 +4,10 @@
 }
 
 .rtrain {
-  cubic-bezier(0.15, 1.04, 0.47, 1.34) 1s;
+  easing-rate:  cubic-bezier(0.15, 1.04, 0.47, 1.34) 1s;
 }
 .rtrain2 {
-  cubic-bezier(0.15, 1.04, 0.47, 1.34) 1s;
+  easing-rate:  cubic-bezier(0.15, 1.04, 0.47, 1.34) 1s;
 }
 
 .rtrain:hover {  

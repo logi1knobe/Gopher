@@ -4,20 +4,20 @@
 }
 
 .rtrain {
-  transition: ease-in-out 1s
+  cubic-bezier(0.15, 1.04, 0.47, 1.34) 1s;
 }
 .rtrain2 {
-  transition: ease-in-out 1s
+  cubic-bezier(0.15, 1.04, 0.47, 1.34) 1s;
 }
 
 .rtrain:hover {  
-  -ms-transform: rotate(-15deg); /* IE 9 */
-  transform: rotate(-15deg);
+  -ms-transform: rotate(-30deg); /* IE 9 */
+  transform: rotate(-30deg);
 }
 
 .b2:hover .rtrain2{
-  -ms-transform: rotate(-15deg); 
-  transform: rotate(-15deg);
+  -ms-transform: rotate(-30deg); 
+  transform: rotate(-30deg);
 }
 
 

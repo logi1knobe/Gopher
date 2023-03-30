@@ -14,6 +14,11 @@
   transform: rotate(90deg);
 }
 
+#buttons:has(.b2:hover) .rtrain2 {
+  -ms-transform: rotate(90deg); 
+  transform: rotate(90deg);
+}
+
 
 .enter {
   width: 60%;

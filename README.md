@@ -3,7 +3,7 @@
 For Developer Eyes ONLY
 
 ## Version Info
-Current version:  `Beta 0.1.2`  
+Current version:  `Beta 0.1.3`  
 > We are almost ready for realese!
 
 ## Todo List:

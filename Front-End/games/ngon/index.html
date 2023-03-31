@@ -2,15 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-902W14HPCL"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'G-902W14HPCL');
-	</script>	
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,6 +24,8 @@
     <div id="fade-out"></div>
     <div id="health-bg"></div>
     <div id="health"></div>
+    <div id="defense-bar"></div>
+    <div id="damage-bar"></div>
     <div id="dmg"></div>
     <div id='construct'></div>
     <canvas id="canvas"></canvas>
@@ -108,26 +101,49 @@
                         <option value="biohazard">
                         <option value="islands">
                         <option value="tunnel">
+                        <option value="clock">
                         <option value="coliseum">
                         <option value="staircase">
                         <option value="perplex">
                         <option value="n-gon">
+                        <option value="downpour">
+                        <option value="buttonbutton">
                         <option value="vats">
                         <option value="yingYang">
                         <option value="basement">
                         <option value="stronghold">
+                        <option value="commandeer">
                         <option value="stereoMadness">
                         <option value="house">
                         <option value="dripp">
                         <option value="crossfire">
                         <option value="temple">
                         <option value="run">
+                            <!-- 
+                            fortress
+                            biohazard
+                            islands
+                            tunnel
+                            clock
+                            coliseum
+                            staircase
+                            perplex
+                            n-gon
+                            vats
+                            yingYang
+                            basement
+                            stronghold
+                            commandeer
+                            stereoMadness
+                            buttonbutton
+                            downpour
+                            house
+                            dripp
+                            crossfire
+                            temple
+                            run
+                         -->
                     </datalist>
-                    <!-- communityLevels: ["stronghold", "basement", "crossfire", "vats", "run", "n-gon", "house", "perplex", "coliseum", "tunnel", "islands", "temple", "dripp"], -->
-                    <!-- playableLevels: ["labs", "rooftops", "skyscrapers", "warehouse", "highrise", "office", "aerie", "satellite", "sewers", "testChamber", "pavilion"], -->
-
-                    <!--                <label for="banned">banned levels:</label>
-                    <input type="text" id="ban-list" name="banned" placeholder="list levels by name" autocomplete="off" spellcheck="true" style="width: 183px;"> -->
                     <br>
                     <label for="classic-select" title="play older versions of n-gon">classic n-gon:</label>
                     <select name="classic-select" id="classic-select" onChange="window.location.href=this.value">
@@ -421,15 +437,6 @@
     <script src="js/lore.js"></script>
     <script src="js/engine.js"></script>
     <script src="js/index.js"></script>
-
-    <script>
-
-        if (!sessionStorage.getItem("loggedIn")) {
-          window.location.href = "../index.html"; // Redirect to login page in parent directory
-        }
-        
-    </script>
-
 </body>
 
 </html>

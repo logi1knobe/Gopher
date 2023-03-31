@@ -20,6 +20,10 @@
   transform: rotate(-30deg);
 }
 
+.homebutton{
+  float: right;
+  margin: 10px;
+}
 
 .enter {
   width: 60%;
@@ -58,7 +62,7 @@
 
 .material-symbols-rounded {
   font-variation-settings:
-  'FILL' 0,
+  'FILL' 1,
   'wght' 400,
   'GRAD' 200,
   'opsz' 40

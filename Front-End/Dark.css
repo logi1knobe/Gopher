@@ -168,7 +168,7 @@
   }  
   
   .b3:hover {
-    box-shadow: 0 0px 16px 0 rgb(37, 48, 202), 0 17px 50px 0 rgb(37, 48, 202);
+    box-shadow: 0 0px 16px 0 rgb(0, 0, 0), 0 17px 50px 0 rgb(0, 0, 0);
   }
 
  ::placeholder {

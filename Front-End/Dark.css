@@ -159,6 +159,7 @@
     font-size: 16px;
     border-radius: 25px;
     box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(37,48, 202); 
     font-family: MinecraftMono, 'Courier New', monospace;
     z-index: 2;
     transition-duration: 0.4s;
@@ -168,7 +169,7 @@
   }  
   
   .b3:hover {
-   z-index: 2;
+    z-index: 3;
     border-radius: 30px;
     box-shadow: 0 0px 16px 0 rgb(37, 48, 202), 0 17px 50px 0 rgb(37, 48, 202);
     background-color: rgb(37,48, 202); 
@@ -226,11 +227,7 @@ button {
 /* The "Forgot password" text */
 span.psw {
   float: right;
-  padding-top: 16px;
-  z-index: 2;
-  border-radius: 30px;
-  box-shadow: 0 0px 16px 0 rgb(37, 48, 202), 0 17px 50px 0 rgb(37, 48, 202);
-  background-color: rgb(37,48, 202); 
+  padding-top: 16px; 
 }
 
 /* Change styles for span and cancel button on extra small screens */

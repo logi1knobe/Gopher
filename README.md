@@ -12,6 +12,7 @@ Current version:  `Beta 0.1.3`
 ## Deployments:
 [Beta Public Frontend Deployment](https://gopher-pi.vercel.app/)      
 [Dev Branch Deployment](https://gopher-git-dev-logi1knobe.vercel.app/)
+
 [Canary Deployment](https://gopher-66tr1hlqn-logi1knobe.vercel.app/)
 ### Deploy it yourself:
 

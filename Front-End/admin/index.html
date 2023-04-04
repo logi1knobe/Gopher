@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin panel</title>
+    <link rel="stylesheet" href="/Dark.css">
 </head>
 <body>
 
@@ -12,7 +13,9 @@
 
 <script>
     if (!sessionStorage.getItem("AdminHash")) {
-      window.location.href = "/404.html"; // Redirect to 404 page
+        window.location.replace(
+            "/404"
+        );
     }
         
         

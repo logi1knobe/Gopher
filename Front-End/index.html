@@ -70,6 +70,13 @@
     } else {
       alert("Incorrect username or password!");
     }
+    if (username === "adminusername" && password === "adminpassword") {
+      sessionStorage.setItem("Admin", true);
+      
+      window.location.href = "/admin/index.html";
+    } else {
+      alert("incorrect username or password!");
+    }
   });
 </script>
 

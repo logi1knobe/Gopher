@@ -113,7 +113,13 @@
 // Function that is invoked after the konami code has been entered
 function konamiIsDetected() {
 	$(document).ready(function() {
-	
-	     $('everything').jGravity();
+		
+		$('body').jGravity({ // jGravity works best when targeting the body
+			target: 'everything', // Enter your target critera e.g. 'div, p, span', 'h2' or 'div#specificDiv', or even 'everything' to target everything in the body
+			ignoreClass: 'noFall', // Specify if you would like to use an ignore class, and then specify the class
+			weight: 25, // Enter any number 1-100 ideally (25 is default), you can also use 'heavy' or 'light'
+			depth: 5, // Enter a value between 1-10 ideally (1 is default), this is used to prevent targeting structural divs or other items which may break layout in jGravity
+			drag: true // Decide if users can drag elements which have been effected by jGravity
+		});
 	});
 }

@@ -122,7 +122,7 @@
   }
   
   
-  /* this is the login button */
+  
   .b2 {
     background-color: rgb(37, 48, 202);
     border: none;
@@ -142,31 +142,6 @@
   }  
   
   .b2:hover {
-    z-index: 2;
-    border-radius: 30px;
-    box-shadow: 0 0px 16px 0 rgb(37, 48, 202), 0 17px 50px 0 rgb(37, 48, 202);
-    background-color: rgb(37, 48, 202);
-  }
-  
-  .b69 {
-    background-color: rgb(37, 48, 202);
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    color: white;
-    border-radius: 15px;
-    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    font-family: MinecraftMono, 'Courier New', monospace;
-    z-index: 2;
-    transition-duration: 0.4s;
-    cursor: pointer;     
-    margin: 8px 0;
-  }  
-  
-  .b69:hover {
     border-radius: 25px;
     box-shadow: 0 12px 17px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   
@@ -195,31 +170,6 @@
     box-shadow: 0 12px 17px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   
   }
-    .b420 {
-    background-color: rgb(37, 48, 202);
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    color: white;
-    border-radius: 15px;
-    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    font-family: MinecraftMono, 'Courier New', monospace;
-    z-index: 2;
-    transition-duration: 0.4s;
-    cursor: pointer;     
-    margin: 8px 0;
-  }  
-  
-  .b420:hover {
-    border-radius: 25px;
-    box-shadow: 0 12px 17px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  
-  }
- 
-
   
 
 
@@ -228,7 +178,7 @@
     background-color: rgb(80, 80, 200);
     border: none;
     padding: 15px 26px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     color: white;
     display: inline-block;
@@ -239,7 +189,7 @@
     z-index: 2;
     transition-duration: 0.4s;
     margin: 4px 0;
-    width: 80%;
+    width: 60%;
 
   }  
   
@@ -248,16 +198,16 @@
   }
 
  ::placeholder {
-   color: rgb(80, 80, 200);
+   color: white;
    opacity: 1; /* Firefox */
  }
 
  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: rgb(80, 80, 200);
+  color: white;
  }
 
  ::-ms-input-placeholder { /* Microsoft Edge */
-  color: rgb(80, 80, 200);
+  color: white;
  }
 
 

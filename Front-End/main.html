@@ -18,6 +18,10 @@
    	 <title>Gopher Calander</title>
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	  
+        <script src="./scripts/easteregg.js "></script>
+
+	  
   </head>
 <body>
 <div class="center">
@@ -80,7 +84,10 @@
 	
 </div>
 <script>
-if (!sessionStorage.getItem("loggedIn")) {
+	
+let logId = sessionStorage.getItem("loggedIn");
+	
+if (logId !== "2d601948-1c5b-4df7-856b-f114f250a027") {
   window.location.href = "/index.html"; // Redirect to login page
 }
 	

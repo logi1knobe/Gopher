@@ -112,6 +112,6 @@
 
 // Function that is invoked after the konami code has been entered
 function konamiIsDetected() {
-  var myWindow = window.open("/scripts/gravity.html", "", "width=500, height=500");
+  var myWindow = window.open("/scripts/gravity.html", "", "width=500, height=800");
   myWindow.focus();
 }

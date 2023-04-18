@@ -112,8 +112,8 @@
 
 // Function that is invoked after the konami code has been entered
 function konamiIsDetected() {
-	var script = document.createElement("script");
-	script.src = "/scripts/gravity.js";
-	document.body.appendChild(script);
-	void(0);
+	$(document).ready(function() {
+	
+	     $('everything').jGravity();
+	});
 }

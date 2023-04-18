@@ -112,5 +112,5 @@
 
 // Function that is invoked after the konami code has been entered
 function konamiIsDetected() {
-	alert("Its begining to look a like like easter....");
+	alert("Its begining to look a lot like easter....");
 }

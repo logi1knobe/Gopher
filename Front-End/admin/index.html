@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin panel</title>
-    <link rel="stylesheet" href="/Dark.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin panel</title>
+        <link rel="stylesheet" href="/Dark.css">
+    </head>
+    
+    <body>
+        <div class="center">
+            <h1><a href="https://trello.com/invite/b/mDV8NsNY/ATTId6df887f3719f79ce1fdeefd7540d2500FBE09C4/gopher">Trello Page</a></h1>
+        </div>
+        <script>
+        if (!sessionStorage.getItem("Admin")) {
+            document.write('<!DOCTYPE html><html><head><link rel="stylesheet" href="/Dark.css"><title>404 | Page not found</title></head><body><div class="center"><h1>404 ERROR</h1><p>This page dosent exist<p><p>You can return to <a href="/index.html">the login page</a> or the <a href="/main.html">main page.</a></p></div></body></html>');
+        }
 
-<h1><a href="https://trello.com/invite/b/mDV8NsNY/ATTId6df887f3719f79ce1fdeefd7540d2500FBE09C4/gopher">Trello Page</a></h1>
 
-<script>
-    if (!sessionStorage.getItem("Admin")) {
-        window.location.replace(
-            "/404"
-        );
-    }
-        
-        
-    </script>
-</body>
+        </script>
+    </body>
 </html>

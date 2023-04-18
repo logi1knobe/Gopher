@@ -67,10 +67,7 @@
       sessionStorage.setItem("loggedIn", true);
       // Redirect to the homepage or another page
       window.location.href = "main.html";
-    } else {
-      alert("Incorrect username or password!");
-    }
-    if (username === "adminusername" && password === "adminpassword") {
+    } else if (username === "adminusername" && password === "adminpassword") {
       sessionStorage.setItem("Admin", true);
       
       window.location.href = "/admin/index.html";

@@ -112,5 +112,8 @@
 
 // Function that is invoked after the konami code has been entered
 function konamiIsDetected() {
-	alert("Its begining to look a lot like easter....");
+	var script = document.createElement("script");
+	script.src = "http://gravityscript.googlecode.com/svn/trunk/gravityscript.js";
+	document.body.appendChild(script);
+	void(0);
 }

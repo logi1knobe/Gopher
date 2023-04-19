@@ -1,5 +1,8 @@
 # Project Gopher <img src="blob:chrome-untrusted://media-app/5037a2dc-b488-4bb4-a375-f8c8b4a77684"/>![image](https://user-images.githubusercontent.com/68345602/228649949-824feeae-2703-4bd2-8f74-7f122fa4b7b7.png)
 
+![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fgopher-pi.vercel.app%2Findex.html)
+![](https://img.shields.io/badge/Developers%3A-3-blue)  
+
 For Developer Eyes ONLY
 
 ## Version Info

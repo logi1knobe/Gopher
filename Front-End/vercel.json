@@ -5,7 +5,4 @@
       "destination": "/api/generate_token.py"
     }
   ]
-  "redirects": [
-    { "source": "/admin/moduals.html", "destination": "/admin/cstest.html", "permanent": true },
-  ]
 }

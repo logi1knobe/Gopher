@@ -4,8 +4,6 @@
       "source": "/generate_token.py",
       "destination": "/api/generate_token.py"
     }
-  ]
-}
-{
+  ],
   "trailingSlash": false
 }

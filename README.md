@@ -11,7 +11,8 @@ Current version:  `Beta 0.1.3`
 
 ## Todo List:
 [TRELLO PAGE](https://trello.com/invite/b/mDV8NsNY/ATTI0afded088e4d97fbfb0bfc4107e664faA34565F0/gopher)
-- [ ] Add admin panel
+- [X] Add admin panel
+- [ ] Go to trello page dumbass
 ## Deployments:
 [Beta Public Frontend Deployment](https://gopher-pi.vercel.app/)      
 [Dev Branch Deployment](https://gopher-git-dev-logi1knobe.vercel.app/)

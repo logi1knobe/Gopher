@@ -96,6 +96,11 @@
     color: rgb(100, 150, 200);
     font-family: MinecraftMono, 'Courier New', monospace;
   }
+
+  h2 {
+    font-family: MinecraftMono, 'Courier New', monospace;
+  }
+
   a:link {
     color: rgb(143, 255, 201);
   }

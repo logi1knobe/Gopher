@@ -1,4 +1,6 @@
 
+localStorage.setItem("CurrentColor", "classic");       
+
 if  (CurrentColor === "light") {
     document.getElementById('Cssheet').href='/Themes/Light.css';
     localStorage.setItem("CurrentColor", "light");

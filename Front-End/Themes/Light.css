@@ -71,9 +71,19 @@
 .right{
   float: right;
 }
+
+.left{
+  float: left;
+}
+
 .credits {
   width: 60%;
 }
+
+/*
+If you are going to change anything above this MAKE A PULL REQUEST!
+
+*/
 
 .center {
     padding: 10px;

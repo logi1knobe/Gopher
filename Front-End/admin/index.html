@@ -5,7 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Admin panel</title>
-        <link rel="stylesheet" href="/Dark.css">
+
+        <link rel="stylesheet" href="/Themes/Dark.css" id="Cssheet">
+        <script src="/scripts/main.js "></script>
+        
     </head>
     
     <body>
@@ -16,7 +19,7 @@
         </div>
         <script>
         if (!sessionStorage.getItem("Admin")) {
-            document.write('<!DOCTYPE html><html><head><link rel="stylesheet" href="/Dark.css"><title>404 | Page not found</title></head><body><div class="center"><h1>404 ERROR</h1><p>This page doesn\'t exist</p><p>You can return to <a href="/index.html">the login page</a> or the <a href="/main.html">main page.</a></p></div></body></html>');
+            document.write('<!DOCTYPE html><html><head><link rel="stylesheet" href="/Themes/Dark.css"><title>404 | Page not found</title></head><body><div class="center"><h1>404 ERROR</h1><p>This page doesn\'t exist</p><p>You can return to <a href="/index.html">the login page</a> or the <a href="/main.html">main page.</a></p></div></body></html>');
         }
 
 

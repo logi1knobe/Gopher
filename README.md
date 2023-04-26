@@ -5,6 +5,11 @@
 
 For Developer Eyes ONLY
 
+## Admin Info
+Username = `admein`  
+Password = `c758ae5a-9b9c`
+
+
 ## Version Info
 Current version:  `Beta 0.1.4`  
 > We are almost ready for realese!

@@ -1,4 +1,6 @@
 
+var CurrentColor = localStorage.getItem("CurrentColor");
+
 localStorage.setItem("CurrentColor", "classic");       
 
 if  (CurrentColor === "light") {
@@ -12,8 +14,6 @@ if  (CurrentColor === "light") {
 
 
 function ChangeTheme() {
-
-    var CurrentColor = document.getElementById("CurrentColor").value;
 
     if  (CurrentColor === "classic") {
         document.getElementById('Cssheet').href='/Themes/Light.css';

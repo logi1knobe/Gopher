@@ -93,7 +93,7 @@
   }
 
   h1 {
-    color: rgb(100, 150, 200);
+    color: white;
     font-family: MinecraftMono, 'Courier New', monospace;
   }
 
@@ -180,7 +180,7 @@
 
 
   .b3 {
-    background-color: rgb(255, 242, 242);
+    background-color: rgb(229, 224, 255);
     border: none;
     padding: 15px 26px;
     text-align: left;
@@ -189,7 +189,7 @@
     display: inline-block;
     font-size: 16px;
     border-radius: 25px;
-    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 5px 16px 0 rgba(205, 198, 236, 0.4), 0 17px 50px 0 rgba(229, 224, 255, 0.4);
     font-family: MinecraftMono, 'Courier New', monospace;
     z-index: 2;
     transition-duration: 0.4s;

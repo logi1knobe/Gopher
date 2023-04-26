@@ -1,7 +1,7 @@
 
 var CurrentColor = localStorage.getItem("CurrentColor");
 
-if  (CurrentColor === "light") {
+if  (CurrentColor == "light") {
     document.getElementById('Cssheet').href='/Themes/Light.css';
     localStorage.setItem("CurrentColor", "light");
 } else {
@@ -13,11 +13,12 @@ if  (CurrentColor === "light") {
 
 function ChangeTheme() {
 
-    if  (CurrentColor === "classic") {
-        document.getElementById('Cssheet').href='/Themes/Light.css';
+    if  (CurrentColor == "classic") {
         localStorage.setItem("CurrentColor", "light");
+        location.reload()
     } else {
-        document.getElementById('Cssheet').href='/Themes/Dark.css';
-        localStorage.setItem("CurrentColor", "classic");       
+        localStorage.setItem("CurrentColor", "classic");   
+        location.reload()
+    
     }
   }

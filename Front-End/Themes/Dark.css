@@ -262,6 +262,50 @@ span.psw {
     width: 100%;
   }
 }
+
+  .nb0 {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    font-family: MinecraftMono, 'Courier New', monospace;
+    transition-duration: 0.4s;
+    box-shadow: 0 0px 8px 0 rgb(37, 48, 150), 0 9px 25px 0 rgb(37, 48, 150);
+    background-color: rgb(37, 48, 160);
+    cursor: pointer;   
+    margin: 8px 0;       
+    
+  }  
+  
+  .nb0:hover {
+    z-index: 2;
+    border-radius: 30px;
+    box-shadow: 0 0px 16px 0 rgb(37, 48, 202), 0 17px 50px 0 rgb(37, 48, 202);
+    background-color: rgb(37,48, 202);
+  
+  }
+
+
+#text:has(.nb0:hover) .nb0:not(.nb0:hover) {
+    opacity:0.5;
+    z-index: 1;
+    background-color: rgb(17,24, 101);
+    /* Add anything you want the text which is not hovered to do/change here. */    
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+        
+}
+
+#text {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
 /*
 #powerdiv:has(.powerless:hover) .power:not(.powerless:hover) {
   opacity:0.2;

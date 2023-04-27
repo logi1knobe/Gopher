@@ -1,0 +1,334 @@
+@font-face {
+  font-family: MinecraftMono;
+  src: url(Monocraft.otf); 
+}
+
+.rtrain {
+  transition:  cubic-bezier(0.32, -1.42, 0.21, 2.65) 1s;
+}
+.rtrain2 {
+  transition:  cubic-bezier(0.32, -1.42, 0.21, 2.65) 1s;
+}
+
+.rtrain:hover {  
+  -ms-transform: rotate(-30deg); /* IE 9 */
+  transform: rotate(-30deg);
+}
+
+.b2:hover .rtrain2{
+  -ms-transform: rotate(-30deg); 
+  transform: rotate(-30deg);
+}
+
+.homebutton{
+  float: right;
+  margin: 10px;
+}
+
+.enter {
+  width: 60%;
+}
+
+.icos {
+    vertical-align: bottom;
+    font-size: 18px !important;
+}
+
+.icos24 { /*This might break in some case scenarios but it works on the login page*/
+  vertical-align: -7px;
+  font-size: 24px !important;
+}
+
+.icos40 {
+  vertical-align: bottom;
+  font-size: 40px !important;
+}
+
+.icos48 { /* This WILL possibly break*/
+  vertical-align: bottom;
+  font-size: 48px !important;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: rgb(255, 255, 255);
+  background-color: rgb(9, 10, 29, 1);
+}
+
+::selection { /*Somone needs to*/
+  color: rgb(255, 255, 255);
+  background-color: rgb(9, 10, 29, 1);
+}
+
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 200,
+  'opsz' 40
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+.credits {
+  width: 60%;
+}
+
+/*
+If you are going to change anything above this MAKE A PULL REQUEST!
+
+*/
+
+.center {
+    padding: 10px;
+    background-color: rgb(142, 167, 233);
+    text-align: center;
+    border-radius: 10px;
+    font-family: MinecraftMono, 'Courier New', monospace;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;    
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+   
+  
+  }
+
+  h1 {
+    color: white;
+    font-family: MinecraftMono, 'Courier New', monospace;
+  }
+
+  h2 {
+    font-family: MinecraftMono, 'Courier New', monospace;
+  }
+
+  a:link {
+    color: rgb(143, 255, 201);
+  }
+
+  /* visited link */
+  a:visited {
+    color: rgb(143, 206, 255);
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: rgb(61, 251, 232);
+  }
+
+  /* selected link */
+  a:active {
+    color: rgb(88, 183, 255);
+  }
+
+  body {
+    background-color: rgb(114, 134, 211);
+    font-family: MinecraftMono, 'Courier New', monospace;
+    color: rgb(58, 65, 90);
+  }
+  
+  
+  
+  .b2 {
+    background-color: rgb(229, 224, 255);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(58, 65, 90);
+    border-radius: 15px;
+    box-shadow: 0 5px 16px 0 rgba(205, 198, 236, 0.4), 0 17px 50px 0 rgba(229, 224, 255, 0.4);
+    font-family: MinecraftMono, 'Courier New', monospace;
+    z-index: 2;
+    transition-duration: 0.4s;
+    cursor: pointer;     
+    margin: 8px 0;
+  }  
+  
+  .b2:hover {
+    border-radius: 25px;
+    box-shadow: 0 12px 17px 0 rgba(205, 198, 236, 0.4), 0 17px 50px 0 rgba(0, 0, 0, 0.4);
+  
+  }
+
+    .b69 {
+    background-color: rgb(229, 224, 255);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(58, 65, 90);
+    border-radius: 15px;
+    box-shadow: 0 5px 16px 0 rgba(205, 198, 236, 0.4), 0 17px 50px 0 rgba(229, 224, 255, 0.4);
+    font-family: MinecraftMono, 'Courier New', monospace;
+    z-index: 2;
+    transition-duration: 0.4s;
+    cursor: pointer;     
+    margin: 8px 0;
+  }  
+  
+  .b69:hover {
+    border-radius: 25px;
+    box-shadow: 0 12px 17px 0 rgba(205, 198, 236, 0.4), 0 17px 50px 0 rgba(0, 0, 0, 0.4);
+  
+  }
+  
+
+
+
+  .b3 {
+    background-color: rgb(229, 224, 255);
+    border: none;
+    padding: 15px 26px;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(58, 65, 90);
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    box-shadow: 0 5px 16px 0 rgba(205, 198, 236, 0.4), 0 17px 50px 0 rgba(229, 224, 255, 0.4);
+    font-family: MinecraftMono, 'Courier New', monospace;
+    z-index: 2;
+    transition-duration: 0.4s;
+    margin: 4px 0;
+    width: 60%;
+
+  }  
+  
+  .b3:hover {
+    box-shadow: 0 12px 17px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+  }
+
+ ::placeholder {
+   color: rgb(55, 62, 83);
+   opacity: 1; /* Firefox */
+ }
+
+ :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(55, 62, 83);
+ }
+
+ ::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(55, 62, 83);
+ }
+
+
+
+
+@keyframes zoom {
+    0%{
+        transform: scale(0.1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+/* deleted due to bugs
+Full-width inputs
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+} */
+
+/* Set a style for all buttons */
+button {
+  cursor: pointer;
+}
+
+/* Extra style for the cancel button (red) */
+
+
+/* Add padding to containers 
+.container {
+  padding: 16px;
+}
+*/
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px; 
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+  .nb0 {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(58, 65, 90);
+    border-radius: 10px;
+    font-family: MinecraftMono, 'Courier New', monospace;
+    transition-duration: 0.4s;
+    box-shadow: 0 0px 8px 0 rgb(229, 224, 255), 0 9px 25px 0 rgb(229, 224, 255);
+    background-color: rgb(229, 224, 255);
+    cursor: pointer;   
+    margin: 8px 0;       
+    
+  }  
+  
+  .nb0:hover {
+    z-index: 2;
+    border-radius: 30px;
+    box-shadow: 0 0px 16px 0 rgb(255, 242, 242), 0 17px 50px 0 rgb(255, 242, 242);
+    background-color: rgb(255, 242, 242);
+  
+  }
+
+
+#text:has(.nb0:hover) .nb0:not(.nb0:hover) {
+    opacity:0.5;
+    z-index: 1;
+    background-color: rgb(142, 167, 233);
+    /* Add anything you want the text which is not hovered to do/change here. */    
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+        
+}
+
+#text {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+/*
+#powerdiv:has(.powerless:hover) .power:not(.powerless:hover) {
+  opacity:0.2;
+   Add anything you want the text which is not hovered to do/change here.    
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+      
+}
+Idk why it broken
+*/
+
+

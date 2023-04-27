@@ -51,12 +51,12 @@
 
 ::-moz-selection { /* Code for Firefox */
   color: rgb(255, 255, 255);
-  background-color: rgb(9, 10, 29, 1);
+  background-color: rgb(255, 255, 255, 255);
 }
 
 ::selection { /*Somone needs to*/
   color: rgb(255, 255, 255);
-  background-color: rgb(9, 10, 29, 1);
+  background-color: rgb(255, 255, 255, 255);
 }
 
 
@@ -87,7 +87,7 @@ If you are going to change anything above this MAKE A PULL REQUEST!
 
 .center {
     padding: 10px;
-    background-color: rgb(142, 167, 233);
+    background-color: rgb(225, 255, 255);
     text-align: center;
     border-radius: 10px;
     font-family: MinecraftMono, 'Courier New', monospace;
@@ -112,43 +112,43 @@ If you are going to change anything above this MAKE A PULL REQUEST!
   }
 
   a:link {
-    color: rgb(143, 255, 201);
+    color: rgb(225, 255, 255);
   }
 
   /* visited link */
   a:visited {
-    color: rgb(143, 206, 255);
+    color: rgb(225, 255, 255);
   }
 
   /* mouse over link */
   a:hover {
-    color: rgb(61, 251, 232);
+    color: rgb(225, 255, 255);
   }
 
   /* selected link */
   a:active {
-    color: rgb(88, 183, 255);
+    color: rgb(225, 255, 255);
   }
 
   body {
-    background-color: rgb(114, 134, 211);
+    background-color: rgb(225, 255, 255);
     font-family: MinecraftMono, 'Courier New', monospace;
-    color: rgb(58, 65, 90);
+    color: rgb(225, 255, 255);
   }
   
   
   
   .b2 {
-    background-color: rgb(229, 224, 255);
+    background-color: rgb(225, 255, 255);
     border: none;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    color: rgb(58, 65, 90);
+    color: rgb(225, 255, 255);
     border-radius: 15px;
-    box-shadow: 0 5px 16px 0 rgba(205, 198, 236, 0.4), 0 17px 50px 0 rgba(229, 224, 255, 0.4);
+    box-shadow: 0 5px 16px 0 rgba(225, 255, 255, 0.4), 0 17px 50px 0 rgba(225, 255, 255, 0.4);
     font-family: MinecraftMono, 'Courier New', monospace;
     z-index: 2;
     transition-duration: 0.4s;
@@ -158,21 +158,21 @@ If you are going to change anything above this MAKE A PULL REQUEST!
   
   .b2:hover {
     border-radius: 25px;
-    box-shadow: 0 12px 17px 0 rgba(205, 198, 236, 0.4), 0 17px 50px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 12px 17px 0 rgba(225, 255, 255, 0.4), 0 17px 50px 0 rgba(225, 255, 255 0.4);
   
   }
 
     .b69 {
-    background-color: rgb(229, 224, 255);
+    background-color: rgb(225, 255, 255);
     border: none;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    color: rgb(58, 65, 90);
+    color: rgb(225, 255, 255);
     border-radius: 15px;
-    box-shadow: 0 5px 16px 0 rgba(205, 198, 236, 0.4), 0 17px 50px 0 rgba(229, 224, 255, 0.4);
+    box-shadow: 0 5px 16px 0 rgba(225, 255, 255, 0.4), 0 17px 50px 0 rgba(225, 255, 255, 0.4);
     font-family: MinecraftMono, 'Courier New', monospace;
     z-index: 2;
     transition-duration: 0.4s;
@@ -182,7 +182,7 @@ If you are going to change anything above this MAKE A PULL REQUEST!
   
   .b69:hover {
     border-radius: 25px;
-    box-shadow: 0 12px 17px 0 rgba(205, 198, 236, 0.4), 0 17px 50px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 12px 17px 0 rgba(225, 255, 255 0.4), 0 17px 50px 0 rgba(225, 255, 255, 0.4);
   
   }
   
@@ -190,16 +190,16 @@ If you are going to change anything above this MAKE A PULL REQUEST!
 
 
   .b3 {
-    background-color: rgb(229, 224, 255);
+    background-color: rgb(225, 255, 255);
     border: none;
     padding: 15px 26px;
     text-align: left;
     text-decoration: none;
-    color: rgb(58, 65, 90);
+    color: rgb(225, 255, 255);
     display: inline-block;
     font-size: 16px;
     border-radius: 25px;
-    box-shadow: 0 5px 16px 0 rgba(205, 198, 236, 0.4), 0 17px 50px 0 rgba(229, 224, 255, 0.4);
+    box-shadow: 0 5px 16px 0 rgba(225, 255, 255, 0.4), 0 17px 50px 0 rgba(225, 255, 255, 0.4);
     font-family: MinecraftMono, 'Courier New', monospace;
     z-index: 2;
     transition-duration: 0.4s;
@@ -209,20 +209,20 @@ If you are going to change anything above this MAKE A PULL REQUEST!
   }  
   
   .b3:hover {
-    box-shadow: 0 12px 17px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+    box-shadow: 0 12px 17px 0 rgba(225, 255, 255,255.24), 0 17px 50px 0 rgba(225, 255, 255,255.19);  
   }
 
  ::placeholder {
-   color: rgb(55, 62, 83);
+   color: rgb(225, 255, 255);
    opacity: 1; /* Firefox */
  }
 
  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: rgb(55, 62, 83);
+  color: rgb(225, 255, 255);
  }
 
  ::-ms-input-placeholder { /* Microsoft Edge */
-  color: rgb(55, 62, 83);
+  color: rgb(225, 255, 255);
  }
 
 
@@ -284,12 +284,12 @@ span.psw {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    color: rgb(58, 65, 90);
+    color: rgb(225, 255, 255);
     border-radius: 10px;
     font-family: MinecraftMono, 'Courier New', monospace;
     transition-duration: 0.4s;
-    box-shadow: 0 0px 8px 0 rgb(229, 224, 255), 0 9px 25px 0 rgb(229, 224, 255);
-    background-color: rgb(229, 224, 255);
+    box-shadow: 0 0px 8px 0 rgb(225, 255, 255), 0 9px 25px 0 rgb(225, 255, 255);
+    background-color: rgb(225, 255, 255);
     cursor: pointer;   
     margin: 8px 0;       
     
@@ -298,8 +298,8 @@ span.psw {
   .nb0:hover {
     z-index: 2;
     border-radius: 30px;
-    box-shadow: 0 0px 16px 0 rgb(255, 242, 242), 0 17px 50px 0 rgb(255, 242, 242);
-    background-color: rgb(255, 242, 242);
+    box-shadow: 0 0px 16px 0 rgb(225, 255, 255), 0 17px 50px 0 rgb(225, 255, 255);
+    background-color: rgb(225, 255, 255);
   
   }
 
@@ -307,9 +307,9 @@ span.psw {
 #text:has(.nb0:hover) .nb0:not(.nb0:hover) {
     opacity:0.5;
     z-index: 1;
-    background-color: rgb(142, 167, 233);
+    background-color: rgb(225, 255, 255);
     /* Add anything you want the text which is not hovered to do/change here. */    
-    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0px 0px 0 rgba(225, 255, 255, 255), 0 0px 0px 0 rgba(225, 255, 255,255);
         
 }
 

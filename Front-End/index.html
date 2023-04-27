@@ -66,7 +66,9 @@
 	    var password = document.getElementById("password").value;
 		
 	    var hashpass = hashCode(password);
-		    
+	    
+	    console.log(hashpass)
+	    
 	    // Check if username and password are correct
 	    if (username === "funnyusername6969" && password === "thisisapassword69420") {
 	      // alert("Login successful!");
@@ -74,7 +76,7 @@
 	      sessionStorage.setItem("loggedIn", "2d601948-1c5b-4df7-856b-f114f250a027");
 	      // Redirect to the homepage or another page
 	      window.location.href = "main.html";
-	    } else if (username === "admein" && hashpass === "-1400710859") {
+	    } else if (username === "admein" && hashpass == "-1400710859") {
 
 	      sessionStorage.setItem("Admin", "c56e3fe3-74cf-4af8-a35a-32e8f7b17831");
 	      sessionStorage.setItem("loggedIn", "2d601948-1c5b-4df7-856b-f114f250a027");

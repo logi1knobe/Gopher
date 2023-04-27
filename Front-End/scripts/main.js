@@ -3,12 +3,10 @@ var CurrentColor = localStorage.getItem("CurrentColor");
 
 if  (CurrentColor == "light") {
     document.getElementById('Cssheet').href='/Themes/Light.css';
-    localStorage.setItem("CurrentColor", "light");
-} else {
+} else if (CurrentColor == "UltraLight") {
     document.getElementById('Cssheet').href='/Themes/UltraLight.css';
-    localStorage.setItem("CurrentColor", "UltraLight");       
-} else if {
-    document.getElementById('Cssheet).href='/Themes/Dark.css';
+} else {
+    document.getElementById('Cssheet').href='/Themes/Dark.css';
     localStorage.setItem("CurrentColor", "Dark");
 }
 
@@ -20,9 +18,12 @@ function ChangeTheme() {
     if  (CurrentColor == "classic") {
         localStorage.setItem("CurrentColor", "light");
         location.reload()
-    } else {
-        localStorage.setItem("CurrentColor", "classic");   
+    } else if (CurrentColor == "light") {
+        document.getElementById('Cssheet').href='/Themes/UltraLight.css';
+        localStorage.setItem("CurrentColor", "UltraLight");
         location.reload()
-    
-    }
-  }
+    } else {
+        document.getElementById('Cssheet').href='/Themes/Dark.css';
+        localStorage.setItem("CurrentColor", "Dark");
+        location.reload()
+}

@@ -60,29 +60,29 @@
     </div>
 
     <script>
-  document.getElementById("loginform").addEventListener("submit", function(event) {
-    event.preventDefault();
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
-    
-    // Check if username and password are correct
-    if (username === "funnyusername6969" && password === "thisisapassword69420") {
-      // alert("Login successful!");
-      // Set the sessionStorage item "loggedIn" to true
-      sessionStorage.setItem("loggedIn", "2d601948-1c5b-4df7-856b-f114f250a027");
-      // Redirect to the homepage or another page
-      window.location.href = "main.html";
-    } else if (username === "admein" && password === "c758ae5a-9b9c") {
-      
-      sessionStorage.setItem("Admin", "c56e3fe3-74cf-4af8-a35a-32e8f7b17831");
-      sessionStorage.setItem("loggedIn", "2d601948-1c5b-4df7-856b-f114f250a027");
-      
-      window.location.href = "/admin/index.html";
-    } else {
-      alert("incorrect username or password!");
-    }
-  });
-</script>
+	    document.getElementById("loginform").addEventListener("submit", function(event) {
+	    event.preventDefault();
+	    var username = document.getElementById("username").value;
+	    var password = document.getElementById("password").value;
+
+	    // Check if username and password are correct
+	    if (username === "funnyusername6969" && password === "thisisapassword69420") {
+	      // alert("Login successful!");
+	      // Set the sessionStorage item "loggedIn" to true
+	      sessionStorage.setItem("loggedIn", "2d601948-1c5b-4df7-856b-f114f250a027");
+	      // Redirect to the homepage or another page
+	      window.location.href = "main.html";
+	    } else if (username === "admein" && password === "c758ae5a-9b9c") {
+
+	      sessionStorage.setItem("Admin", "c56e3fe3-74cf-4af8-a35a-32e8f7b17831");
+	      sessionStorage.setItem("loggedIn", "2d601948-1c5b-4df7-856b-f114f250a027");
+
+	      window.location.href = "/admin/index.html";
+	    } else {
+	      alert("incorrect username or password!");
+	    }
+	  });
+    </script>
 
   </body>
 </html>

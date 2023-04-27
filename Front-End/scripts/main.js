@@ -26,4 +26,5 @@ function ChangeTheme() {
         document.getElementById('Cssheet').href='/Themes/Dark.css';
         localStorage.setItem("CurrentColor", "Dark");
         location.reload()
+    }
 }

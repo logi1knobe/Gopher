@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gopher Experements</title>
+        <link rel="stylesheet" href="/Dark.css">
+    </head>
+        <body>
+            <div class="center">
+              <button onclick="cloak()" class="b2">Cloak Me!</button>
+            </div>
+            
+            <script>
+                if (!sessionStorage.getItem("loggedIn")) {
+                  window.location.href = "/index.html"; // Redirect to login page
+                }
+                function cloak() {
+                  const newWindow = window.open('about:blank');
+                  const iframe = newWindow.document.createElement('iframe');
+                  newWindow.document.body.style.margin = '0';
+                  iframe.style.width = '100%';
+                  iframe.style.height = '100%';
+                  iframe.style.position = 'fixed';
+                  iframe.style.top = '0';
+                  iframe.style.left = '0';
+                  iframe.style.zIndex = '99999';
+                  iframe.style.border = 'none';
+
+                  newWindow.document.body.style.overflow = 'hidden';
+                  newWindow.document.body.appendChild(iframe);
+                  iframe.src = window.location.href;
+                  window.location.replace('https://google.com') // or whatever you want the original page to redirect to after the page is cloaked
+              }
+            </script>
+        </body>
+</html>

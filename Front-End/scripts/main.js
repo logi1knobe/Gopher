@@ -13,6 +13,8 @@ if  (CurrentColor == "light") {
 
 // Checks for password
 
+// DO NOT USE THIS IF IT IS ON A GAME PAGE!!!
+
 let logId = sessionStorage.getItem("loggedIn");
 	
 if (logId !== "2d601948-1c5b-4df7-856b-f114f250a027") {

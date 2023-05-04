@@ -4,6 +4,7 @@
     <script src="vector_battle_regular.typeface.js"></script>
     <script src="ipad.js"></script>
     <script src="game.js"></script>
+    <script src="/scripts/gamespass.js "></script>
     <style>
       body { background-color: rgb(176, 177, 214); }      
       #canvas { border:1px solid rgb(37, 48, 202); top:0px; left:0px; }
@@ -28,13 +29,5 @@
         <div id="space" class='button'>FIRE</div>
       </div>
     </div>
-    
-    <script>
-
-        if (!sessionStorage.getItem("loggedIn")) {
-          window.location.href = "../index.html"; // Redirect to login page in parent directory
-        }
-        
-    </script>
   </body>
 </html>

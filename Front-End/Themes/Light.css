@@ -156,6 +156,24 @@ If you are going to change anything above this MAKE A PULL REQUEST!
     margin: 8px 0;
   }  
   
+   .b42069 {
+    background-color: rgb(37, 48, 202);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-family: MinecraftMono, 'Courier New', monospace;
+    z-index: 2;
+    transition-duration: 0.4s;
+    cursor: pointer;     
+    margin: 8px 0;
+  }
+  
   .b2:hover {
     border-radius: 25px;
     box-shadow: 0 12px 17px 0 rgba(205, 198, 236, 0.4), 0 17px 50px 0 rgba(0, 0, 0, 0.4);
